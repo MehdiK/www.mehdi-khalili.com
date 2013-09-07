@@ -1,0 +1,8 @@
+---
+layout: home
+isPage: true
+---
+
+<h1><%= @site.author %></h1>
+<p>ThoughtWorker, ex-Readifarian, programmer, mentor, blogger, speaker <br />
+Creator of BDDfy and Humanizer and contributor on Seleno</p>

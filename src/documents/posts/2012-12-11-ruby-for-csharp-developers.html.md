@@ -4,7 +4,7 @@ metaTitle: "Ruby for C# developers"
 description: "This is a series of posts in which I will try to explain Ruby in a friendly language for C# developers"
 revised: "2012-12-16"
 date: "2012-12-11"
-tags: []
+tags: ["ruby","c#"]
 migrated: "true"
 urls: ["/ruby-for-csharp-developers"]
 summary: """

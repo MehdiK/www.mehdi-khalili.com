@@ -75,6 +75,8 @@ docpadConfig =
     ghpages:
       deployBranch: 'master'
       deployRemote: 'upstream'
-
+    rss:
+      collection: 'posts'
+      url: '/rss.xml' # optional, this is the default
 # Export the DocPad Configuration
 module.exports = docpadConfig

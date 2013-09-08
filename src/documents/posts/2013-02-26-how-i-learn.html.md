@@ -4,7 +4,7 @@ metaTitle: "How I learn"
 description: "a few learning techniques I use to improve my learning rate - mostly as a programmer"
 revised: "2013-02-26"
 date: "2013-02-26"
-tags: []
+tags: ["learning"]
 migrated: "true"
 urls: ["/how-i-learn"]
 summary: """

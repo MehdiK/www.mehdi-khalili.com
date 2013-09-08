@@ -4,7 +4,7 @@ metaTitle: "FunnelWeb on RavenDB"
 description: "FunnelWeb on RavenDB is a port of FunnelWeb blog engine to work with RavenDB"
 revised: "2011-09-29"
 date: "2011-01-28"
-tags: []
+tags: ["FunnelWeb","RavenDB"]
 migrated: "true"
 urls: ["/funnelweb-on-ravendb"]
 summary: """

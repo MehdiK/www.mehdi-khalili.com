@@ -4,7 +4,7 @@ metaTitle: "Fiddler In Action - Part 1"
 description: "A not so quick guide to Fiddler Web Debugger"
 revised: "2012-04-25"
 date: "2011-08-25"
-tags: ["debugging","web","fiddler-in-action"]
+tags: ["debugging","web","fiddler-in-action","fiddler"]
 migrated: "true"
 urls: ["/fiddler-in-action/part-1"]
 summary: """

@@ -1,0 +1,10 @@
+p, ul, ol, dl, table, blockquote
+{
+  margin-bottom: .8em;
+}
+
+ol, ul
+{
+  list-style: disc;
+  margin-left: 2em;
+}

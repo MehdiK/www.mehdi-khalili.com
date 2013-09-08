@@ -73,6 +73,9 @@ docpadConfig =
   plugins: 
     tagging: 
       indexPagePath: 'tagged'
+    ghpages:
+      deployBranch: 'master'
+      deployRemote: 'upstream'
 
 # Export the DocPad Configuration
 module.exports = docpadConfig

@@ -2,12 +2,11 @@
 # http://docpad.org/docs/config
 
 # Define the DocPad Configuration
-marked = require('docpad-plugin-marked/node_modules/marked')
+marked = require('marked')
 moment = require('moment')
 path = require('path')
 
 docpadConfig = 
-  ignorePaths: [path.join(__dirname, 'src', 'files', 'get')]
   templateData: 
     site: 
       title: 'Mehdi Khalili'
@@ -21,7 +20,7 @@ docpadConfig =
     contentTrim: (str) -> if str.length > 200 then str.slice(0, 197) + '...' else str
     
     relatedPosts: (post) -> 
-      return [] if !post.tags
+      [] if !post.tags
 
       posts = @getCollection('posts').findAll(
         url: 
@@ -33,7 +32,7 @@ docpadConfig =
         .map((p) -> 
           matches = post.tags
             .map((tag) -> if p.tags.indexOf(tag) >= 0 then 1 else 0)
-            .reduce((x, y) -> return x + y)
+            .reduce((x, y) -> x + y)
 
             post: p
             matches: matches

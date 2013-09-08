@@ -77,6 +77,6 @@ docpadConfig =
       deployRemote: 'upstream'
     rss:
       collection: 'posts'
-      url: '/rss.xml' # optional, this is the default
+      url: '/feed' # optional, this is the default
 # Export the DocPad Configuration
 module.exports = docpadConfig

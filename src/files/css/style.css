@@ -1235,7 +1235,12 @@ ol, ul
 ol.flat-list, ul.flat-list
 {
   list-style: none;
-  display: inline;
+}
+
+ol.flat-list li, ul.flat-list li 
+{ 
+	display: inline;
+	padding: 5px;
 }
 
 #disqus_thread

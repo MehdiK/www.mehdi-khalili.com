@@ -1,4 +1,4 @@
-/* dropotron v1.3 | (c) n33 | n33.co @n33co | MIT + GPLv2 */
+/* dropotron v1.3.2 | (c) n33 | n33.co @n33co | MIT + GPLv2 */
 
 (function(jQuery) {
 
@@ -34,7 +34,8 @@
 				IEOffsetX:				0,					// IE Offset X
 				IEOffsetY:				0,					// IE Offset Y
 				noOpenerFade:			false,				// If true, when in "fade" mode the top-level opener will not fade with the menu
-				detach:					true				// Detach second level menus (to prevent parent styling from bleeding through)
+				detach:					true,				// Detach second level menus (to prevent parent styling from bleeding through)
+				cloneOnDetach:			true				// If true, when detaching second level menus, leave a copy behind
 			}, options);
 
 		// Variables
@@ -83,7 +84,7 @@
 								t.trigger('doCollapse');
 						});
 						
-						var x, left, top, isTL = (menu.css('z-index') == settings.baseZIndex), oo = opener.offset(), op = opener.position(), opp = opener.parent().position(), ow = opener.outerWidth(), mw = menu.outerWidth();
+						var x, c, left, top, isTL = (menu.css('z-index') == settings.baseZIndex), oo = opener.offset(), op = opener.position(), opp = opener.parent().position(), ow = opener.outerWidth(), mw = menu.outerWidth();
 						
 						if (isTL)
 						{
@@ -93,6 +94,12 @@
 								x = oo;
 						
 							top = x.top + opener.outerHeight() + settings.globalOffsetY;
+							c = settings.alignment;
+							
+							menu
+								.removeClass('left')
+								.removeClass('right')
+								.removeClass('center');
 
 							switch (settings.alignment)
 							{
@@ -100,7 +107,10 @@
 									left = x.left - mw + ow;
 									
 									if (left < 0)
+									{
 										left = x.left;
+										c = 'left';
+									}
 										
 									break;
 									
@@ -108,9 +118,15 @@
 									left = x.left - Math.floor((mw - ow) / 2);
 
 									if (left < 0)
+									{
 										left = x.left;
+										c = 'left';
+									}
 									else if (left + mw > _window.width())
+									{
 										left = x.left - mw + ow;
+										c = 'right';
+									}
 										
 									break;
 
@@ -119,10 +135,15 @@
 									left = x.left;
 									
 									if (left + mw > _window.width())
+									{
 										left = x.left - mw + ow;
+										c = 'right';
+									}
 
 									break;
 							}
+							
+							menu.addClass(c);
 						}
 						else
 						{
@@ -361,14 +382,26 @@
 
 			_top.children('li').each(function() {
 
-				var opener = jQuery(this), menu = opener.children('ul');
+				var opener = jQuery(this), menu = opener.children('ul'), c;
 
 				if (menu.length > 0)
 				{
 					if (settings.detach)
+					{
+						if (settings.cloneOnDetach)
+						{
+							c = menu.clone();
+							
+							c
+								.attr('class', '')
+								.hide()
+								.appendTo(menu.parent());
+						}
+					
 						menu
 							.detach()
 							.appendTo('body');
+					}
 
 					for(var z = settings.baseZIndex, i = 1, y = menu; y.length > 0; i++)
 					{

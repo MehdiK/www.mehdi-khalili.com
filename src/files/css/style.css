@@ -1217,3 +1217,28 @@
 		border-top: solid 2px #e5e5e5;
 		text-align: center;
 	}
+
+/*********************************************************************************/
+/* Overrides                                                                     */
+/*********************************************************************************/
+p, ul, ol, dl, table, blockquote
+{
+  margin-bottom: .8em;
+}
+
+ol, ul
+{
+  list-style: disc;
+  margin-left: 2em;
+}
+
+ol.flat-list, ul.flat-list
+{
+  list-style: none;
+  display: inline;
+}
+
+#disqus_thread
+{
+  margin-top: 3em;
+}

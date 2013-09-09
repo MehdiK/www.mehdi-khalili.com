@@ -5,11 +5,11 @@
 */
 
 window._skel_config = {
-	prefix: '/css/style',
+	prefix: 'css/style',
 	resetCSS: true,
 	boxModel: 'border',
 	grid: {
-		gutters: 4
+		gutters: 50
 	},
 	breakpoints: {
 		'mobile': {
@@ -27,30 +27,27 @@ window._skel_config = {
 		'1000px': {
 			range: '481-1200',
 			containers: 960
-		},
-		'custom': {
-			range: '481-'
 		}
 	}
 };
 
-window._skel_ui_config = {
+window._skel_panels_config = {
 	panels: {
 		navPanel: {
 			breakpoints: 'mobile',
 			position: 'left',
 			style: 'reveal',
 			size: '80%',
-			html: '<div data-action="navList" data-target="nav"></div>'
+			html: '<div data-action="navList" data-args="nav"></div>'
 		}
 	},
-	bars: {
+	overlays: {
 		titleBar: {
 			breakpoints: 'mobile',
-			position: 'top',
-			size: 44,
-			style: 'floating',
-			html: '<span class="toggle" data-action="panelToggle" data-target="navPanel"></span>'
+			position: 'top-left',
+			height: 44,
+			width: '100%',
+			html: '<span class="toggle" data-action="panelToggle" data-args="navPanel"></span>'
 		}
 	}
 };

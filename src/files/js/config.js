@@ -27,6 +27,9 @@ window._skel_config = {
 		'1000px': {
 			range: '481-1200',
 			containers: 960
+		},
+		'override': {
+			range: '481-'
 		}
 	}
 };

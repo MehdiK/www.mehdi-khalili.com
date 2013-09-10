@@ -4,16 +4,16 @@
   <meta name="author" content="<%= @site.author %>">
   <meta name="viewport" content="width=1040" />
   <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600|Arvo:700" rel="stylesheet" type="text/css" />
-  <link href="<%= @resourcePath("/css/highlightjs/solarized_light.css") %>" rel="stylesheet" type="text/css" />
-  <!--[if lte IE 8]><script src="<%= @resourcePath("/js/html5shiv.js") %>"></script><![endif]-->
-  <script src="<%= @resourcePath("/js/jquery.min.js") %>"></script>
-  <script src="<%= @resourcePath("/js/jquery.dropotron.js") %>"></script>
-  <script src="<%= @resourcePath("/js/config.js") %>"></script>
-  <script src="<%= @resourcePath("/js/skel.min.js") %>"></script>
-  <script src="<%= @resourcePath("/js/skel-panels.min.js") %>"></script>
+  <link href="/css/highlightjs/solarized_light.css" rel="stylesheet" type="text/css" />
+  <!--[if lte IE 8]><script src="/js/html5shiv.js"></script><![endif]-->
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/jquery.dropotron.js"></script>
+  <script src="/js/config.js"></script>
+  <script src="/js/skel.min.js"></script>
+  <script src="/js/skel-panels.min.js"></script>
   <noscript>
-    <link rel="stylesheet" href="<%= @resourcePath("/css/skel-noscript.css") %>" />
-    <link rel="stylesheet" href="<%= @resourcePath("/css/style.css") %>" />
-    <link rel="stylesheet" href="<%= @resourcePath("/css/style-desktop.css") %>" />
+    <link rel="stylesheet" href="/css/skel-noscript.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/style-desktop.css" />
   </noscript>
 </head>

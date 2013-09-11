@@ -48,3 +48,9 @@ h1 {
 #copyright ul.links li:first-child {
     padding-left: 1em;
 }
+
+.socialShare {
+    width: 380px;
+    margin-left: auto; 
+    margin-right: auto;
+}

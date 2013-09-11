@@ -120,7 +120,7 @@ Hope this helps.
   [4]: http://nbehave.org/
   [5]: https://github.com/davidmfoley/storevil
   [6]: http://specflow.org/downloads/installer.aspx
-  [7]: /upload/Render/blogpictures/executable-requirements/ignored-tests.JPG
+  [7]: /get/BlogPictures/executable-requirements/ignored-tests.JPG
   [8]: /bdd-simply
   [9]: https://github.com/aslakhellesoy/cucumber/wiki/gherkin
   [10]: http://c2.com/xp/YouArentGonnaNeedIt.html

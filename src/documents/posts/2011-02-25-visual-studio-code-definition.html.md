@@ -23,4 +23,4 @@ The Code Definition Window in Visual Studio 2010 is very handy (if you have dual
 Hope it helps.
 
 
-  [1]: /upload/Render/blogpictures/code-definition-window.JPG
+  [1]: /get/BlogPictures/code-definition-window.JPG

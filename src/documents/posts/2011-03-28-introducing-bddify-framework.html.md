@@ -225,14 +225,14 @@ I am interested in your feedback. Let me know what you think about the framework
 
   [1]: http://www.mehdi-khalili.com/bddify-in-action/introduction
   [2]: http://nuget.codeplex.com/wikipage?title=Using%20the%20Extension%20Manager%20to%20Install%20the%20Library%20Package%20Manager%20%28NuGet%29
-  [3]: /upload/Render/blogpictures/introducing-bddify-framework/runme-resharper-scenario-with-args-result.JPG
-  [4]: /upload/Render/blogpictures/introducing-bddify-framework/runme-resharper-when-two-numbers-are-added-result.JPG
+  [3]: /get/BlogPictures/introducing-bddify-framework/runme-resharper-scenario-with-args-result.JPG
+  [4]: /get/BlogPictures/introducing-bddify-framework/runme-resharper-when-two-numbers-are-added-result.JPG
   [5]: http://www.testdriven.net/
-  [6]: /upload/Render/blogpictures/introducing-bddify-framework/runme-td-net-result.JPG
-  [7]: /upload/Render/blogpictures/introducing-bddify-framework/runme-html-report.JPG
+  [6]: /get/BlogPictures/introducing-bddify-framework/runme-td-net-result.JPG
+  [7]: /get/BlogPictures/introducing-bddify-framework/runme-html-report.JPG
   [8]: http://www.paulstovell.com/
   [9]: http://www.aaron-powell.com/
   [10]: http://readify.net/
   [11]: https://code.google.com/p/bddify/source/checkout
-  [12]: /upload/Render/blogpictures/introducing-bddify-framework/assembly-runner-result.JPG
+  [12]: /get/BlogPictures/introducing-bddify-framework/assembly-runner-result.JPG
   [13]: https://code.google.com/p/bddify/

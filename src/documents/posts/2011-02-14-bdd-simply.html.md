@@ -273,7 +273,7 @@ Hope this helps.
   [17]: http://www.osherove.com/blog/2005/4/3/naming-standards-for-unit-tests.html
   [18]: https://github.com/MarkNijhof/Fohjin
   [19]: https://github.com/nsubstitute/NSubstitute
-  [20]: /upload/Render/blogpictures/bdd-simply/failed-tests.JPG
-  [21]: /upload/Render/blogpictures/bdd-simply/passed-tests-without-report.JPG
-  [22]: /upload/Render/blogpictures/bdd-simply/passed-tests-with-report.JPG
-  [23]: /upload/Render/blogpictures/bdd-simply/storyQ-result.JPG
+  [20]: /get/BlogPictures/bdd-simply/failed-tests.JPG
+  [21]: /get/BlogPictures/bdd-simply/passed-tests-without-report.JPG
+  [22]: /get/BlogPictures/bdd-simply/passed-tests-with-report.JPG
+  [23]: /get/BlogPictures/bdd-simply/storyQ-result.JPG

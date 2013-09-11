@@ -236,12 +236,12 @@ Hope this helps.
   [3]: http://www.microsoft.com/downloads/en/details.aspx?FamilyID=92ced922-d505-457a-8c9c-84036160639f
   [4]: http://www.refactoring.com/
   [5]: http://en.wikipedia.org/wiki/Code_refactoring
-  [6]: /upload/Render/blogpictures/resharper-refactoring/refactor-menu.JPG
-  [7]: /upload/Render/blogpictures/resharper-refactoring/introduce-variable.JPG
+  [6]: /get/BlogPictures/resharper-refactoring/refactor-menu.JPG
+  [7]: /get/BlogPictures/resharper-refactoring/introduce-variable.JPG
   [8]: http://en.wikipedia.org/wiki/Software_regression
   [9]: http://www.antiifcampaign.com/
   [10]: http://stackoverflow.com/questions/235455/access-to-modified-closure
   [11]: http://stackoverflow.com/questions/304258/access-to-modified-closure-2
   [12]: http://martinfowler.com/bliki/TechnicalDebt.html
   [13]: http://c2.com/cgi/wiki?BigBallOfMud
-  [14]: /upload/Render/sourcecode/RefactoringUsingReSharper.zip
+  [14]: /get/BlogPictures/sourcecode/RefactoringUsingReSharper.zip

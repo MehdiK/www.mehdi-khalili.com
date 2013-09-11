@@ -274,7 +274,7 @@ This alternative design will avoid the abovementioned issues and will help achie
 
   [1]: /orm-anti-patterns-series
   [2]: /orm-anti-patterns-part-2-batch-operations
-  [3]: /upload/Render/blogpictures/generic-update-methods/Order_Portal_Diagram.png
+  [3]: /get/BlogPictures/generic-update-methods/Order_Portal_Diagram.png
   [4]: /orm-anti-patterns-part-3-lazy-loading
   [5]: http://cqrsinfo.com/documents/task-based-ui/
   [6]: http://en.wikipedia.org/wiki/Aspect-oriented_programming

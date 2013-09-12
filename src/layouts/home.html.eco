@@ -13,7 +13,7 @@
         <!-- Header -->
           <div id="header" class="container">
             <%- @content %>
-            <%- @partial('share.html.eco', @) %>
+            <%- @partial('share.html', @) %>
             <%- @partial('nav.html.eco', @) %>
           </div>
 

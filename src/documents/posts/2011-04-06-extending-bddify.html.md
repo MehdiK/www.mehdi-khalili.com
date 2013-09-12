@@ -4,7 +4,7 @@ metaTitle: "Extending Bddify"
 description: "Bddify is very extensible and extending it is very easy. In this post I will discuss how to extend Bddify."
 revised: "2011-07-12"
 date: "2011-04-06"
-tags: ["bddify", "BDDfy"]
+tags: ["OSS","BDDfy"]
 migrated: "true"
 urls: ["/extending-bddify"]
 summary: """

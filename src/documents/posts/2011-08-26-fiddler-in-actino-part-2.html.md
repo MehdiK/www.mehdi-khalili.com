@@ -4,7 +4,7 @@ metaTitle: "Fiddler In Action - Part 2"
 description: "In this article I will try to cover some of the advanced features of Fiddler"
 revised: "2012-04-25"
 date: "2011-08-26"
-tags: ["debugging","web","fiddler-in-action","fiddler"]
+tags: ["debugging","web","fiddler"]
 migrated: "true"
 urls: ["/fiddler-in-action/part-2"]
 summary: """

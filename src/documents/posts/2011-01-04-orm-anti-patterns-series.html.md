@@ -4,7 +4,7 @@ metaTitle: "ORM anti-pattern series"
 description: "Due to their convenience developers tend to use ORM frameworks everywhere possible leading to a lot of issues."
 revised: "2011-02-12"
 date: "2011-01-04"
-tags: ["anti-patterns","orm"]
+tags: ["anti-patterns","ORM"]
 migrated: "true"
 urls: ["/orm-anti-patterns-series"]
 summary: """

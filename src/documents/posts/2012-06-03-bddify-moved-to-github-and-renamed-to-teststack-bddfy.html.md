@@ -4,7 +4,7 @@ metaTitle: "bddify is moved to GitHub and is renamed to BDDfy"
 description: "Good news for those who could not pronounce bddify. It has now been renamed to BDDfy and lives in GitHub :)"
 revised: "2012-06-20"
 date: "2012-06-03"
-tags: ["bddify","BDDfy"]
+tags: ["BDDfy","OSS"]
 migrated: "true"
 urls: ["/bddify-moved-to-github-and-renamed-to-teststack-bddfy"]
 summary: """

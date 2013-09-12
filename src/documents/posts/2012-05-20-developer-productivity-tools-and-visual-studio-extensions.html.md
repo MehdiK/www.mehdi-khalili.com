@@ -4,7 +4,7 @@ metaTitle: "Developer productivity tools and Visual Studio extensions"
 description: "A list of windows and Visual Studio productivity tools and extensions I am currently using"
 revised: "2012-05-20"
 date: "2012-05-20"
-tags: ["tools"]
+tags: ["tools","visual studio"]
 migrated: "true"
 urls: ["/developer-productivity-tools-and-visual-studio-extensions"]
 summary: """

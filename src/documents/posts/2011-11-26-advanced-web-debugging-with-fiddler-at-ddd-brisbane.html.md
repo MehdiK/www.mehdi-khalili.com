@@ -4,7 +4,7 @@ metaTitle: "Advanced Web Debugging with Fiddler"
 description: "I just finished up my talk at DDD Brisbane about Fiddler. Here are the slides"
 revised: "2012-04-25"
 date: "2011-11-26"
-tags: ["web","fiddler","debugging","presentation","presentations"]
+tags: ["web","fiddler","debugging","presentations"]
 migrated: "true"
 urls: ["/presentations/advanced-web-debugging-with-fiddler-at-ddd-brisbane"]
 summary: """

@@ -4,7 +4,7 @@ metaTitle: "Story in BDDfy"
 description: "We wrote a simple scenario in the previous post; but how can we write a user story using BDDfy?"
 revised: "2013-08-10"
 date: "2011-12-29"
-tags: ["bddify","bdd","agile","bddify-in-action"]
+tags: ["BDDfy","BDD","OSS"]
 migrated: "true"
 urls: ["/bddify-in-action/story"]
 summary: """

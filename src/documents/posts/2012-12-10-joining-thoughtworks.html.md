@@ -4,7 +4,7 @@ metaTitle: "Joining ThoughtWorks"
 description: ""
 revised: "2012-12-10"
 date: "2012-12-10"
-tags: ["personal","thoughtworks"]
+tags: ["personal","thoughtworks","notes"]
 migrated: "true"
 urls: ["/joining-thoughtworks"]
 summary: """

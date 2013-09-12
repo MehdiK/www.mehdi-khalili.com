@@ -4,7 +4,7 @@ metaTitle: "A horrifying experience"
 description: "A horrifying personal experience"
 revised: "2013-07-14"
 date: "2013-07-13"
-tags: ["personal"]
+tags: ["personal","notes"]
 migrated: "true"
 urls: ["/a-horrifying-experience"]
 summary: """

@@ -4,7 +4,7 @@ metaTitle: "Automated UI Testing Done Right"
 description: "Automated UI Testing Done Right at Queensland MSDN User Group"
 revised: "2012-08-21"
 date: "2012-08-21"
-tags: ["testing","seleno","selenium","presentations"]
+tags: ["OSS","seleno","presentations"]
 migrated: "true"
 urls: ["/presentations/auit-qmsdnug"]
 summary: """

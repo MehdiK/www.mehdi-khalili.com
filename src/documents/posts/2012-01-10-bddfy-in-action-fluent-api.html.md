@@ -4,7 +4,7 @@ metaTitle: "Fluent API in BDDfy"
 description: "In this post we cover Fluent API as the third approach to specify scenario steps"
 revised: "2013-08-10"
 date: "2012-01-10"
-tags: ["bddify","bdd","bddify-in-action"]
+tags: ["BDDfy","BDD","OSS"]
 migrated: "true"
 urls: ["/bddify-in-action/fluent-api"]
 summary: """

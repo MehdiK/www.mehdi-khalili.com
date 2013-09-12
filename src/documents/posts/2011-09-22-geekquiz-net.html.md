@@ -4,7 +4,7 @@ metaTitle: "GeekQuiz.Net"
 description: "Introducing GeekQuiz.Net: Geeky quizzes for geeks and coding enthusiasts"
 revised: "2011-10-02"
 date: "2011-09-22"
-tags: ["quiz"]
+tags: ["quiz","notes"]
 migrated: "true"
 urls: ["/geekquiz-net"]
 summary: """

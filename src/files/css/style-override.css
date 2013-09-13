@@ -1,13 +1,42 @@
 #header {
-    padding: 8em 0em 2.5em 0em;
+    padding: 5em 0em 2em 0em;
+}
+
+#nav {
+    top: 1em;
+}
+
+#main-wrapper {
+    padding-top: 2em;
 }
 
 h1 {
     line-height: 0.8;
 }
 
+h2 {
+    margin-bottom: 0;
+}
+
 h2,h3,h4,h5,h6 {
     text-transform: inherit;
+}
+
+p, ul, ol, dl, table, blockquote {
+    margin-bottom: 1em;
+}
+
+ul ul, ol ol, ol ul, ul ol {
+    list-style: circle;
+}
+
+.is-post ul,ol {
+    list-style: disc;
+    padding-left: 25px;
+}
+
+.tags {
+    padding-left: 0;
 }
 
 /* tags */
@@ -57,8 +86,4 @@ h2,h3,h4,h5,h6 {
     width: 380px;
     margin-left: auto; 
     margin-right: auto;
-}
-
-.is-post ul,ol {
-    list-style: disc;
 }

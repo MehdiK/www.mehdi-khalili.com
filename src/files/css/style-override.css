@@ -1,5 +1,19 @@
+#header-wrapper {
+    background-color: #333;
+}
+
+#header-wrapper span, #header p {
+    color: white;
+}
+
 #header {
-    padding: 5em 0em 2em 0em;
+    padding: 5em 0em 1em 0em;
+    box-shadow: none;
+    border: none;
+}
+
+#header h1 {
+    color: #B7C1F7;
 }
 
 #nav {
@@ -35,8 +49,16 @@ ul ul, ol ol, ol ul, ul ol {
     padding-left: 25px;
 }
 
+.post-date {
+    float: left;
+}
+
 #post-tags {
-    padding-left: 0;
+    float:left;
+}
+
+.socialShare {
+    clear: both;
 }
 
 /* tags */

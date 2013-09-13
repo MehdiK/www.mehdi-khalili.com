@@ -4,7 +4,7 @@ metaTitle: "Executable Attributes in BDDfy"
 description: "In this post we discuss how you can specify your steps explicitly using <code>ExecutableAttribute</code>"
 revised: "2013-08-10"
 date: "2012-01-03"
-tags: ["BDDfy","BDD","OSS"]
+tags: ["bddfy"]
 migrated: "true"
 resource: "/bddify-in-action/executable-attributes"
 summary: """

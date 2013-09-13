@@ -4,7 +4,7 @@ metaTitle: "ORM anti-patterns - Part 3: Lazy loading"
 description: "Lazy loading is wrong and programmers use it because it is very convenient and helps them think less before coding."
 revised: "2011-02-16"
 date: "2010-12-31"
-tags: ["ORM","anti-patterns"]
+tags: ["orm","anti-patterns"]
 migrated: "true"
 resource: "/orm-anti-patterns-part-3-lazy-loading"
 summary: """

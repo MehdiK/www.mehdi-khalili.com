@@ -4,7 +4,7 @@ metaTitle: "BDD Simply"
 description: "In this article I discuss a simple technique that provides a rather decent result if you cannot or do not need to use a fully fledged BDD framework."
 revised: "2011-10-20"
 date: "2011-02-14"
-tags: ["testing","BDD"]
+tags: ["testing","bdd"]
 migrated: "true"
 resource: "/bdd-simply"
 summary: """

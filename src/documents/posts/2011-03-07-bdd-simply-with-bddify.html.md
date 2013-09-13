@@ -4,7 +4,7 @@ metaTitle: "BDD Simply with Bddify"
 description: "Bddify is a very simple .Net library that allows you to write BDD tests easily."
 revised: "2011-10-20"
 date: "2011-03-07"
-tags: ["testing","BDD","BDDfy"]
+tags: ["testing","bdd","bddfy"]
 migrated: "true"
 resource: "/bdd-simply-with-bddify"
 summary: """

@@ -4,7 +4,7 @@ metaTitle: "ORM anti-patterns - Part 5: Generic update methods"
 description: "One of my biggest issue with ORM usage is when developers save state changes using generic save methods instead of saving the user intention."
 revised: "2011-02-07"
 date: "2011-02-03"
-tags: ["architecture","ORM","anti-patterns"]
+tags: ["architecture","orm","anti-patterns"]
 migrated: "true"
 resource: "/orm-anti-patterns-part-5-generic-update-methods"
 summary: """

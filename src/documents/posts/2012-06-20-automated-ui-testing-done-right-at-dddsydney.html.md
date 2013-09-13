@@ -4,7 +4,7 @@ metaTitle: "Automated UI Testing Done Right"
 description: "Come along to DDDSydney to see how you can do Automated UI Testing Done Right"
 revised: "2012-06-29"
 date: "2012-06-20"
-tags: ["OSS","testing","seleno","presentations"]
+tags: ["oss","testing","seleno","presentations"]
 migrated: "true"
 resource: "/presentations/automated-ui-testing-done-right-at-dddsydney"
 summary: """

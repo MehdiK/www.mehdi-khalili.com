@@ -4,7 +4,7 @@ metaTitle: "Transform app.config and web.config"
 description: "How to transform app.config and web.config files easily using CodeAssassin.ConfigTransform and SlowCheetah"
 revised: "2012-03-29"
 date: "2012-03-28"
-tags: ["agile","build","CI"]
+tags: ["agile","build","ci"]
 migrated: "true"
 resource: "/transform-app-config-and-web-config"
 summary: """

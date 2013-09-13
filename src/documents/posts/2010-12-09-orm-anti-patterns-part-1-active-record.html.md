@@ -4,7 +4,7 @@ metaTitle: "ORM anti-patterns - Part 1: Active Record"
 description: "There are some common mistakes and anti-patterns in using ORMS. Active Record is one of those data access patterns that is abused."
 revised: "2011-01-28"
 date: "2010-12-09"
-tags: ["anti-patterns","ORM"]
+tags: ["anti-patterns","orm"]
 migrated: "true"
 resource: "/orm-anti-patterns-part-1-active-record"
 summary: """

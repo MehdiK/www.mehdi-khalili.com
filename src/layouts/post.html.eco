@@ -11,10 +11,9 @@
 
         <div id="header-wrapper">
             <div id="header" class="container big">
-                <h1 id="logo"><%- @document.title %></h1>
-                <h2><%- @formatDate(@document.date) %></h2>
-                <%- @partial('share.html', @) %>
-                <%- @partial('tags.html.eco', @, { tags: @document.tags }) %>
+                <h1><%= @site.author %></h1>
+                <p>ThoughtWorker, ex-Readifarian, programmer, mentor, blogger, speaker <br />
+                Creator of BDDfy and Humanizer and contributor on Seleno</p>
                 <%- @partial('nav.html.eco', @) %>
             </div>
         </div>
@@ -26,6 +25,11 @@
 
                     <div id="content" class="9u skel-cell-mainContent">
                         <article class="is-post">
+                            <h3 id="logo"><%- @document.title %></h3>
+                            <div class="post-date"><%- @formatDate(@document.date) %></div>
+                            <%- @partial('share.html', @) %>
+                            <%- @partial('tags.html.eco', @, { tags: @document.tags }) %>
+
                             <%- @content %>
                         </article>
                         <article class="is-post">

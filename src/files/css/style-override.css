@@ -109,3 +109,11 @@ ul ul, ol ol, ol ul, ul ol {
     margin-left: auto; 
     margin-right: auto;
 }
+
+#features-wrapper {
+    text-align: left;
+}
+
+#features-wrapper p {
+    text-align: left;
+}

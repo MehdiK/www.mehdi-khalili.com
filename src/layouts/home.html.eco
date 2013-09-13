@@ -13,11 +13,12 @@
         <!-- Header -->
           <div id="header" class="container big">
             <%- @content %>
-            <%- @partial('share.html', @) %>
             <%- @partial('nav.html.eco', @) %>
           </div>
 
       </div>
+
+      <%- @partial('share.html', @) %>
 
       <%- @partial('latest-posts.html.eco', @) %>
 

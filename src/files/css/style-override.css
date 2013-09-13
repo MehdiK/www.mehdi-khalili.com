@@ -57,7 +57,7 @@ ul ul, ol ol, ol ul, ul ol {
     float:left;
 }
 
-.socialShare {
+.socialShare, .summary {
     clear: both;
 }
 

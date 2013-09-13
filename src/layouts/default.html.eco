@@ -10,8 +10,8 @@
   <body>
       <div id="header-wrapper">
           <div id="header" class="container big">
-            <h1><%= @document.title %></h1>
-            <%- @partial('nav.html.eco', @) %>
+              <h1><%= @site.author %></h1>
+              <%- @partial('nav.html.eco', @) %>
           </div>
       </div>
 
@@ -19,7 +19,9 @@
               <div id="main" class="container big">
                   <div class="row">
                         <div id="content" class="12u skel-cell-mainContent">
+                          <article class="is-post">
                               <%- @content %>
+                          </article>
                         </div>
                   </div>
               </div>

@@ -1,17 +1,18 @@
 --- cson
 layout: 'default'
-title: "About Mehdi Khalili"
+title: "About Me"
 metaTitle: "About Mehdi Khalili"
 description: "My name is Mehdi Khalili and I am a software developer!"
 revised: "2013-08-28"
 date: "2010-11-30"
-tags: ["personal"]
+tags: [""]
 migrated: "true"
 resource: "/about"
 summary: """
 
 """
 ---
+<h2>About Me</h2>
 <div style="float:right;padding:15px"><img src="/get/me-small.png" alt="my photo" /></div>
 
 My name is Mehdi Khalili. I am a senior consultant at the most awesome software consultation company [ThoughtWorks](http://www.mehdi-khalili.com/joining-thoughtworks) working out of the New York office :) Before ThoughtWorks I worked as a senior developer for another really awesome software consultation company called [Readify](http://www.readify.net/) and lived in Gold Coast in South East Queensland in Australia.

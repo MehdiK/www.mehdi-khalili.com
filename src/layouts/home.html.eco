@@ -18,10 +18,7 @@
 
       </div>
 
-      <%- @partial('share.html', @) %>
-
       <%- @partial('latest-posts.html.eco', @) %>
-
       <%- @partial('footer.html.eco', @) %>
   </body>
 </html>

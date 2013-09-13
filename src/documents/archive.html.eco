@@ -14,9 +14,11 @@ pageSize: 10
         <header>
             <h2><a href='<%=doc.resource %>'><%= doc.title %></a></h2>
             <h3 class="post-date"><%= @formatDate(doc.date) %></h3>
+            <%- @partial('tags.html.eco', @, { tags: doc.tags }) %>
         </header>
-        <%- @generateSummary(doc) %>
-        <%- @partial('tags.html.eco', @, { tags: doc.tags }) %>
+        <div class="summary">
+            <%- @generateSummary(doc) %>
+        </div>
     </article>
 <% end %>
 

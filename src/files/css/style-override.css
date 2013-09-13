@@ -55,6 +55,7 @@ ul ul, ol ol, ol ul, ul ol {
 
 #post-tags {
     float:left;
+    padding-left: 30px;
 }
 
 .socialShare, .summary {
@@ -102,12 +103,6 @@ ul ul, ol ol, ol ul, ul ol {
 
 #copyright ul.links li:first-child {
     padding-left: 1em;
-}
-
-.socialShare {
-    width: 380px;
-    margin-left: auto; 
-    margin-right: auto;
 }
 
 #features-wrapper {

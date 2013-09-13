@@ -6,7 +6,7 @@ revised: "2013-08-10"
 date: "2012-01-15"
 tags: ["testing","BDDfy","BDD","OSS"]
 migrated: "true"
-urls: ["/bddify-in-action/fluent-api-input-parameters"]
+resource: "/bddify-in-action/fluent-api-input-parameters"
 summary: """
 In this post I will show you how you can use input parameters with BDDfy's Fluent API
 """

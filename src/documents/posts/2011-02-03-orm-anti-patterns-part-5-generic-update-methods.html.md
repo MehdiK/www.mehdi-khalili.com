@@ -6,7 +6,7 @@ revised: "2011-02-07"
 date: "2011-02-03"
 tags: ["architecture","ORM","anti-patterns"]
 migrated: "true"
-urls: ["/orm-anti-patterns-part-5-generic-update-methods"]
+resource: "/orm-anti-patterns-part-5-generic-update-methods"
 summary: """
 This is part 5 of my <a href=\"/orm-anti-patterns-series\">ORM Anti-Pattern series</a>.
 

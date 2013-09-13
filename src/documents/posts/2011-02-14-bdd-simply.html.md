@@ -6,7 +6,7 @@ revised: "2011-10-20"
 date: "2011-02-14"
 tags: ["testing","BDD"]
 migrated: "true"
-urls: ["/bdd-simply"]
+resource: "/bdd-simply"
 summary: """
 In this post I discuss a simple technique that provides a rather decent result if you cannot or do not need to use a fully fledged BDD framework.
 """

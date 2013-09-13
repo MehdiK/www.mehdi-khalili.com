@@ -6,7 +6,7 @@ revised: "2012-10-06"
 date: "2011-05-22"
 tags: [".net"]
 migrated: "true"
-urls: ["/extracting-input-arguments-from-expressions"]
+resource: "/extracting-input-arguments-from-expressions"
 summary: """
 For BDDfy's Fluent API I needed a way to be able to inspect a method call lambda expression and extract input parameters from it and this is how I did it.
 

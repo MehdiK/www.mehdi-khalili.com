@@ -7,7 +7,7 @@ revised: "2011-01-28"
 date: "2010-12-26"
 tags: ["communication","debugging"]
 migrated: "true"
-urls: ["/bug-fixing-help-reproduce-a-bug"]
+resource: "/bug-fixing-help-reproduce-a-bug"
 summary: """
 The first step to fix a bug is to understand and then reproduce it. Even though it sounds like a very easy step it could take a lot of time. Also sometimes a bug is closed because you and the person who raised it just cannot reproduce it, or even worse due to misinterpretation instead of fixing the bug you regress the code and introduce another bug. 
 

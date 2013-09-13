@@ -6,7 +6,7 @@ revised: "2011-09-29"
 date: "2011-01-28"
 tags: ["FunnelWeb","RavenDB"]
 migrated: "true"
-urls: ["/funnelweb-on-ravendb"]
+resource: "/funnelweb-on-ravendb"
 summary: """
 FunnelWeb is a great blog engine written with asp.net mvc and FunnelWeb on RavenDB is a port of FunnelWeb data access/store to RavenDB as an attempt for me to learn about RavenDB.
 """

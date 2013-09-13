@@ -12,7 +12,7 @@ pageSize: 10
     <% doc = posts.at(i).toJSON() %>
     <article class="is-post">
         <header>
-            <h2><a href='<%=doc.url%>'><%= doc.title %></a></h2>
+            <h2><a href='<%=doc.resource %>'><%= doc.title %></a></h2>
             <h3 class="post-date"><%= @formatDate(doc.date) %></h3>
         </header>
         <%- @generateSummary(doc) %>

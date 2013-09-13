@@ -16,13 +16,9 @@ var redirector = function (dest) {
     };
 };
 
-routes.map(function (route) {
-    if (route.redirects) {
-        return route.redirects.map(function (redirect) {
-            return app.get(redirect, redirector(route.url));
-        });
-    }
-    return;
+routes.map(function (route) { 
+	app.get(route.url, function(req, res) { 
+		res.sendfile(__dirname + '/out' + route.file); }); 
 });
 
 app.get(/^\/tagged\/(\w+)$/, function (req, res) {

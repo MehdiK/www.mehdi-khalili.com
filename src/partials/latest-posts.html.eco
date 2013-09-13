@@ -10,7 +10,7 @@
                 <section>
                     <header>
                         <h3>
-                            <a href="<%= post.url %>">
+                            <a href="<%= post.resource %>">
                                 <%= post.title %>
                             </a>
                         </h3>

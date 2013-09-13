@@ -6,7 +6,7 @@ revised: "2011-03-02"
 date: "2011-03-01"
 tags: ["refactoring",".net"]
 migrated: "true"
-urls: ["/resharper-refactoring"]
+resource: "/resharper-refactoring"
 summary: """
 Refactoring tools are great. They are great time savers and could help us identify and fix some issues in our code; but they could also be dangerous.
 

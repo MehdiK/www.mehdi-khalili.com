@@ -6,7 +6,7 @@ revised: "2011-10-02"
 date: "2011-09-22"
 tags: ["quiz","notes"]
 migrated: "true"
-urls: ["/geekquiz-net"]
+resource: "/geekquiz-net"
 summary: """
 <strong><a style=\"text-decoration:none\" href=\"http://geekquiz.net\">GeekQuiz.Net</a></strong> <br />
 Geeky quizzes for geeks and coding enthusiasts

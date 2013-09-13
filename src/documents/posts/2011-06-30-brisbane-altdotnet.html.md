@@ -6,7 +6,7 @@ revised: "2011-09-22"
 date: "2011-06-30"
 tags: ["presentations","BDDfy"]
 migrated: "true"
-urls: ["/bddify/brisbane-altdotnet"]
+resource: "/bddify/brisbane-altdotnet"
 summary: """
 
 """

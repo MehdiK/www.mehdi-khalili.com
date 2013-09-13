@@ -6,7 +6,7 @@ revised: "2012-06-02"
 date: "2012-06-02"
 tags: ["git","mercurial","github"]
 migrated: "true"
-urls: ["/migrating-from-mercurial-to-git"]
+resource: "/migrating-from-mercurial-to-git"
 summary: """
 A few days ago I migrated one of my projects from Mercurial to Git. That was an interesting experience and I thought I'd share my experience and explain some of the glitches I had
 """

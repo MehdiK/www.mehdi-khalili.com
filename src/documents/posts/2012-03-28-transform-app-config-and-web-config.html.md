@@ -6,7 +6,7 @@ revised: "2012-03-29"
 date: "2012-03-28"
 tags: ["agile","build","CI"]
 migrated: "true"
-urls: ["/transform-app-config-and-web-config"]
+resource: "/transform-app-config-and-web-config"
 summary: """
 Web config transformation is a neat solution for transforming config files for different environment. It however has some issues and limitations that make it a less than ideal solution. 
 

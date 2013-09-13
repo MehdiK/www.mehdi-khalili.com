@@ -6,7 +6,7 @@ revised: "2012-04-25"
 date: "2012-04-25"
 tags: ["web","debugging","fiddler"]
 migrated: "true"
-urls: ["/advanced-web-debugging-with-fiddler"]
+resource: "/advanced-web-debugging-with-fiddler"
 summary: """
 Many developers have seen and used Fiddler; but the usage is usually limited to capturing HTTP traffic.
 

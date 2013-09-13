@@ -6,7 +6,7 @@ revised: "2011-01-28"
 date: "2010-12-23"
 tags: ["ORM","architecture","anti-patterns"]
 migrated: "true"
-urls: ["/orm-anti-patterns-part-2-batch-operations"]
+resource: "/orm-anti-patterns-part-2-batch-operations"
 summary: """
 This is the second article in the <a href=\"/orm-anti-patterns-series\">ORM anti-pattern series</a>.
 

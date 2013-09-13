@@ -6,7 +6,7 @@ revised: "2012-12-27"
 date: "2012-12-18"
 tags: ["personal","notes"]
 migrated: "true"
-urls: ["/stop-discriminating"]
+resource: "/stop-discriminating"
 summary: """
 
 """

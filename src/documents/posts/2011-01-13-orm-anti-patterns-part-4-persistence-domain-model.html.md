@@ -6,7 +6,7 @@ revised: "2011-01-28"
 date: "2011-01-13"
 tags: ["ORM","anti-patterns"]
 migrated: "true"
-urls: ["/orm-anti-patterns-part-4-persistence-domain-model"]
+resource: "/orm-anti-patterns-part-4-persistence-domain-model"
 summary: """
 This is the forth article in my <a href=\"http://www.mehdi-khalili.com/orm-anti-patterns-series\">ORM anti-pattern series</a>.
 

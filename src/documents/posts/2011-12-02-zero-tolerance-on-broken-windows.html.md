@@ -6,7 +6,7 @@ revised: "2013-03-12"
 date: "2011-12-02"
 tags: ["quality","team"]
 migrated: "true"
-urls: ["/zero-tolerance-on-broken-windows"]
+resource: "/zero-tolerance-on-broken-windows"
 summary: """
 Broken windows in software are dangerous and contagious and the best way to deal with them is usually zero tolerance
 """

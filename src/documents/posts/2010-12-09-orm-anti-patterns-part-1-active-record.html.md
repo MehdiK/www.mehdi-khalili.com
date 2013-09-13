@@ -6,7 +6,7 @@ revised: "2011-01-28"
 date: "2010-12-09"
 tags: ["anti-patterns","ORM"]
 migrated: "true"
-urls: ["/orm-anti-patterns-part-1-active-record"]
+resource: "/orm-anti-patterns-part-1-active-record"
 summary: """
 This is the first article in the <a href=\"/orm-anti-patterns-series\">ORM anti-pattern series</a>.
 

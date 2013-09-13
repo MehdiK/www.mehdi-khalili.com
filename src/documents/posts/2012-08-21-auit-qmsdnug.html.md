@@ -6,7 +6,7 @@ revised: "2012-08-21"
 date: "2012-08-21"
 tags: ["OSS","seleno","presentations"]
 migrated: "true"
-urls: ["/presentations/auit-qmsdnug"]
+resource: "/presentations/auit-qmsdnug"
 summary: """
 
 """

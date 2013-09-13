@@ -6,7 +6,7 @@ revised: "2012-12-20"
 date: "2012-12-16"
 tags: ["ruby"]
 migrated: "true"
-urls: ["/string-in-ruby"]
+resource: "/string-in-ruby"
 summary: """
 This is the third post in my '[Ruby for C# developer](http://www.mehdi-khalili.com/ruby-for-csharp-developers)' series. In this post we will take a look at String class
 """

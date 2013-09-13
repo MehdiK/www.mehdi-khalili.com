@@ -6,7 +6,7 @@ revised: "2011-10-27"
 date: "2011-10-27"
 tags: ["quiz"]
 migrated: "true"
-urls: ["/guids-security"]
+resource: "/guids-security"
 summary: """
 
 """

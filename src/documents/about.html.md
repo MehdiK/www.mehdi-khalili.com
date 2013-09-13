@@ -7,7 +7,7 @@ revised: "2013-08-28"
 date: "2010-11-30"
 tags: ["personal"]
 migrated: "true"
-urls: ["/about"]
+resource: "/about"
 summary: """
 
 """

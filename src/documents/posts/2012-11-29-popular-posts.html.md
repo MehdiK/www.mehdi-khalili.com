@@ -6,7 +6,7 @@ revised: "2012-12-16"
 date: "2012-11-29"
 tags: []
 migrated: "true"
-urls: ["/2012/popular-posts"]
+resource: "/2012/popular-posts"
 summary: """
 
 """

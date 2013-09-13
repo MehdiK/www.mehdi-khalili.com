@@ -6,7 +6,7 @@ revised: "2012-07-15"
 date: "2012-07-12"
 tags: ["git","vim","powershell"]
 migrated: "true"
-urls: ["/an-experiment-with-git-vim-posh-git"]
+resource: "/an-experiment-with-git-vim-posh-git"
 summary: """
 
 """

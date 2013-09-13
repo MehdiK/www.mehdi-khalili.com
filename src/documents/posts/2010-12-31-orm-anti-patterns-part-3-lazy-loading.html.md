@@ -6,7 +6,7 @@ revised: "2011-02-16"
 date: "2010-12-31"
 tags: ["ORM","anti-patterns"]
 migrated: "true"
-urls: ["/orm-anti-patterns-part-3-lazy-loading"]
+resource: "/orm-anti-patterns-part-3-lazy-loading"
 summary: """
 This is the third article in the <a href=\"/orm-anti-patterns-series\">ORM anti-pattern series</a>.
 """

@@ -6,7 +6,7 @@ revised: "2011-06-02"
 date: "2011-05-26"
 tags: ["OSS","BDDfy"]
 migrated: "true"
-urls: ["/bddify-v05-and-updates"]
+resource: "/bddify-v05-and-updates"
 summary: """
 
 """

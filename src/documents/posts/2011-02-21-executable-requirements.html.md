@@ -6,7 +6,7 @@ revised: "2011-02-23"
 date: "2011-02-21"
 tags: ["testing","requirements"]
 migrated: "true"
-urls: ["/executable-requirements"]
+resource: "/executable-requirements"
 summary: """
 Using BDD you could write executable software requirements. Is not that cool?
 """

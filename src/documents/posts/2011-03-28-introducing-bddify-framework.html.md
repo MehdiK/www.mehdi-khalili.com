@@ -6,7 +6,7 @@ revised: "2011-12-29"
 date: "2011-03-28"
 tags: ["BDDfy","OSS"]
 migrated: "true"
-urls: ["/introducing-bddify-framework"]
+resource: "/introducing-bddify-framework"
 summary: """
 bddify is a simple yet powerful and extensible BDD framework for .Net developers
 """

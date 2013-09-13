@@ -6,7 +6,7 @@ revised: "2011-10-20"
 date: "2011-03-07"
 tags: ["testing","BDD","BDDfy"]
 migrated: "true"
-urls: ["/bdd-simply-with-bddify"]
+resource: "/bdd-simply-with-bddify"
 summary: """
 Bddify is a very small library that provides support for BDD test and generates a nice report.
 """

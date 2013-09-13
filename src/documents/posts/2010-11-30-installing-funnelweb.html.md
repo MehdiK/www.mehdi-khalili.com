@@ -6,7 +6,7 @@ revised: "2011-09-01"
 date: "2010-11-30"
 tags: ["blog","FunnelWeb"],
 migrated: "true"
-urls: ["/installing-funnelweb"]
+resource: "/installing-funnelweb"
 summary: """
 As I am staring my blog and writing this post FunnelWeb does not have any installation document/instruction. So I thought I would write down what I did to get this up and running as a post to thank the team behind the engine.
 """

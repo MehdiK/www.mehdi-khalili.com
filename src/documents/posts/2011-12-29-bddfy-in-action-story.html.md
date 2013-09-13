@@ -6,7 +6,7 @@ revised: "2013-08-10"
 date: "2011-12-29"
 tags: ["BDDfy","BDD","OSS"]
 migrated: "true"
-urls: ["/bddify-in-action/story"]
+resource: "/bddify-in-action/story"
 summary: """
 We wrote a simple scenario in the <a href=\"http://www.mehdi-khalili.com/bddify-in-action/method-name-conventions\">previous post</a>; but how can we write a user story using BDDfy?
 """

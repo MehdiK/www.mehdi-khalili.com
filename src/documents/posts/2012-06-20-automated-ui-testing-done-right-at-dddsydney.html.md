@@ -6,7 +6,7 @@ revised: "2012-06-29"
 date: "2012-06-20"
 tags: ["OSS","testing","seleno","presentations"]
 migrated: "true"
-urls: ["/presentations/automated-ui-testing-done-right-at-dddsydney"]
+resource: "/presentations/automated-ui-testing-done-right-at-dddsydney"
 summary: """
 I am giving a talk at DDDSydney called Automated UI Testing Done Right. Come along to see how you can make your UI tests easier to write and maintain
 """

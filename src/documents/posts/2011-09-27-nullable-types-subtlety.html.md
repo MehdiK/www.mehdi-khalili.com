@@ -6,7 +6,7 @@ revised: "2011-09-30"
 date: "2011-09-27"
 tags: [".net","quiz"]
 migrated: "true"
-urls: ["/nullable-types-subtlety"]
+resource: "/nullable-types-subtlety"
 summary: """
 In this post I explain a little subtlety with .Net Nullable Types that confuses some programmers
 """

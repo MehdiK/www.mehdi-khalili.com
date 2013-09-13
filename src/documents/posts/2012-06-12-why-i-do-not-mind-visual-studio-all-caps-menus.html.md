@@ -6,7 +6,7 @@ revised: "2012-06-12"
 date: "2012-06-12"
 tags: ["visual studio"]
 migrated: "true"
-urls: ["/why-i-do-not-mind-visual-studio-all-caps-menus"]
+resource: "/why-i-do-not-mind-visual-studio-all-caps-menus"
 summary: """
 Visual Studio 2012 is very impressive and I like a lot of things about it. It has quite a lot of useful features and yet the ALL CAPS menus seem to be the most popular topic and a lot of devs seem unhappy about it; but I do not mind all caps menus. In fact I do not even notice it.
 """

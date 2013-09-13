@@ -6,7 +6,7 @@ revised: "2012-12-13"
 date: "2012-12-12"
 tags: ["ruby"]
 migrated: "true"
-urls: ["/a-quick-tour-around-ruby"]
+resource: "/a-quick-tour-around-ruby"
 summary: """
 This is the second post in my ['Ruby for C# developer' series](http://www.mehdi-khalili.com/ruby-for-csharp-developers). In this post I will give you a very quick tour around Ruby
 """

@@ -8,7 +8,7 @@
   <link rel="self" href="http://mehdi-khalili.com/feed" />
   <author><name><%= @site.author %></name></author>
   <% for document in @getCollection('posts').toJSON().slice(0, 20): %>
-  <% link = @site.url + if document.urls and document.urls.length > 0 then document.urls[0] else document.url %>
+  <% link = @site.url + document.resource %>
     <entry>
       <id><%= link %></id>
       <title type="text"><%= document.title or document.name or @title.title %></title>

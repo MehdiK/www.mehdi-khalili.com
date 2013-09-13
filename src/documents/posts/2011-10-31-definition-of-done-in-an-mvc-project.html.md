@@ -6,7 +6,7 @@ revised: "2011-10-31"
 date: "2011-10-31"
 tags: ["agile","scrum"]
 migrated: "true"
-urls: ["/definition-of-done-in-an-mvc-project"]
+resource: "/definition-of-done-in-an-mvc-project"
 summary: """
 
 """

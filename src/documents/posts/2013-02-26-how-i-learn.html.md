@@ -6,7 +6,7 @@ revised: "2013-02-26"
 date: "2013-02-26"
 tags: ["learning"]
 migrated: "true"
-urls: ["/how-i-learn"]
+resource: "/how-i-learn"
 summary: """
 
 """

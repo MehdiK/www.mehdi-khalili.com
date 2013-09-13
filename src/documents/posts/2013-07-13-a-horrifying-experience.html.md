@@ -6,7 +6,7 @@ revised: "2013-07-14"
 date: "2013-07-13"
 tags: ["personal","notes"]
 migrated: "true"
-urls: ["/a-horrifying-experience"]
+resource: "/a-horrifying-experience"
 summary: """
 I cannot be thankful enough for being alive without a single scratch
 """

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title type="text"><%= @site.title %></title>
+  <subtitle type="text"><%= @site.subtitle %></subtitle>
+  <id>http://mehdi-khalili.com/feed</id>
+  <updated><%= @site.date.toISOString() %></updated>
+  <link rel="alternate" href="http://mehdi-khalili.com/blog" />
+  <link rel="self" href="http://mehdi-khalili.com/feed" />
+  <author><name><%= @site.author %></name></author>
+  <% for document in @getCollection('posts').toJSON().slice(0, 20): %>
+  <% link = @site.url + if document.urls and document.urls.length > 0 then document.urls[0] else document.url %>
+    <entry>
+      <id><%= link %></id>
+      <title type="text"><%= document.title or document.name or @title.title %></title>
+      <link href="<%= link %>"/>
+      <updated><%= document.date.toISOString() %></updated>
+      <summary><%= @generateSummary(document) %> </summary>
+      <author>
+        <name><%= @site.author %></name>
+      </author>
+      <% for tag in document.tags: %>
+      <category><%= tag %></category>
+      <% end %>
+      <content type="html"><%= document.contentRenderedWithoutLayouts %></content>
+    </entry>
+  <% end %>
+</feed>

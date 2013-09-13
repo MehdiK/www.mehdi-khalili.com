@@ -10,6 +10,7 @@ docpadConfig =
   templateData: 
     site: 
       title: 'Mehdi Khalili'
+      subtitle: 'My musings around software programming and architecture'
       author: 'Mehdi Khalili'
       email: 'me@mehdi-khalili.com'
       github: 'MehdiK'

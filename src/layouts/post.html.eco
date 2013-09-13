@@ -7,10 +7,10 @@
 <html>
     <%- @partial('head.html.eco', @) %>
 
-    <body class="right-sidebar">
+    <body class="left-sidebar">
 
         <div id="header-wrapper">
-            <div id="header" class="container">
+            <div id="header" class="container big">
                 <h1 id="logo"><%- @document.title %></h1>
                 <h2><%- @formatDate(@document.date) %></h2>
                 <%- @partial('share.html', @) %>
@@ -20,15 +20,14 @@
         </div>
 
         <div id="main-wrapper">
-            <div id="main" class="container">
+            <div id="main" class="container big">
                 <div class="row">
-                    <div id="content" class="8u skel-cell-mainContent">
+                    <%- @partial('sidebar.html.eco', @) %>
+
+                    <div id="content" class="9u skel-cell-mainContent">
                         <article class="is-post">
                             <%- @content %>
                         </article>
-                    </div>
-                    <%- @partial('sidebar.html.eco', @) %>
-                    <div class="8u skel-cell-mainContent">
                         <article class="is-post">
                             <%- @partial('disqus.html', @) %>
                         </article>

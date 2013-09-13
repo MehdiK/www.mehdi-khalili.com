@@ -11,7 +11,7 @@
       <div id="header-wrapper">
             
         <!-- Header -->
-          <div id="header" class="container">
+          <div id="header" class="container big">
             <%- @content %>
             <%- @partial('share.html', @) %>
             <%- @partial('nav.html.eco', @) %>

@@ -16,7 +16,7 @@
       </div>
 
         <div id="main-wrapper">
-            <div id="main" class="container">
+            <div id="main" class="container small">
                 <div class="row">
                     <div id="content" class="12u skel-cell-mainContent">
                         <% for doc in @getCollection('posts').findAll({tags: '$in': @document.tag}, [{ date: -1 }]).toJSON(): %>

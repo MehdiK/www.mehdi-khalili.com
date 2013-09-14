@@ -70,7 +70,8 @@ pre {
 }
 
 code {
-    color: navy;
+    color: rgb(107, 107, 158);
+    font-size: .8em;
     font-family: "Consolas";
 }
 

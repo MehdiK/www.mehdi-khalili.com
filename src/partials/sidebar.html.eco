@@ -1,22 +1,24 @@
 <div id="sidebar" class="3u">
-    <section>
-        <ul class="divided">
-            <% for post in @relatedPosts(@document).slice(0, 5): %>
-                <li>
-                    <article class="is-excerpt">
-                        <header>
-                            <span class="date"><%- @formatDate(post.date) %></span>
-                            <h4><a href="<%- post.resource %>"><%- post.title %></a></h4>
-                        </header>
-                        <%- @generateSummary(post) %>
-                        <div class="tags">
-                            <% for tag in post.tags: %>
-                                <a class="icon icon-tag" href="<%- @getTagUrl(tag) %>"><span><%- tag %></span></a>
-                            <% end %>
-                        </div>
-                    </article>
-                </li>
-            <% end %>
-        </ul>
-    </section>
+  <section>
+    <ul class="divided">
+      <% for post in @relatedPosts(@document).slice(0, 5): %>
+        <li>
+          <article class="is-excerpt">
+            <header>
+              <span class="date"><%- @formatDate(post.date) %></span>
+              <h4><a href="<%- post.resource %>"><%- post.title %></a></h4>
+            </header>
+            <%- @generateSummary(post) %>
+            <div class="tags">
+              <% if post.tags: %>
+                <% for tag in post.tags: %>
+                  <a class="icon icon-tag" href="<%- @getTagUrl(tag) %>"><span><%- tag %></span></a>
+                <% end %>
+              <% end %>
+            </div>
+          </article>
+        </li>
+      <% end %>
+    </ul>
+  </section>
 </div>

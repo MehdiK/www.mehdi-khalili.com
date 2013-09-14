@@ -30,7 +30,7 @@ docpadConfig =
       posts
         .map((p) -> 
           matches = post.tags
-          .map((tag) -> if p.tags.indexOf(tag) >= 0 then 1 else 0)
+          .map((tag) -> if p.tags and p.tags.indexOf(tag) >= 0 then 1 else 0)
           .reduce((x, y) -> x + y)
 
           post: p

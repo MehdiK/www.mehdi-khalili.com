@@ -18,8 +18,10 @@
       <author>
         <name><%= @site.author %></name>
       </author>
-      <% for tag in document.tags: %>
-      <category><%= tag %></category>
+      <% if document.tags: %>
+        <% for tag in document.tags: %>
+          <category><%= tag %></category>
+        <% end %>
       <% end %>
       <content type="html"><%= document.contentRenderedWithoutLayouts %></content>
     </entry>

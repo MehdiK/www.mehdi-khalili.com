@@ -3,7 +3,5 @@
         <% for tag in @tags: %>
             <li><a class="icon icon-tag" href="<%- @getTagUrl(tag) %>"><span><%- tag %></span></a></li>
         <% end %>
-    <% else: %>
-        <li>No tags, that's sad :(</li>
     <% end %>
 </ul>

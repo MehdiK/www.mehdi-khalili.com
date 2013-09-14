@@ -143,24 +143,24 @@ Just a few exercises before we wrap up. Try the following:
  - `('a'..'z').to_a.join.reverse`  
 
 
-  [1]: /get/blogpictures/strings-in-ruby/initializing-string.png
-  [2]: /get/blogpictures/strings-in-ruby/string-default-ctor.png
-  [3]: /get/blogpictures/strings-in-ruby/escape-with-backslash.png
-  [4]: /get/blogpictures/strings-in-ruby/custom-string-delimiter.png
-  [5]: /get/blogpictures/strings-in-ruby/wrap-with-quote.png
-  [6]: /get/blogpictures/strings-in-ruby/heredoc.png
-  [7]: /get/blogpictures/strings-in-ruby/multi-line-string.png
-  [8]: /get/blogpictures/strings-in-ruby/heredoc-delimiter.png
-  [9]: /get/blogpictures/strings-in-ruby/variable-interpolation.png
-  [10]: /get/blogpictures/strings-in-ruby/interpolation-expression.png
-  [11]: /get/blogpictures/strings-in-ruby/interpolation-math-expression.png
+  [1]: /get/BlogPictures/strings-in-ruby/initializing-string.png
+  [2]: /get/BlogPictures/strings-in-ruby/string-default-ctor.png
+  [3]: /get/BlogPictures/strings-in-ruby/escape-with-backslash.png
+  [4]: /get/BlogPictures/strings-in-ruby/custom-string-delimiter.png
+  [5]: /get/BlogPictures/strings-in-ruby/wrap-with-quote.png
+  [6]: /get/BlogPictures/strings-in-ruby/heredoc.png
+  [7]: /get/BlogPictures/strings-in-ruby/multi-line-string.png
+  [8]: /get/BlogPictures/strings-in-ruby/heredoc-delimiter.png
+  [9]: /get/BlogPictures/strings-in-ruby/variable-interpolation.png
+  [10]: /get/BlogPictures/strings-in-ruby/interpolation-expression.png
+  [11]: /get/BlogPictures/strings-in-ruby/interpolation-math-expression.png
   [12]: http://msdn.microsoft.com/en-us/library/26etazsy.aspx
   [13]: http://msdn.microsoft.com/en-us/library/system.iformatprovider.aspx
-  [14]: /get/blogpictures/strings-in-ruby/no-interpolation-with-quote.png
-  [15]: /get/blogpictures/strings-in-ruby/interpolation-with-custom-delimiter.png
-  [16]: /get/blogpictures/strings-in-ruby/puts.png
-  [17]: /get/blogpictures/strings-in-ruby/char-indexer.png
-  [18]: /get/blogpictures/strings-in-ruby/substr-with-range.png
-  [19]: /get/blogpictures/strings-in-ruby/slice.png
-  [20]: /get/blogpictures/strings-in-ruby/methods-ending-w-exclamation.png
-  [21]: /get/blogpictures/strings-in-ruby/methods-ending-with-question.png
+  [14]: /get/BlogPictures/strings-in-ruby/no-interpolation-with-quote.png
+  [15]: /get/BlogPictures/strings-in-ruby/interpolation-with-custom-delimiter.png
+  [16]: /get/BlogPictures/strings-in-ruby/puts.png
+  [17]: /get/BlogPictures/strings-in-ruby/char-indexer.png
+  [18]: /get/BlogPictures/strings-in-ruby/substr-with-range.png
+  [19]: /get/BlogPictures/strings-in-ruby/slice.png
+  [20]: /get/BlogPictures/strings-in-ruby/methods-ending-w-exclamation.png
+  [21]: /get/BlogPictures/strings-in-ruby/methods-ending-with-question.png

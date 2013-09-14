@@ -217,12 +217,12 @@ Hope this helps.
   [4]: /bddify-in-action/method-name-conventions
   [5]: /extracting-input-arguments-from-expressions
   [6]: http://en.wikipedia.org/wiki/Alcohol_laws_of_Australia
-  [7]: /get/blogpictures/bddify-in-action/fluent-api-advanced/first-attempt-ugly-report.JPG
-  [8]: /get/blogpictures/bddify-in-action/fluent-api-advanced/step-titles-are-overridden.JPG
-  [9]: /get/blogpictures/bddify-in-action/fluent-api-advanced/using-input-parameters.JPG
+  [7]: /get/BlogPictures/bddify-in-action/fluent-api-advanced/first-attempt-ugly-report.JPG
+  [8]: /get/BlogPictures/bddify-in-action/fluent-api-advanced/step-titles-are-overridden.JPG
+  [9]: /get/BlogPictures/bddify-in-action/fluent-api-advanced/using-input-parameters.JPG
   [10]: http://msdn.microsoft.com/en-us/library/8kb3ddd4(v=VS.100).aspx
-  [11]: /get/blogpictures/bddify-in-action/fluent-api-advanced/input-parameter-with-string-formatter.JPG
-  [12]: /get/blogpictures/bddify-in-action/fluent-api-advanced/avoiding-input-parameters-in-the-title-take-1.JPG
+  [11]: /get/BlogPictures/bddify-in-action/fluent-api-advanced/input-parameter-with-string-formatter.JPG
+  [12]: /get/BlogPictures/bddify-in-action/fluent-api-advanced/avoiding-input-parameters-in-the-title-take-1.JPG
   [13]: http://hg.mehdi-khalili.com/bddify/src/e19e2293602e/Bddify/Scanners/StepScanners/Fluent/FluentScanner.cs#cl-171
-  [14]: /get/blogpictures/bddify-in-action/fluent-api-advanced/avoiding-input-parameters-in-the-title-take-2.JPG
+  [14]: /get/BlogPictures/bddify-in-action/fluent-api-advanced/avoiding-input-parameters-in-the-title-take-2.JPG
   [15]: /get/Downloads/bddify-in-action/Bddify.FluentApiInputParameters.zip

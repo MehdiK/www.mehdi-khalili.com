@@ -26,7 +26,7 @@ There is a little textbox with black background color and green forecolor on the
  - select MIME: *Select any session where the response Content-Type header contains the specified string.*; e.g. select image
  - urlreplace: *Replace any string in URLs with a different string.  Setting this command will clear any previous value for the command; calling it with no parameter will cancel the replacement.*.
 
-<img src="/get/blogpictures/fiddler-in-action-2/quickexec-box.png" alt="QuickExec box" />
+<img src="/get/BlogPictures/fiddler-in-action-2/quickexec-box.png" alt="QuickExec box" />
 
 *Figure 1 - Highlighting the traffic where the URL contains my name*
 
@@ -38,7 +38,7 @@ For shortcut lovers when Fiddler window is active you can use Alt+Q to activate 
 Fiddler provides us with a few ways to set breakpoints which I explain below:
 
 ###1. Use the small button on the status bar to set breakpoints
-<img src="/get/blogpictures/fiddler-in-action-2/breakpoint-button.png" alt="Breakpoint button on status bar" />
+<img src="/get/BlogPictures/fiddler-in-action-2/breakpoint-button.png" alt="Breakpoint button on status bar" />
 
 *Figure 2 - Breakpoint button on status bar*
 
@@ -52,7 +52,7 @@ You can achieve the same result using menus:
   - Clicking 'After Responses' does the same thing as clicking on the breakpoint button in status bar for the second time and removes requests' breakpoint and set responses' breakpoints.
   - Clicking 'Disabled' does the same thing as clicking on the breakpoint button in status bar for the third time and disables responses' breakpoints.
 
-<img src="/get/blogpictures/fiddler-in-action-2/breakpoint-on-rules-menu.png" alt="Breakpoint menus" />
+<img src="/get/BlogPictures/fiddler-in-action-2/breakpoint-on-rules-menu.png" alt="Breakpoint menus" />
 
 *Figure 3 - Breakpoint menus*
 
@@ -63,7 +63,7 @@ My preferred way is to set breakpoint using QuickExec commands. If you want to q
 
 In the QuickExec box type in 'bp' and enter. This will show you a handy help popup dialog that lists the breakpoint commands.
 
-<img src="/get/blogpictures/fiddler-in-action-2/bp-commands.png" alt="bp commands" />
+<img src="/get/BlogPictures/fiddler-in-action-2/bp-commands.png" alt="bp commands" />
 
 *Figure 4 - Breakpoint commands' help dialog*
 
@@ -246,25 +246,25 @@ Hope this helps.
   [2]: /advanced-web-debugging-with-fiddler
   [3]: /fiddler-in-action/part-1
   [4]: http://www.fiddler2.com/fiddler/help/quickexec.asp
-  [5]: /get/blogpictures/fiddler-in-action-2/sandbox.png
-  [6]: /get/blogpictures/fiddler-in-action-2/breakpoint-hit-on-post.png
-  [7]: /get/blogpictures/fiddler-in-action-2/inspector-on-breakpoint-changed.png
-  [8]: /get/blogpictures/fiddler-in-action-2/hacked-shopping-cart.png
-  [9]: /get/blogpictures/fiddler-in-action-2/hacked-bing.jpg
+  [5]: /get/BlogPictures/fiddler-in-action-2/sandbox.png
+  [6]: /get/BlogPictures/fiddler-in-action-2/breakpoint-hit-on-post.png
+  [7]: /get/BlogPictures/fiddler-in-action-2/inspector-on-breakpoint-changed.png
+  [8]: /get/BlogPictures/fiddler-in-action-2/hacked-shopping-cart.png
+  [9]: /get/BlogPictures/fiddler-in-action-2/hacked-bing.jpg
   [10]: http://www.fiddler2.com/fiddler2/help/AutoResponder.asp
-  [11]: /get/downloads/HackBing.saz
-  [12]: /get/blogpictures/fiddler-in-action-2/autoresponder.png
+  [11]: /get/Downloads/HackBing.saz
+  [12]: /get/BlogPictures/fiddler-in-action-2/autoresponder.png
   [13]: http://www.bing.com
   [14]: http://www.fiddler2.com/fiddler/help/requestbuilder.asp
-  [15]: /get/blogpictures/fiddler-in-action-2/request-builder.png
+  [15]: /get/BlogPictures/fiddler-in-action-2/request-builder.png
   [16]: http://www.fiddler2.com/fiddler2/help/Filters.asp
-  [17]: /get/blogpictures/fiddler-in-action-2/process-filter.png
-  [18]: /get/blogpictures/fiddler-in-action-2/filters-by-client-process.png
-  [19]: /get/blogpictures/fiddler-in-action-2/filters-request-bp-response.png
+  [17]: /get/BlogPictures/fiddler-in-action-2/process-filter.png
+  [18]: /get/BlogPictures/fiddler-in-action-2/filters-by-client-process.png
+  [19]: /get/BlogPictures/fiddler-in-action-2/filters-request-bp-response.png
   [20]: http://www.fiddlercap.com/FiddlerCap/
-  [21]: /get/blogpictures/fiddler-in-action-2/fiddler-cap.png
+  [21]: /get/BlogPictures/fiddler-in-action-2/fiddler-cap.png
   [22]: http://www.fiddler2.com/fiddler/Core/
-  [23]: /get/blogpictures/fiddler-in-action-2/fiddler-core.png
+  [23]: /get/BlogPictures/fiddler-in-action-2/fiddler-core.png
   [24]: http://www.fiddler2.com/fiddler2/extensions.asp
   [25]: http://www.fiddler2.com/fiddler2/
   [26]: http://blogs.msdn.com/b/fiddler/

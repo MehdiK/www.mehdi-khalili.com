@@ -228,12 +228,12 @@ Hope this helps.
 
   [1]: /bddify-in-action/introduction
   [2]: /bddify-in-action/introduction
-  [3]: /get/blogpictures/bddify-in-action/method-name-conventions/Resharper-result.JPG
-  [4]: /get/blogpictures/bddify-in-action/method-name-conventions/html-report.JPG
+  [3]: /get/BlogPictures/bddify-in-action/method-name-conventions/Resharper-result.JPG
+  [4]: /get/BlogPictures/bddify-in-action/method-name-conventions/html-report.JPG
   [5]: http://www.testdriven.net/
-  [6]: /get/blogpictures/bddify-in-action/method-name-conventions/TDNet-expanded-test-result.JPG
+  [6]: /get/BlogPictures/bddify-in-action/method-name-conventions/TDNet-expanded-test-result.JPG
   [7]: http://nuget.org/packages/Bddify.Samples.TicTacToe
   [8]: http://code.google.com/p/bddify/source/browse/Bddify.Samples/TicTacToe/WinnerGame.cs
   [9]: http://code.google.com/p/bddify/source/browse/Bddify.Samples/TicTacToe/TicTacToe.cs#126
-  [10]: /get/blogpictures/bddify-in-action/method-name-conventions/tictactoe-html-result.JPG
+  [10]: /get/BlogPictures/bddify-in-action/method-name-conventions/tictactoe-html-result.JPG
   [11]: /get/Downloads/bddify-in-action/Bddify.MethodNameConventions.zip

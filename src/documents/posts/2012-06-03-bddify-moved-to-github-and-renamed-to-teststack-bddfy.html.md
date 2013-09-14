@@ -126,9 +126,9 @@ This was the second time and hopefully the last time <strike>bddify</strike> BDD
   [4]: https://github.com/TestStack/TestStack.BDDfy
   [5]: https://github.com/TestStack/
   [6]: http://nuget.org/packages/TestStack.BDDfy
-  [7]: /get/blogpictures/bddify-to-bddfy/api-rename.JPG
-  [8]: /get/blogpictures/bddify-to-bddfy/namespace-fix.JPG
-  [9]: /get/blogpictures/bddify-to-bddfy/html-report-filtering.JPG
-  [10]: /get/blogpictures/bddify-to-bddfy/console-tabular-report.JPG
-  [11]: /get/blogpictures/bddify-to-bddfy/html-tabular-report.JPG
+  [7]: /get/BlogPictures/bddify-to-bddfy/api-rename.JPG
+  [8]: /get/BlogPictures/bddify-to-bddfy/namespace-fix.JPG
+  [9]: /get/BlogPictures/bddify-to-bddfy/html-report-filtering.JPG
+  [10]: /get/BlogPictures/bddify-to-bddfy/console-tabular-report.JPG
+  [11]: /get/BlogPictures/bddify-to-bddfy/html-tabular-report.JPG
   [12]: http://nuget.org/packages/TestStack.BDDfy.Samples

@@ -215,6 +215,6 @@ Hope this helps.
   [3]: /bddify-in-action/method-name-conventions
   [4]: /bddify-in-action/executable-attributes
   [5]: http://www.codeproject.com/KB/library/Introducing_bddify.aspx
-  [6]: /get/blogpictures/bddify-in-action/fluent-api/console-report-without-story.JPG
+  [6]: /get/BlogPictures/bddify-in-action/fluent-api/console-report-without-story.JPG
   [7]: /bddify-in-action/story
   [8]: /get/Downloads/bddify-in-action/Bddify.FluentApi.zip

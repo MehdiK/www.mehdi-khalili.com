@@ -172,11 +172,11 @@ I hope you find this useful.
   [4]: /fiddler-in-action/part-1
   [5]: /fiddler-in-action/part-2
   [6]: /advanced-web-debugging-with-fiddler
-  [7]: /get/blogpictures/wdyk-offline-web/manifest-attr.png
-  [8]: /get/blogpictures/wdyk-offline-web/browser-caching.png
-  [9]: /get/blogpictures/wdyk-offline-web/appcache-internals.png
-  [10]: /get/blogpictures/wdyk-offline-web/appcache-internals-entries.png
-  [11]: /get/blogpictures/wdyk-offline-web/cache-manifest-sample.png
+  [7]: /get/BlogPictures/wdyk-offline-web/manifest-attr.png
+  [8]: /get/BlogPictures/wdyk-offline-web/browser-caching.png
+  [9]: /get/BlogPictures/wdyk-offline-web/appcache-internals.png
+  [10]: /get/BlogPictures/wdyk-offline-web/appcache-internals-entries.png
+  [11]: /get/BlogPictures/wdyk-offline-web/cache-manifest-sample.png
   [12]: http://www.html5rocks.com/en/tutorials/appcache/beginner/
   [13]: https://github.com/MehdiK/wdyk-offline-web/blob/master/PhoneBook/Views/OfflineSupport/AppCacheManifest.cshtml
   [14]: https://github.com/MehdiK/wdyk-offline-web/blob/master/PhoneBook/Extensions/HtmlHelperExtensions.cs#L16
@@ -188,7 +188,7 @@ I hope you find this useful.
   [20]: https://github.com/MehdiK/wdyk-offline-web/blob/master/PhoneBook/Views/OfflineSupport/ContactsEdit.cshtml
   [21]: https://github.com/MehdiK/wdyk-offline-web/blob/master/PhoneBook/App_Start/RouteConfig.cs
   [22]: http://www.html5rocks.com/en/tutorials/offline/storage/
-  [23]: /get/blogpictures/wdyk-offline-web/client-side-records.png
+  [23]: /get/BlogPictures/wdyk-offline-web/client-side-records.png
   [24]: /developer-productivity-tools-and-visual-studio-extensions
   [25]: http://jtaby.com/2012/04/23/modern-web-development-part-1.html
   [26]: https://github.com/MehdiK/wdyk-offline-web/blob/master/PhoneBook/Scripts/offline/persistence.js

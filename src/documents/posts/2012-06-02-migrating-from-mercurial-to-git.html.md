@@ -81,14 +81,14 @@ Hopefully this post saves you some time.
   [3]: http://repo.or.cz/w/fast-export.git
   [4]: http://code.google.com/p/msysgit/
   [5]: http://www.wordsinboxes.com/2012/02/migrating-repositories-from-bitbucket.html
-  [6]: /get/blogpictures/mercurial-to-git/python-v3-error.JPG
+  [6]: /get/BlogPictures/mercurial-to-git/python-v3-error.JPG
   [7]: http://stackoverflow.com/a/826957/141101
   [8]: http://www.python.org/download/releases/
-  [9]: https://bitbucket.org/tortoisehg/thg-winbuild/downloads/
-  [10]: https://bitbucket.org/tortoisehg/thg-winbuild/downloads/mercurial-2.2.1.win-amd64-py2.6.exe
-  [11]: /get/blogpictures/mercurial-to-git/unnamed-head.JPG
+  [9]: https://bitbucket.org/tortoisehg/thg-winbuild/Downloads/
+  [10]: https://bitbucket.org/tortoisehg/thg-winbuild/Downloads/mercurial-2.2.1.win-amd64-py2.6.exe
+  [11]: /get/BlogPictures/mercurial-to-git/unnamed-head.JPG
   [12]: https://github.com/cosmin/git-hg/issues/12
-  [13]: /get/blogpictures/mercurial-to-git/branch-name-doesnt-conform.JPG
+  [13]: /get/BlogPictures/mercurial-to-git/branch-name-doesnt-conform.JPG
   [14]: http://stackoverflow.com/questions/9537454/how-to-solve-hg-fast-export-error-branch-name-doesnt-conform-to-git-standards
   [15]: http://www.wordsinboxes.com/2012/02/migrating-repositories-from-bitbucket.html
   [16]: http://windows.github.com/

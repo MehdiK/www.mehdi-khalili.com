@@ -18,7 +18,7 @@ If you know neither C# nor Ruby, then you may not get the best out of this serie
 I don't consider myself an expert or even an advanced Ruby programmer - I am just a journeyman trying to improve my Ruby skills. So if you think something I say is not right or could be done more easily and/or better, then please leave me a comment and correct me. It would be much appreciated. 
 
 ##Working Environment
-For this series you won't need much of a working environment. All you need is Ruby. You may follow [these instructions](http://www.ruby-lang.org/en/downloads/) to install it on your operating system. I will be using Ruby V1.9 for this series and to be able to follow along it may be a good idea for you to install the same version. To double check your Ruby version you can type `ruby --version` in your command prompt. I have Ruby 1.9.3 installed as you can see below:
+For this series you won't need much of a working environment. All you need is Ruby. You may follow [these instructions](http://www.ruby-lang.org/en/Downloads/) to install it on your operating system. I will be using Ruby V1.9 for this series and to be able to follow along it may be a good idea for you to install the same version. To double check your Ruby version you can type `ruby --version` in your command prompt. I have Ruby 1.9.3 installed as you can see below:
 
 ![Checking Ruby Version][1]
 
@@ -54,5 +54,5 @@ Please leave me a comment and let me know what you think. Do you find this inter
 Hope you enjoy it. 
 
 
-  [1]: /get/blogpictures/ruby-for-csharp-devs/ruby-version.jpg
-  [2]: /get/blogpictures/ruby-for-csharp-devs/irb.jpg
+  [1]: /get/BlogPictures/ruby-for-csharp-devs/ruby-version.jpg
+  [2]: /get/BlogPictures/ruby-for-csharp-devs/irb.jpg

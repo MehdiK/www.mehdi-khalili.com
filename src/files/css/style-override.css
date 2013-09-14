@@ -59,6 +59,17 @@ ul ul, ol ol, ol ul, ul ol {
     clear: both;
 }
 
+/* prettifing */
+pre {
+    background: #f0f0f0;
+    border: none;
+}
+
+code {
+    color: navy;
+    font-family: "Consolas";
+}
+
 /* tags */
 h1.tag-header {
     font-size: 2em;

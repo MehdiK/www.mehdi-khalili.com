@@ -169,8 +169,8 @@ I hope you find this useful.
   [1]: http://whatdoyouknow.webdirections.org/brisbane
   [2]: http://www.slideshare.net/MehdiKhalili/offline-web-applications-14083038
   [3]: https://github.com/MehdiK/wdyk-offline-web
-  [4]: http://mehdi-khalili.com/fiddler-in-action/part-1
-  [5]: http://mehdi-khalili.com/fiddler-in-action/part-2
+  [4]: /fiddler-in-action/part-1
+  [5]: /fiddler-in-action/part-2
   [6]: /advanced-web-debugging-with-fiddler
   [7]: /get/blogpictures/wdyk-offline-web/manifest-attr.png
   [8]: /get/blogpictures/wdyk-offline-web/browser-caching.png

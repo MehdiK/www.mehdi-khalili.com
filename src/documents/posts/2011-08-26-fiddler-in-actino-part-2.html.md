@@ -18,13 +18,13 @@ In the [first part][3] we covered some of the basic features of Fiddler. In this
 ##QuickExec
 There is a little textbox with black background color and green forecolor on the bottom of Fiddler form where you can run some very useful commands. To see a complete list of available commands type 'help' and enter. That takes you to the [Fiddler's website][4] where all the available commands are explained in details. Below I will list a few of them:
 
-- ?sometext: *As you type sometext, Fiddler will highlight sessions where the URL contains sometext.  Hit Enter to set focus to the selected matches.*; e.g. ?google
-- >size: *Select sessions where response size is greater than size bytes.*; e.g. >4000
-- <size: *Select sessions where response size is less than size bytes.*; .e.g <200
-- =status: *Select sessions where response status = status*; e.g. =304
-- =method: *Select sessions where request method = method.*; e.g. =post
-- select MIME: *Select any session where the response Content-Type header contains the specified string.*; e.g. select image
-- urlreplace: *Replace any string in URLs with a different string.  Setting this command will clear any previous value for the command; calling it with no parameter will cancel the replacement.*.
+ - ?sometext: *As you type sometext, Fiddler will highlight sessions where the URL contains sometext.  Hit Enter to set focus to the selected matches.*; e.g. ?google
+ - <span>>size: *Select sessions where response size is greater than size bytes.*; e.g. >4000</span>
+ - <size: *Select sessions where response size is less than size bytes.*; .e.g <200
+ - =status: *Select sessions where response status = status*; e.g. =304
+ - =method: *Select sessions where request method = method.*; e.g. =post
+ - select MIME: *Select any session where the response Content-Type header contains the specified string.*; e.g. select image
+ - urlreplace: *Replace any string in URLs with a different string.  Setting this command will clear any previous value for the command; calling it with no parameter will cancel the replacement.*.
 
 <img src="/get/blogpictures/fiddler-in-action-2/quickexec-box.png" alt="QuickExec box" />
 
@@ -143,15 +143,13 @@ AutoResponder is a very handy tool. It allows you to fake server's responses. If
 
 AutoResponder uses some rules to match the request. From [Fiddler's reference][10]: 
 
-<i>
-On the AutoResponder tab, you enter a match rule and an action string, and Fiddler will undertake the action if the request URI matches the match rule. Tips: 
+> On the AutoResponder tab, you enter a match rule and an action string, and Fiddler will undertake the action if the request URI matches the match rule. Tips: 
 
-- Rules are applied in the order that they appear. Hit the Plus key to promote a rule to earlier in the list. Hit the Minus key to demote a rule to later in the list.
-- From the context menu, you can Export a .FARX file which contains a list of rules and actions.
-- You can also Import a .SAZ or Import a .FARX file to create rules based on previously captured traffic.
-- You can drag-drop sessions from the Web Sessions list to replay previous responses. You can edit a rule's stored response by selecting the rule and hitting Enter.
-- You can also drag & drop files from Windows Explorer to automatically generate AutoResponder Rules for those files.
-</i>
+> - Rules are applied in the order that they appear. Hit the Plus key to promote a rule to earlier in the list. Hit the Minus key to demote a rule to later in the list.
+> - From the context menu, you can Export a .FARX file which contains a list of rules and actions.
+> - You can also Import a .SAZ or Import a .FARX file to create rules based on previously captured traffic.
+> - You can drag-drop sessions from the Web Sessions list to replay previous responses. You can edit a rule's stored response by selecting the rule >and hitting Enter.
+> - You can also drag & drop files from Windows Explorer to automatically generate AutoResponder Rules for those files.
 
 The AutoResponder rule-engine is quite rich. It allows you to match the exact url or part of it or use regex to define a pattern (plus a few other rules).
 
@@ -245,7 +243,7 @@ Hope this helps.
 
 
   [1]: http://dddbrisbane.com/
-  [2]: http://mehdi-khalili.com/advanced-web-debugging-with-fiddler
+  [2]: /advanced-web-debugging-with-fiddler
   [3]: /fiddler-in-action/part-1
   [4]: http://www.fiddler2.com/fiddler/help/quickexec.asp
   [5]: /get/blogpictures/fiddler-in-action-2/sandbox.png

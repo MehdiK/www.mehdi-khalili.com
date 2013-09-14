@@ -177,13 +177,13 @@ The code for this post is available for download from [here][14].
   [2]: http://msdn.microsoft.com/en-us/library/dd465326.aspx
   [3]: http://nuget.org/packages/CodeAssassin.ConfigTransform
   [4]: http://msdn.microsoft.com/en-us/library/dd465326.aspx
-  [5]: http://mehdi-khalili.com/get/blogpictures/config-transform/app.UAT.config.transformed.JPG
-  [6]: http://mehdi-khalili.com/get/blogpictures/config-transform/app.UAT.config.transformed-compared.JPG
+  [5]: /get/blogpictures/config-transform/app.UAT.config.transformed.JPG
+  [6]: /get/blogpictures/config-transform/app.UAT.config.transformed-compared.JPG
   [7]: http://visualstudiogallery.msdn.microsoft.com/69023d00-a4f9-4a34-a6cd-7e854ba318b5
   [8]: http://visualstudiogallery.msdn.microsoft.com/69023d00-a4f9-4a34-a6cd-7e854ba318b5
-  [9]: http://mehdi-khalili.com/get/blogpictures/config-transform/SlowCheetah-Add-Transform-Menu.JPG
-  [10]: http://mehdi-khalili.com/get/blogpictures/config-transform/SlowCheetah-transform-files-added.JPG
-  [11]: http://mehdi-khalili.com/get/blogpictures/config-transform/SlowCheetah-transform-result.JPG
-  [12]: http://mehdi-khalili.com/get/blogpictures/config-transform/SlowCheetah-transform-preview-menu.JPG
-  [13]: http://mehdi-khalili.com/get/blogpictures/config-transform/SlowCheetah-transform-preview.JPG
+  [9]: /get/blogpictures/config-transform/SlowCheetah-Add-Transform-Menu.JPG
+  [10]: /get/blogpictures/config-transform/SlowCheetah-transform-files-added.JPG
+  [11]: /get/blogpictures/config-transform/SlowCheetah-transform-result.JPG
+  [12]: /get/blogpictures/config-transform/SlowCheetah-transform-preview-menu.JPG
+  [13]: /get/blogpictures/config-transform/SlowCheetah-transform-preview.JPG
   [14]: /get/Downloads/ConfigTransform.zip

@@ -212,7 +212,7 @@ Hope it helps.
 
 
   [1]: http://dddbrisbane.com/
-  [2]: http://mehdi-khalili.com/advanced-web-debugging-with-fiddler
+  [2]: /advanced-web-debugging-with-fiddler
   [3]: /fiddler-in-action/part-2
   [4]: http://www.fiddler2.com/fiddler2/
   [5]: http://www.fiddler2.com

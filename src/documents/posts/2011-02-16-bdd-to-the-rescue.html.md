@@ -61,5 +61,5 @@ In some cases you do not need to write a new test to assert a different form of 
   [3]: /executable-requirements
   [4]: /presentations/automated-ui-testing-done-right-at-dddsydney
   [5]: /presentations/auit-qmsdnug
-  [6]: http://mehdi-khalili.com/executable-requirements
+  [6]: /executable-requirements
   [7]: http://c2.com/xp/YouArentGonnaNeedIt.html

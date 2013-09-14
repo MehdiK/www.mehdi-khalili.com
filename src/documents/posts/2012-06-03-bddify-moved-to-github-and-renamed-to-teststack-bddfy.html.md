@@ -121,7 +121,7 @@ This was the second time and hopefully the last time <strike>bddify</strike> BDD
 
 
   [1]: /bddify-in-action/introduction
-  [2]: http://mehdi-khalili.com/migrating-from-mercurial-to-git
+  [2]: /migrating-from-mercurial-to-git
   [3]: http://teststack.github.com/TestStack.BDDfy/
   [4]: https://github.com/TestStack/TestStack.BDDfy
   [5]: https://github.com/TestStack/

@@ -30,7 +30,7 @@ You may see more photos from the conference and other sessions [here][7]. Thanks
 Happy fiddling.
 
 
-  [1]: http://mehdi-khalili.com/advanced-web-debugging-with-fiddler
+  [1]: /advanced-web-debugging-with-fiddler
   [2]: http://www.dddbrisbane.com/agenda#WEB201
   [3]: http://www.dddbrisbane.com
   [4]: /get/Downloads/Fiddler%20Web%20Debugger.pptx

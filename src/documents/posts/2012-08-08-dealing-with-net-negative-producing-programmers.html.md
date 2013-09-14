@@ -80,7 +80,7 @@ Now that we know who NNPPs are how do we deal with them?!
 ####Do not hire them!
 **Do not hire them**! Seriously, the best way to deal with NNPPs is to not deal with them at all. 
 
-A while back I wrote that in my opinion [writing bad code](http://www.mehdi-khalili.com/bad-code) might be ok under some critical circumstances. That is, there are scenarios and situations that warrant you to (knowingly) write bad code. But **hiring a bad employee is never ok**. An NNPP does not help you ship product. They instead slows you down. So you are shipping two features a week and you think you have little budget and want to hire a new dev so you can ship more features. Wrong! Hiring a below average programmer is going to slow you down and hiring an NNPP will bring your productivity and your product down to its knees. Improve your hiring process and save yourself and your team from all this trouble and pain. 
+A while back I wrote that in my opinion [writing bad code](/bad-code) might be ok under some critical circumstances. That is, there are scenarios and situations that warrant you to (knowingly) write bad code. But **hiring a bad employee is never ok**. An NNPP does not help you ship product. They instead slows you down. So you are shipping two features a week and you think you have little budget and want to hire a new dev so you can ship more features. Wrong! Hiring a below average programmer is going to slow you down and hiring an NNPP will bring your productivity and your product down to its knees. Improve your hiring process and save yourself and your team from all this trouble and pain. 
 
 All the successful companies I have seen and have worked for/with have had very rigorous hiring process. As the result the company is a more pleasant place to work and the staff become more productive and also stay around for a long time because they do not have any reason to leave. 
 
@@ -89,7 +89,7 @@ Jeff Atwood has a good post about [how to hire a good programmer](http://www.cod
 ####Fire them!
 So you have hired yourself an NNPP: congratulations. You just lost a lot of productivity in your team plus perhaps 40% of total salary you pay to the entire team (on a small team) for the time they spend maintaining and cleaning up after your new hire. Do yourself, your team and the entire organization a favor and **fire them before s/he takes you all down**. 
 
-In some organizations firing is not quite acceptable and could cost you the morale and sense of security of the team. So you need to be careful with this. That said, I believe a bad employee is like a [broken window](http://www.mehdi-khalili.com/zero-tolerance-on-broken-windows) and unless you show zero tolerance you will end up with lots of them. A sad side-effect I have observed is that some good programmers or programmers with great potentials lose their motive very quickly and may even become NNPP (mostly temporarily) when working for a long time with NNPPs. 
+In some organizations firing is not quite acceptable and could cost you the morale and sense of security of the team. So you need to be careful with this. That said, I believe a bad employee is like a [broken window](/zero-tolerance-on-broken-windows) and unless you show zero tolerance you will end up with lots of them. A sad side-effect I have observed is that some good programmers or programmers with great potentials lose their motive very quickly and may even become NNPP (mostly temporarily) when working for a long time with NNPPs. 
 
 If you think your team is not productive, do not hire a new programmer, fire the NNPP. As Gordon says:
 
@@ -128,4 +128,4 @@ I would love to hear your thoughts and experience on this topic too. So please l
 
 
   [1]: http://en.wikipedia.org/wiki/Theory_of_constraints
-  [2]: http://www.mehdi-khalili.com/inattentional-blindness
+  [2]: /inattentional-blindness

@@ -59,7 +59,7 @@ In some cases you do not need to write a new test to assert a different form of 
   [1]: http://secretgeek.net/program_communicate_4reasons.asp
   [2]: http://dannorth.net/introducing-bdd/
   [3]: /executable-requirements
-  [4]: http://www.mehdi-khalili.com/presentations/automated-ui-testing-done-right-at-dddsydney
-  [5]: http://www.mehdi-khalili.com/presentations/auit-qmsdnug
+  [4]: /presentations/automated-ui-testing-done-right-at-dddsydney
+  [5]: /presentations/auit-qmsdnug
   [6]: http://mehdi-khalili.com/executable-requirements
   [7]: http://c2.com/xp/YouArentGonnaNeedIt.html

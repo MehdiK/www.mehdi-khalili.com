@@ -210,11 +210,11 @@ The code used in this article is available for download from [here][8].
 Hope this helps.
 
 
-  [1]: http://www.mehdi-khalili.com/bddify-in-action/introduction
-  [2]: http://www.mehdi-khalili.com/get/sourcecode/bddify-in-action/Bddify.FluentApi.zip
-  [3]: http://www.mehdi-khalili.com/bddify-in-action/method-name-conventions
-  [4]: http://www.mehdi-khalili.com/bddify-in-action/executable-attributes
+  [1]: /bddify-in-action/introduction
+  [2]: /get/Downloads/bddify-in-action/Bddify.FluentApi.zip
+  [3]: /bddify-in-action/method-name-conventions
+  [4]: /bddify-in-action/executable-attributes
   [5]: http://www.codeproject.com/KB/library/Introducing_bddify.aspx
-  [6]: http://www.mehdi-khalili.com/get/blogpictures/bddify-in-action/fluent-api/console-report-without-story.JPG
-  [7]: http://www.mehdi-khalili.com/bddify-in-action/story
-  [8]: http://www.mehdi-khalili.com/get/sourcecode/bddify-in-action/Bddify.FluentApi.zip
+  [6]: /get/blogpictures/bddify-in-action/fluent-api/console-report-without-story.JPG
+  [7]: /bddify-in-action/story
+  [8]: /get/Downloads/bddify-in-action/Bddify.FluentApi.zip

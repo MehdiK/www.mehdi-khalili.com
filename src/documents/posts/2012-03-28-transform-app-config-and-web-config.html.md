@@ -186,4 +186,4 @@ The code for this post is available for download from [here][14].
   [11]: http://mehdi-khalili.com/get/blogpictures/config-transform/SlowCheetah-transform-result.JPG
   [12]: http://mehdi-khalili.com/get/blogpictures/config-transform/SlowCheetah-transform-preview-menu.JPG
   [13]: http://mehdi-khalili.com/get/blogpictures/config-transform/SlowCheetah-transform-preview.JPG
-  [14]: http://www.mehdi-khalili.com/get/sourcecode/ConfigTransform.zip
+  [14]: /get/Downloads/ConfigTransform.zip

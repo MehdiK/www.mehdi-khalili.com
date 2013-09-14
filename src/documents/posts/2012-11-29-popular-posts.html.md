@@ -29,16 +29,16 @@ If you have read these posts before thanks for following and if you haven't I ho
 Thanks for reading.
 
 
-  [1]: http://www.mehdi-khalili.com/transform-app-config-and-web-config
-  [2]: http://www.mehdi-khalili.com/fiddler-in-action/part-1
-  [3]: http://www.mehdi-khalili.com/fiddler-in-action/part-2
-  [4]: http://www.mehdi-khalili.com/developer-productivity-tools-and-visual-studio-extensions
-  [5]: http://www.mehdi-khalili.com/bddify-in-action/introduction
-  [6]: http://www.mehdi-khalili.com/presentations/automated-ui-testing-done-right-at-dddsydney
-  [7]: http://www.mehdi-khalili.com/orm-anti-patterns-series
-  [8]: http://www.mehdi-khalili.com/orm-anti-patterns-part-4-persistence-domain-model
-  [9]: http://www.mehdi-khalili.com/orm-anti-patterns-part-3-lazy-loading
-  [10]: http://www.mehdi-khalili.com/why-i-do-not-mind-visual-studio-all-caps-menus
-  [11]: http://www.mehdi-khalili.com/introducing-humanizer
-  [12]: http://www.mehdi-khalili.com/definition-of-done-in-an-mvc-project
-  [13]: http://www.mehdi-khalili.com/dealing-with-net-negative-producing-programmers
+  [1]: /transform-app-config-and-web-config
+  [2]: /fiddler-in-action/part-1
+  [3]: /fiddler-in-action/part-2
+  [4]: /developer-productivity-tools-and-visual-studio-extensions
+  [5]: /bddify-in-action/introduction
+  [6]: /presentations/automated-ui-testing-done-right-at-dddsydney
+  [7]: /orm-anti-patterns-series
+  [8]: /orm-anti-patterns-part-4-persistence-domain-model
+  [9]: /orm-anti-patterns-part-3-lazy-loading
+  [10]: /why-i-do-not-mind-visual-studio-all-caps-menus
+  [11]: /introducing-humanizer
+  [12]: /definition-of-done-in-an-mvc-project
+  [13]: /dealing-with-net-negative-producing-programmers

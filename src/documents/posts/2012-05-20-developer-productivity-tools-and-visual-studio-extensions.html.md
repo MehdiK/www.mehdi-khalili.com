@@ -96,7 +96,7 @@ I am interested to hear what productivity tools and extensions you use. So leave
   [11]: http://visualstudiogallery.msdn.microsoft.com/e5f41ad9-4edc-4912-bca3-91147db95b99
   [12]: http://visualstudiogallery.msdn.microsoft.com/69023d00-a4f9-4a34-a6cd-7e854ba318b5
   [13]: https://nuget.org/packages/CodeAssassin.ConfigTransform
-  [14]: http://www.mehdi-khalili.com/transform-app-config-and-web-config
+  [14]: /transform-app-config-and-web-config
   [15]: http://visualhg.codeplex.com/
   [16]: http://vscoloroutput.codeplex.com/
   [17]: http://testdriven.net/
@@ -111,7 +111,7 @@ I am interested to hear what productivity tools and extensions you use. So leave
   [26]: http://www.microsoft.com/en-us/download/details.aspx?id=26798
   [27]: http://eqatec.com/Profiler/
   [28]: http://www.fiddler2.com/fiddler2/
-  [29]: http://www.mehdi-khalili.com/advanced-web-debugging-with-fiddler
+  [29]: /advanced-web-debugging-with-fiddler
   [30]: http://www.microsoft.com/en-us/download/details.aspx?id=4865
   [31]: http://www.wireshark.org/
   [32]: http://getglimpse.com/

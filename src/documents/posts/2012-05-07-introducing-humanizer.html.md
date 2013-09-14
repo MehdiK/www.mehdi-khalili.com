@@ -155,7 +155,7 @@ Hope it helps.
 
   [1]: https://github.com/MehdiK/Humanizer
   [2]: https://nuget.org/packages/Humanizer
-  [3]: http://www.mehdi-khalili.com/bddify-in-action/introduction
+  [3]: /bddify-in-action/introduction
   [4]: http://stackoverflow.com/a/12/141101
   [5]: https://github.com/MehdiK/Humanizer
   [6]: https://github.com/MehdiK/Humanizer/blob/master/src/Humanizer.MvcSample/HumanizerMetadataProvider.cs

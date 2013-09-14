@@ -8,7 +8,7 @@ tags: ["bddfy"]
 migrated: "true"
 resource: "/bddify-in-action/story"
 summary: """
-We wrote a simple scenario in the <a href=\"http://www.mehdi-khalili.com/bddify-in-action/method-name-conventions\">previous post</a>; but how can we write a user story using BDDfy?
+We wrote a simple scenario in the <a href=\"/bddify-in-action/method-name-conventions\">previous post</a>; but how can we write a user story using BDDfy?
 """
 ---
 **[Update - 2013-08-10] BDDfy is now part of [TestStack](http://teststack.net) organization. So this article has been ported to and is superseded by [this post](http://docs.teststack.net/BDDfy/Usage/Story.html) on the [documentation website](http://docs.teststack.net/).**
@@ -192,10 +192,10 @@ You can download the code used in this article from [here][7].
 Hope this helps.
 
 
-  [1]: http://www.mehdi-khalili.com/bddify-in-action/introduction
-  [2]: http://www.mehdi-khalili.com/get/sourcecode/bddify-in-action/Bddify.Story.zip
-  [3]: http://www.mehdi-khalili.com/bddify-in-action/method-name-conventions
-  [4]: http://www.mehdi-khalili.com/get/blogpictures/bddify-in-action/story/let-bddify-find-the-story.JPG
-  [5]: http://www.mehdi-khalili.com/get/blogpictures/bddify-in-action/story/separate-story-html-report.JPG
-  [6]: http://www.mehdi-khalili.com/that-tricky-stacktrace
-  [7]: http://www.mehdi-khalili.com/get/sourcecode/bddify-in-action/Bddify.Story.zip
+  [1]: /bddify-in-action/introduction
+  [2]: /get/Downloads/bddify-in-action/Bddify.Story.zip
+  [3]: /bddify-in-action/method-name-conventions
+  [4]: /get/blogpictures/bddify-in-action/story/let-bddify-find-the-story.JPG
+  [5]: /get/blogpictures/bddify-in-action/story/separate-story-html-report.JPG
+  [6]: /that-tricky-stacktrace
+  [7]: /get/Downloads/bddify-in-action/Bddify.Story.zip

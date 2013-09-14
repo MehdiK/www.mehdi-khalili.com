@@ -120,15 +120,15 @@ This is just the very first cut of this feature and we are interested to hear yo
 This was the second time and hopefully the last time <strike>bddify</strike> BDDfy moved home. I hope the users of this framework appreciate why we had to make this move and enjoy what BDDfy and TestStack will bring. That has been a big change but hopefully for the best.
 
 
-  [1]: http://www.mehdi-khalili.com/bddify-in-action/introduction
+  [1]: /bddify-in-action/introduction
   [2]: http://mehdi-khalili.com/migrating-from-mercurial-to-git
   [3]: http://teststack.github.com/TestStack.BDDfy/
   [4]: https://github.com/TestStack/TestStack.BDDfy
   [5]: https://github.com/TestStack/
   [6]: http://nuget.org/packages/TestStack.BDDfy
-  [7]: http://www.mehdi-khalili.com/get/blogpictures/bddify-to-bddfy/api-rename.JPG
-  [8]: http://www.mehdi-khalili.com/get/blogpictures/bddify-to-bddfy/namespace-fix.JPG
-  [9]: http://www.mehdi-khalili.com/get/blogpictures/bddify-to-bddfy/html-report-filtering.JPG
-  [10]: http://www.mehdi-khalili.com/get/blogpictures/bddify-to-bddfy/console-tabular-report.JPG
-  [11]: http://www.mehdi-khalili.com/get/blogpictures/bddify-to-bddfy/html-tabular-report.JPG
+  [7]: /get/blogpictures/bddify-to-bddfy/api-rename.JPG
+  [8]: /get/blogpictures/bddify-to-bddfy/namespace-fix.JPG
+  [9]: /get/blogpictures/bddify-to-bddfy/html-report-filtering.JPG
+  [10]: /get/blogpictures/bddify-to-bddfy/console-tabular-report.JPG
+  [11]: /get/blogpictures/bddify-to-bddfy/html-tabular-report.JPG
   [12]: http://nuget.org/packages/TestStack.BDDfy.Samples

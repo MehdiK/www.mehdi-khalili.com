@@ -223,7 +223,7 @@ bddify is still very young and has a long way to go: there are still quite a few
 I am interested in your feedback. Let me know what you think about the framework, where it is lagging and what it would take for you to use it in your project. If you find a bug or if you have a suggestion or issue with the project please raise it in [the project home at Google Code][13].
 
 
-  [1]: http://www.mehdi-khalili.com/bddify-in-action/introduction
+  [1]: /bddify-in-action/introduction
   [2]: http://nuget.codeplex.com/wikipage?title=Using%20the%20Extension%20Manager%20to%20Install%20the%20Library%20Package%20Manager%20%28NuGet%29
   [3]: /get/BlogPictures/introducing-bddify-framework/runme-resharper-scenario-with-args-result.JPG
   [4]: /get/BlogPictures/introducing-bddify-framework/runme-resharper-when-two-numbers-are-added-result.JPG

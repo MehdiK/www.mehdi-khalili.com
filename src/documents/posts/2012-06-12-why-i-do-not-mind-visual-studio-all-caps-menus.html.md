@@ -62,14 +62,14 @@ See? No menus and I do not need one thanks to 'Quick Launch' which means that I 
 
   [1]: http://blogs.msdn.com/b/visualstudio/archive/2012/06/05/a-design-with-all-caps.aspx
   [2]: http://www.richard-banks.org/2012/06/how-to-prevent-visual-studio-2012-all.html
-  [3]: http://www.mehdi-khalili.com/get/blogpictures/vs2012-all-caps/VS2012-quick-launch.png
+  [3]: /get/blogpictures/vs2012-all-caps/VS2012-quick-launch.png
   [4]: http://msdn.microsoft.com/en-us/library/hh417697(v=vs.110).aspx
-  [5]: http://www.mehdi-khalili.com/get/blogpictures/vs2012-all-caps/navigating-using-menus.png
-  [6]: http://www.mehdi-khalili.com/get/blogpictures/vs2012-all-caps/using-quick-launch.png
-  [7]: http://www.mehdi-khalili.com/get/blogpictures/vs2012-all-caps/fonts-and-colors.png
-  [8]: http://www.mehdi-khalili.com/get/blogpictures/vs2012-all-caps/big-result-set.png
+  [5]: /get/blogpictures/vs2012-all-caps/navigating-using-menus.png
+  [6]: /get/blogpictures/vs2012-all-caps/using-quick-launch.png
+  [7]: /get/blogpictures/vs2012-all-caps/fonts-and-colors.png
+  [8]: /get/blogpictures/vs2012-all-caps/big-result-set.png
   [9]: http://msdn.microsoft.com/en-us/library/hh417697(v=vs.110).aspx
   [10]: http://blogs.msdn.com/b/visualstudio/archive/2011/09/27/visual-studio-11-developer-preview-quick-launch.aspx
-  [11]: http://www.mehdi-khalili.com/developer-productivity-tools-and-visual-studio-extensions
+  [11]: /developer-productivity-tools-and-visual-studio-extensions
   [12]: http://visualstudiogallery.msdn.microsoft.com/bdbcffca-32a6-4034-8e89-c31b86ad4813
-  [13]: http://www.mehdi-khalili.com/get/blogpictures/vs2012-all-caps/no-menus.png
+  [13]: /get/blogpictures/vs2012-all-caps/no-menus.png

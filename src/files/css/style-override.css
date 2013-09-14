@@ -28,12 +28,9 @@ h1 {
     line-height: 0.8;
 }
 
-h2 {
-    margin-bottom: 0;
-}
-
 h2,h3,h4,h5,h6 {
     text-transform: inherit;
+    margin-bottom: 0;
 }
 
 p, ul, ol, dl, table, blockquote {

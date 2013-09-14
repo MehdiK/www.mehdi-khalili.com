@@ -8,10 +8,10 @@ tags: ["ruby"]
 migrated: "true"
 resource: "/a-quick-tour-around-ruby"
 summary: """
-This is the second post in my ['Ruby for C# developer' series](http://www.mehdi-khalili.com/ruby-for-csharp-developers). In this post I will give you a very quick tour around Ruby
+This is the second post in my ['Ruby for C# developer' series](/ruby-for-csharp-developers). In this post I will give you a very quick tour around Ruby
 """
 ---
-Now that we have our [environment setup](http://www.mehdi-khalili.com/ruby-for-csharp-developers), let's take a very quick tour around Ruby language. Just before we get into coding, I want to quickly highlight a few somewhat interesting facts about Ruby. Quoting the [wikipedia article](http://en.wikipedia.org/wiki/Ruby_(programming_language) here:
+Now that we have our [environment setup](/ruby-for-csharp-developers), let's take a very quick tour around Ruby language. Just before we get into coding, I want to quickly highlight a few somewhat interesting facts about Ruby. Quoting the [wikipedia article](http://en.wikipedia.org/wiki/Ruby_(programming_language) here:
 
 <blockquote>
 Ruby was conceived on February 24, 1993 by Yukihiro Matsumoto who wished to create a new language that balanced functional programming with imperative programming. Matsumoto has said, "I wanted a scripting language that was more powerful than Perl, and more object-oriented than Python. That's why I decided to design my own language.". Matsumoto has also said that Ruby is designed for programmer productivity and fun, following the principles of good user interface design. He stresses that systems design needs to emphasize human, rather than computer, needs.
@@ -114,16 +114,16 @@ I hope you find this useful.
 Please let me know what you think. Do you like this format? Do you want me to put more focus on similarities and differences? Anything you can think of that could improve this series? 
 
 
-  [1]: http://www.mehdi-khalili.com/get/blogpictures/a-tour-around-ruby/simple-math.jpg
-  [2]: http://www.mehdi-khalili.com/get/blogpictures/a-tour-around-ruby/variable-assignment.jpg
-  [3]: http://www.mehdi-khalili.com/get/blogpictures/a-tour-around-ruby/variable.jpg
-  [4]: http://www.mehdi-khalili.com/get/blogpictures/a-tour-around-ruby/using-variables.jpg
-  [5]: http://www.mehdi-khalili.com/get/blogpictures/a-tour-around-ruby/changing-var-to-string.jpg
-  [6]: http://www.mehdi-khalili.com/get/blogpictures/a-tour-around-ruby/class-method.jpg
-  [7]: http://www.mehdi-khalili.com/get/blogpictures/a-tour-around-ruby/methods-method.jpg
-  [8]: http://www.mehdi-khalili.com/get/blogpictures/a-tour-around-ruby/instance_methods.jpg
-  [9]: http://www.mehdi-khalili.com/get/blogpictures/a-tour-around-ruby/class-vs-instance-methods.jpg
-  [10]: http://www.mehdi-khalili.com/get/blogpictures/a-tour-around-ruby/methods-on-instance.jpg
-  [11]: http://www.mehdi-khalili.com/get/blogpictures/a-tour-around-ruby/no-instance_methods-on-instances.jpg
-  [12]: http://www.mehdi-khalili.com/get/blogpictures/a-tour-around-ruby/question-mark-in-methods.jpg
-  [13]: http://www.mehdi-khalili.com/get/blogpictures/a-tour-around-ruby/respond_to.jpg
+  [1]: /get/blogpictures/a-tour-around-ruby/simple-math.jpg
+  [2]: /get/blogpictures/a-tour-around-ruby/variable-assignment.jpg
+  [3]: /get/blogpictures/a-tour-around-ruby/variable.jpg
+  [4]: /get/blogpictures/a-tour-around-ruby/using-variables.jpg
+  [5]: /get/blogpictures/a-tour-around-ruby/changing-var-to-string.jpg
+  [6]: /get/blogpictures/a-tour-around-ruby/class-method.jpg
+  [7]: /get/blogpictures/a-tour-around-ruby/methods-method.jpg
+  [8]: /get/blogpictures/a-tour-around-ruby/instance_methods.jpg
+  [9]: /get/blogpictures/a-tour-around-ruby/class-vs-instance-methods.jpg
+  [10]: /get/blogpictures/a-tour-around-ruby/methods-on-instance.jpg
+  [11]: /get/blogpictures/a-tour-around-ruby/no-instance_methods-on-instances.jpg
+  [12]: /get/blogpictures/a-tour-around-ruby/question-mark-in-methods.jpg
+  [13]: /get/blogpictures/a-tour-around-ruby/respond_to.jpg

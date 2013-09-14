@@ -29,9 +29,9 @@ Hope you enjoy it.
 
 
   [1]: http://www.qmsdnug.org/
-  [2]: http://www.mehdi-khalili.com/presentations/automated-ui-testing-done-right-at-dddsydney
+  [2]: /presentations/automated-ui-testing-done-right-at-dddsydney
   [3]: http://seleniumhq.org/projects/webdriver/
   [4]: http://www.w3.org/TR/2012/WD-webdriver-20120710/
   [5]: http://teststack.github.com/TestStack.BDDfy/
   [6]: http://teststack.github.com/TestStack.Seleno/
-  [7]: http://www.mehdi-khalili.com/bdd-to-the-rescue
+  [7]: /bdd-to-the-rescue

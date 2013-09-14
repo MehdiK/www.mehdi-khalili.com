@@ -8,7 +8,7 @@ tags: ["orm","anti-patterns"]
 migrated: "true"
 resource: "/orm-anti-patterns-part-4-persistence-domain-model"
 summary: """
-This is the forth article in my <a href=\"http://www.mehdi-khalili.com/orm-anti-patterns-series\">ORM anti-pattern series</a>.
+This is the forth article in my <a href=\"/orm-anti-patterns-series\">ORM anti-pattern series</a>.
 
 Confusing persistence model with domain model has to be one of the most common mistakes in ORM usage.
 """

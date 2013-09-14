@@ -226,14 +226,14 @@ The code used in this article is available for download from [here][11].
 Hope this helps.
 
 
-  [1]: http://www.mehdi-khalili.com/bddify-in-action/introduction
-  [2]: http://www.mehdi-khalili.com/bddify-in-action/introduction
-  [3]: http://www.mehdi-khalili.com/get/blogpictures/bddify-in-action/method-name-conventions/Resharper-result.JPG
-  [4]: http://www.mehdi-khalili.com/get/blogpictures/bddify-in-action/method-name-conventions/html-report.JPG
+  [1]: /bddify-in-action/introduction
+  [2]: /bddify-in-action/introduction
+  [3]: /get/blogpictures/bddify-in-action/method-name-conventions/Resharper-result.JPG
+  [4]: /get/blogpictures/bddify-in-action/method-name-conventions/html-report.JPG
   [5]: http://www.testdriven.net/
-  [6]: http://www.mehdi-khalili.com/get/blogpictures/bddify-in-action/method-name-conventions/TDNet-expanded-test-result.JPG
+  [6]: /get/blogpictures/bddify-in-action/method-name-conventions/TDNet-expanded-test-result.JPG
   [7]: http://nuget.org/packages/Bddify.Samples.TicTacToe
   [8]: http://code.google.com/p/bddify/source/browse/Bddify.Samples/TicTacToe/WinnerGame.cs
   [9]: http://code.google.com/p/bddify/source/browse/Bddify.Samples/TicTacToe/TicTacToe.cs#126
-  [10]: http://www.mehdi-khalili.com/get/blogpictures/bddify-in-action/method-name-conventions/tictactoe-html-result.JPG
-  [11]: http://www.mehdi-khalili.com/get/sourcecode/bddify-in-action/Bddify.MethodNameConventions.zip
+  [10]: /get/blogpictures/bddify-in-action/method-name-conventions/tictactoe-html-result.JPG
+  [11]: /get/Downloads/bddify-in-action/Bddify.MethodNameConventions.zip

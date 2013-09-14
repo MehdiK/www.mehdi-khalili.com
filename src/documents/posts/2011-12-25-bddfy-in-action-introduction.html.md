@@ -146,29 +146,29 @@ That is all for now.
 
 
   [1]: http://teststack.github.com/TestStack.BDDfy/
-  [2]: http://www.mehdi-khalili.com/bddify-moved-to-github-and-renamed-to-teststack-bddfy
-  [3]: http://www.mehdi-khalili.com/bdd-to-the-rescue
-  [4]: http://www.mehdi-khalili.com/bddify-in-action/introduction
-  [5]: http://www.mehdi-khalili.com/bddify-in-action/method-name-conventions
-  [6]: http://www.mehdi-khalili.com/bddify-in-action/story
-  [7]: http://www.mehdi-khalili.com/bddify-in-action/executable-attributes
-  [8]: http://www.mehdi-khalili.com/bddify-in-action/fluent-api
-  [9]: http://www.mehdi-khalili.com/bddify-in-action/fluent-api-input-parameters
+  [2]: /bddify-moved-to-github-and-renamed-to-teststack-bddfy
+  [3]: /bdd-to-the-rescue
+  [4]: /bddify-in-action/introduction
+  [5]: /bddify-in-action/method-name-conventions
+  [6]: /bddify-in-action/story
+  [7]: /bddify-in-action/executable-attributes
+  [8]: /bddify-in-action/fluent-api
+  [9]: /bddify-in-action/fluent-api-input-parameters
   [10]: http://michael-whelan.net/bddfy-in-action/bddfy-reports
   [11]: http://michael-whelan.net/bddfy-in-action/bddfy-architecture-overview
   [12]: http://michael-whelan.net/bddfy-in-action/custom-reports
   [13]: http://michael-whelan.net/bddfy-in-action/roll-your-own-testing-framework
   [14]: http://michael-whelan.net/bddfy-in-action/roll-your-own-testing-framework-2
   [15]: http://michael-whelan.net/bddfy-in-action/using-bddfy-for-unit-tests
-  [16]: http://www.mehdi-khalili.com/bdd-simply-with-bddify
+  [16]: /bdd-simply-with-bddify
   [17]: https://github.com/TestStack/TestStack.BDDfy
-  [18]: http://www.mehdi-khalili.com/get/blogpictures/bddify-in-action/intro/mstest-with-resharper.JPG
+  [18]: /get/blogpictures/bddify-in-action/intro/mstest-with-resharper.JPG
   [19]: http://dannorth.net/introducing-bdd/
-  [20]: http://www.mehdi-khalili.com/get/blogpictures/bddify-in-action/intro/mstest-with-mstest-runner.JPG
-  [21]: http://www.mehdi-khalili.com/get/blogpictures/bddify-in-action/intro/mstest-with-tdnet.JPG
-  [22]: http://www.mehdi-khalili.com/get/blogpictures/bddify-in-action/intro/mstest-html-report.jpg
+  [20]: /get/blogpictures/bddify-in-action/intro/mstest-with-mstest-runner.JPG
+  [21]: /get/blogpictures/bddify-in-action/intro/mstest-with-tdnet.JPG
+  [22]: /get/blogpictures/bddify-in-action/intro/mstest-html-report.jpg
   [23]: http://nuget.org/packages/TestStack.BDDfy.samples
   [24]: http://dannorth.net/introducing-bdd/
   [25]: https://twitter.com/BDDfy
   [26]: http://teststack.github.com/TestStack.BDDfy/
-  [27]: http://www.mehdi-khalili.com/bddify-moved-to-github-and-renamed-to-teststack-bddfy
+  [27]: /bddify-moved-to-github-and-renamed-to-teststack-bddfy

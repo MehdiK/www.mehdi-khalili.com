@@ -99,12 +99,12 @@ I may try to improve the vim-git-ps experience and if I can I will post it here;
 I certainly enjoyed the experiment and learnt a few thing. So I hope you found this useful or at least entertaining too!!
 
 
-  [1]: http://www.mehdi-khalili.com/get/blogpictures/git-vim-poshgit/getting-rid-of-mouse.jpg
-  [2]: http://www.mehdi-khalili.com/get/blogpictures/git-vim-poshgit/git-in-cmd.png
+  [1]: /get/blogpictures/git-vim-poshgit/getting-rid-of-mouse.jpg
+  [2]: /get/blogpictures/git-vim-poshgit/git-in-cmd.png
   [3]: http://code.google.com/p/conque/
-  [4]: http://www.mehdi-khalili.com/migrating-from-mercurial-to-git
-  [5]: http://www.mehdi-khalili.com/get/blogpictures/git-vim-poshgit/git-in-vim-solarized.JPG
+  [4]: /migrating-from-mercurial-to-git
+  [5]: /get/blogpictures/git-vim-poshgit/git-in-vim-solarized.JPG
   [6]: http://ethanschoonover.com/solarized
   [7]: https://github.com/altercation/vim-colors-solarized
-  [8]: http://www.mehdi-khalili.com/get/blogpictures/git-vim-poshgit/split-screen.JPG
-  [9]: http://www.mehdi-khalili.com/get/blogpictures/git-vim-poshgit/losing-to-the-mouse.png
+  [8]: /get/blogpictures/git-vim-poshgit/split-screen.JPG
+  [9]: /get/blogpictures/git-vim-poshgit/losing-to-the-mouse.png

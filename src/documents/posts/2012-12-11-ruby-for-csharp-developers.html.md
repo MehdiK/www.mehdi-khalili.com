@@ -32,8 +32,8 @@ This is basically what we are going to use as our working environment. Just a qu
 `.dump /indexbrainstorming /ruby-for-csharp-developers-index`
 
  - Ruby for C# Developers (this post)
- - [A quick tour around Ruby](http://www.mehdi-khalili.com/a-quick-tour-around-ruby)
- - [Strings in Ruby](http://www.mehdi-khalili.com/string-in-ruby)
+ - [A quick tour around Ruby](/a-quick-tour-around-ruby)
+ - [Strings in Ruby](/string-in-ruby)
  - [Maybe Arrays and Hashes - ToDo]
  - [Maybe Enumerable - ToDo]
  - [Maybe methods - ToDo]
@@ -54,5 +54,5 @@ Please leave me a comment and let me know what you think. Do you find this inter
 Hope you enjoy it. 
 
 
-  [1]: http://www.mehdi-khalili.com/get/blogpictures/ruby-for-csharp-devs/ruby-version.jpg
-  [2]: http://www.mehdi-khalili.com/get/blogpictures/ruby-for-csharp-devs/irb.jpg
+  [1]: /get/blogpictures/ruby-for-csharp-devs/ruby-version.jpg
+  [2]: /get/blogpictures/ruby-for-csharp-devs/irb.jpg

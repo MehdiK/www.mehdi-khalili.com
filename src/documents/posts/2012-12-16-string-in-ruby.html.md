@@ -8,7 +8,7 @@ tags: ["ruby"]
 migrated: "true"
 resource: "/string-in-ruby"
 summary: """
-This is the third post in my '[Ruby for C# developer](http://www.mehdi-khalili.com/ruby-for-csharp-developers)' series. In this post we will take a look at String class
+This is the third post in my '[Ruby for C# developer](/ruby-for-csharp-developers)' series. In this post we will take a look at String class
 """
 ---
 Strings in Ruby have a lot of similarities to C#: even many methods have the same (or similar) names. 
@@ -143,24 +143,24 @@ Just a few exercises before we wrap up. Try the following:
  - `('a'..'z').to_a.join.reverse`  
 
 
-  [1]: http://www.mehdi-khalili.com/get/blogpictures/strings-in-ruby/initializing-string.png
-  [2]: http://www.mehdi-khalili.com/get/blogpictures/strings-in-ruby/string-default-ctor.png
-  [3]: http://www.mehdi-khalili.com/get/blogpictures/strings-in-ruby/escape-with-backslash.png
-  [4]: http://www.mehdi-khalili.com/get/blogpictures/strings-in-ruby/custom-string-delimiter.png
-  [5]: http://www.mehdi-khalili.com/get/blogpictures/strings-in-ruby/wrap-with-quote.png
-  [6]: http://www.mehdi-khalili.com/get/blogpictures/strings-in-ruby/heredoc.png
-  [7]: http://www.mehdi-khalili.com/get/blogpictures/strings-in-ruby/multi-line-string.png
-  [8]: http://www.mehdi-khalili.com/get/blogpictures/strings-in-ruby/heredoc-delimiter.png
-  [9]: http://www.mehdi-khalili.com/get/blogpictures/strings-in-ruby/variable-interpolation.png
-  [10]: http://www.mehdi-khalili.com/get/blogpictures/strings-in-ruby/interpolation-expression.png
-  [11]: http://www.mehdi-khalili.com/get/blogpictures/strings-in-ruby/interpolation-math-expression.png
+  [1]: /get/blogpictures/strings-in-ruby/initializing-string.png
+  [2]: /get/blogpictures/strings-in-ruby/string-default-ctor.png
+  [3]: /get/blogpictures/strings-in-ruby/escape-with-backslash.png
+  [4]: /get/blogpictures/strings-in-ruby/custom-string-delimiter.png
+  [5]: /get/blogpictures/strings-in-ruby/wrap-with-quote.png
+  [6]: /get/blogpictures/strings-in-ruby/heredoc.png
+  [7]: /get/blogpictures/strings-in-ruby/multi-line-string.png
+  [8]: /get/blogpictures/strings-in-ruby/heredoc-delimiter.png
+  [9]: /get/blogpictures/strings-in-ruby/variable-interpolation.png
+  [10]: /get/blogpictures/strings-in-ruby/interpolation-expression.png
+  [11]: /get/blogpictures/strings-in-ruby/interpolation-math-expression.png
   [12]: http://msdn.microsoft.com/en-us/library/26etazsy.aspx
   [13]: http://msdn.microsoft.com/en-us/library/system.iformatprovider.aspx
-  [14]: http://www.mehdi-khalili.com/get/blogpictures/strings-in-ruby/no-interpolation-with-quote.png
-  [15]: http://www.mehdi-khalili.com/get/blogpictures/strings-in-ruby/interpolation-with-custom-delimiter.png
-  [16]: http://www.mehdi-khalili.com/get/blogpictures/strings-in-ruby/puts.png
-  [17]: http://www.mehdi-khalili.com/get/blogpictures/strings-in-ruby/char-indexer.png
-  [18]: http://www.mehdi-khalili.com/get/blogpictures/strings-in-ruby/substr-with-range.png
-  [19]: http://www.mehdi-khalili.com/get/blogpictures/strings-in-ruby/slice.png
-  [20]: http://www.mehdi-khalili.com/get/blogpictures/strings-in-ruby/methods-ending-w-exclamation.png
-  [21]: http://www.mehdi-khalili.com/get/blogpictures/strings-in-ruby/methods-ending-with-question.png
+  [14]: /get/blogpictures/strings-in-ruby/no-interpolation-with-quote.png
+  [15]: /get/blogpictures/strings-in-ruby/interpolation-with-custom-delimiter.png
+  [16]: /get/blogpictures/strings-in-ruby/puts.png
+  [17]: /get/blogpictures/strings-in-ruby/char-indexer.png
+  [18]: /get/blogpictures/strings-in-ruby/substr-with-range.png
+  [19]: /get/blogpictures/strings-in-ruby/slice.png
+  [20]: /get/blogpictures/strings-in-ruby/methods-ending-w-exclamation.png
+  [21]: /get/blogpictures/strings-in-ruby/methods-ending-with-question.png

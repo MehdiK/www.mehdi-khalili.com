@@ -108,12 +108,12 @@ Any ideas, comments, feedback and suggestions about the framework is welcome.
   [4]: http://lanyrd.com/2012/dddsydney/strqy/
   [5]: http://teststack.github.com/TestStack.BDDfy/
   [6]: http://www.seleniumconf.org/
-  [7]: http://www.mehdi-khalili.com/bddify-moved-to-github-and-renamed-to-teststack-bddfy
+  [7]: /bddify-moved-to-github-and-renamed-to-teststack-bddfy
   [8]: http://teststack.github.com/TestStack.Seleno/
   [9]: http://www.linkedin.com/in/russblake
   [10]: http://seleniumhq.org/
   [11]: http://teststack.github.com/TestStack.Seleno/
   [12]: https://github.com/TestStack/TestStack.Seleno
-  [13]: http://www.mehdi-khalili.com/get/presentations/dddsydney/Seleno.png
+  [13]: /get/presentations/dddsydney/Seleno.png
   [14]: https://github.com/TestStack/TestStack.Seleno/zipball/master
   [15]: https://github.com/TestStack/TestStack.Seleno

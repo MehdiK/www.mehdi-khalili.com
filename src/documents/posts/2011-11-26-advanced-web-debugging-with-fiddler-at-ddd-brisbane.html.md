@@ -33,7 +33,7 @@ Happy fiddling.
   [1]: http://mehdi-khalili.com/advanced-web-debugging-with-fiddler
   [2]: http://www.dddbrisbane.com/agenda#WEB201
   [3]: http://www.dddbrisbane.com
-  [4]: http://www.mehdi-khalili.com/get/presentations/Fiddler%20Web%20Debugger.pptx
-  [5]: http://www.mehdi-khalili.com/get/presentations/ddd-brisbane/Fiddler-1.jpg
-  [6]: http://www.mehdi-khalili.com/get/presentations/ddd-brisbane/Fiddler-2.jpg
+  [4]: /get/presentations/Fiddler%20Web%20Debugger.pptx
+  [5]: /get/presentations/ddd-brisbane/Fiddler-1.jpg
+  [6]: /get/presentations/ddd-brisbane/Fiddler-2.jpg
   [7]: http://bronwenz.smugmug.com/Events/DDD-Brisbane-2011/20281834_DXrjT4#1603448525_wFJppcJ

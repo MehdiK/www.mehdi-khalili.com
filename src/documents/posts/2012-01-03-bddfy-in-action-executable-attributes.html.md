@@ -337,16 +337,16 @@ The code used in this article is available for download from [here][13].
 Hope this helps.
 
 
-  [1]: http://www.mehdi-khalili.com/bddify-in-action/introduction
-  [2]: http://www.mehdi-khalili.com/get/sourcecode/bddify-in-action/Bddify.ExecutableAttributes.zip
-  [3]: http://www.mehdi-khalili.com/bddify-in-action/method-name-conventions
-  [4]: http://www.mehdi-khalili.com/bddify-in-action/method-name-conventions
-  [5]: http://www.mehdi-khalili.com/get/blogpictures/bddify-in-action/executable-attibutes/NonCompliantMethodNamesWithExecutableAttributes.JPG
+  [1]: /bddify-in-action/introduction
+  [2]: /get/Downloads/bddify-in-action/Bddify.ExecutableAttributes.zip
+  [3]: /bddify-in-action/method-name-conventions
+  [4]: /bddify-in-action/method-name-conventions
+  [5]: /get/blogpictures/bddify-in-action/executable-attibutes/NonCompliantMethodNamesWithExecutableAttributes.JPG
   [6]: http://en.wikipedia.org/wiki/Chain-of-responsibility_pattern
-  [7]: http://www.mehdi-khalili.com/get/blogpictures/bddify-in-action/executable-attibutes/ExecutableAttributesOverridingTheNamingConvention.JPG
-  [8]: http://www.mehdi-khalili.com/get/blogpictures/bddify-in-action/executable-attibutes/NonCompliantMethodNamesWithGwtAttributes.JPG
-  [9]: http://www.mehdi-khalili.com/get/blogpictures/bddify-in-action/executable-attibutes/IgnoreStepAttribute.JPG
+  [7]: /get/blogpictures/bddify-in-action/executable-attibutes/ExecutableAttributesOverridingTheNamingConvention.JPG
+  [8]: /get/blogpictures/bddify-in-action/executable-attibutes/NonCompliantMethodNamesWithGwtAttributes.JPG
+  [9]: /get/blogpictures/bddify-in-action/executable-attibutes/IgnoreStepAttribute.JPG
   [10]: http://hg.mehdi-khalili.com/bddify/src/83fd2f4566c4/Bddify/Scanners/StepScanners/ExecutableAttribute/GwtAttributes/GivenAttribute.cs
   [11]: http://hg.mehdi-khalili.com/bddify/src/83fd2f4566c4/Bddify/Scanners/StepScanners/ExecutableAttribute/GwtAttributes/AndGivenAttribute.cs
   [12]: http://hg.mehdi-khalili.com/bddify/src/83fd2f4566c4/Bddify/Scanners/StepScanners/ExecutableAttribute/GwtAttributes/WhenAttribute.cs
-  [13]: http://www.mehdi-khalili.com/get/sourcecode/bddify-in-action/Bddify.ExecutableAttributes.zip
+  [13]: /get/Downloads/bddify-in-action/Bddify.ExecutableAttributes.zip

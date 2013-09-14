@@ -18,7 +18,7 @@ Last night a person who I considered a good mate, asked me where I am from while
 
 My name is Mehdi Khalili. I am a programmer. I live with my wife, Shadi, and my 2 year old son, Benjamin, in New York. 
 
-<img src="http://www.mehdi-khalili.com/get/blogpictures/stop-discriminating/us.jpg" alt="My family" style="display:block;margin:0 auto" />
+<img src="/get/blogpictures/stop-discriminating/us.jpg" alt="My family" style="display:block;margin:0 auto" />
 
 I was born in Tehran, the capital city of Iran, and grew up in a family of five. My family still lives in Iran… and guess what? We are not terrorists!
 

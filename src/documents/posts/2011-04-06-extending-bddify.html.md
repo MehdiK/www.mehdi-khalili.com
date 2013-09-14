@@ -266,4 +266,4 @@ Hope this helps.
   [2]: https://code.google.com/p/bddify/
   [3]: http://nuget.org/List/Packages/BDDify
   [4]: /get/BlogPictures/extending-bddify/AnotherBddify-html-result.png
-  [5]: /get/BlogPictures/sourcecode/ExtendingBddify.zip
+  [5]: /get/Downloads/ExtendingBddify.zip

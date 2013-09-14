@@ -61,9 +61,9 @@ Also if you think you cannot enforce it because other programmers in your team w
 
   [1]: http://www.codinghorror.com/blog/2005/06/the-broken-window-theory.html
   [2]: http://en.wikipedia.org/wiki/Zero_tolerance
-  [3]: http://www.mehdi-khalili.com/get/blogpictures/broken-windows/broken-tests.JPG
+  [3]: /get/blogpictures/broken-windows/broken-tests.JPG
   [4]: http://www.jetbrains.com/teamcity/features/delayed_commit.html
   [5]: http://msdn.microsoft.com/en-us/library/dd787631.aspx
-  [6]: http://www.mehdi-khalili.com/mitigate-your-merge-issues
+  [6]: /mitigate-your-merge-issues
   [7]: http://c2.com/cgi/wiki?BigBallOfMud
-  [8]: http://www.mehdi-khalili.com/bad-code
+  [8]: /bad-code

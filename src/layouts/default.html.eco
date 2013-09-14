@@ -19,7 +19,9 @@
               <div id="main" class="container small">
                   <div class="row">
                         <div id="content" class="12u skel-cell-mainContent">
-                          <%- @content %>
+                          <article class="is-post">
+                            <%- @content %>
+                          <article>
                         </div>
                   </div>
               </div>

@@ -5,22 +5,24 @@ tags: ['page']
 isPaged: true
 pageOrder: 0
 pagedCollection: 'posts'
-pageSize: 10
+pageSize: 30
 ---
 <% posts = @getCollection('posts') %>
-<% for i in [@document.page.startIdx...@document.page.endIdx]: %>
-    <% doc = posts.at(i).toJSON() %>
-    <article class="is-post">
-        <header>
-            <h2><a href='<%=doc.resource %>'><%= doc.title %></a></h2>
-            <h3 class="post-date"><%= @formatDate(doc.date) %></h3>
-            <%- @partial('tags.html.eco', @, { tags: doc.tags }) %>
-        </header>
-        <div class="summary">
-            <%- @generateSummary(doc) %>
-        </div>
-    </article>
-<% end %>
+<div class="no-borders">
+    <% for i in [@document.page.startIdx...@document.page.endIdx]: %>
+        <% doc = posts.at(i).toJSON() %>
+        <article class="is-excerpt">
+            <header>
+                <h2><a href='<%=doc.resource %>'><%= doc.title %></a></h2>
+                <h3 class="post-date"><%= @formatDate(doc.date) %></h3>
+                <%- @partial('tags.html.eco', @, { tags: doc.tags }) %>
+            </header>
+            <div class="summary">
+                <%- @generateSummary(doc) %>
+            </div>
+        </article>
+    <% end %>
+</div>
 
 <div class="pagination">
     <ul>

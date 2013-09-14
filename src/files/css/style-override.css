@@ -63,6 +63,12 @@ ul ul, ol ol, ol ul, ul ol {
 }
 
 /* tags */
+h1.tag-header {
+    font-size: 2em;
+    margin-bottom: 1em;
+    text-transform: inherit;
+}
+
 .tags li {
     display: inline-block;
     margin-right: 1em;
@@ -94,11 +100,13 @@ ul ul, ol ol, ol ul, ul ol {
 }
 
 #footer-wrapper {
-    padding-top: 0em;
+    padding: 0;
+    margin: 0;
 }
 
 #copyright {
     padding-top: 2em;
+    margin: 0;
 }
 
 #copyright ul.links li:first-child {

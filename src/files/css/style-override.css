@@ -67,6 +67,7 @@ ul ul, ol ol, ol ul, ul ol {
 pre {
     background: #f0f0f0;
     border: none;
+    line-height: .9em;
 }
 
 code {

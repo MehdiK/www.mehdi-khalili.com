@@ -11,12 +11,10 @@
 </div>
 
 <!-- Add This Buttons -->
-<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5230ea1d6b85b265"></script>
-
 <script type="text/javascript">
   
   $(function(){
-    $('pre').addClass('prettyprint');
+    $('pre').addClass('prettyprint').css('border', 'none').css('padding', '5px 10px');
   });
 
   var _gaq = _gaq || [];
@@ -32,3 +30,6 @@
 </script>
 
 <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>
+
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5230ea1d6b85b265"></script>
+

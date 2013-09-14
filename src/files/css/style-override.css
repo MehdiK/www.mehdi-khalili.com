@@ -59,6 +59,10 @@ ul ul, ol ol, ol ul, ul ol {
     clear: both;
 }
 
+.socialShare a {
+    border: none;
+}
+
 /* prettifing */
 pre {
     background: #f0f0f0;

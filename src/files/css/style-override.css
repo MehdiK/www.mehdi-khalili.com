@@ -1,3 +1,8 @@
+body, input, textarea, select {
+    line-height: 1.1em;
+    font-size: 13pt;
+}
+
 #header-wrapper {
     background-color: #333;
 }
@@ -34,7 +39,7 @@ h2,h3,h4,h5,h6 {
 }
 
 p, ul, ol, dl, table, blockquote {
-    margin-bottom: 0;
+    margin-bottom: .8em;
     margin-top: .8em;
 }
 
@@ -70,6 +75,8 @@ pre {
     background: #f0f0f0;
     border: none;
     line-height: .9em;
+    margin-bottom: .8em;
+    overflow: scroll;
 }
 
 code {

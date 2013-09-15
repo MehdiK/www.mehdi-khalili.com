@@ -1,6 +1,11 @@
 body, input, textarea, select {
     line-height: 1.1em;
     font-size: 13pt;
+    color: #222;
+}
+
+a {
+    color: #222;
 }
 
 #header-wrapper {
@@ -34,6 +39,7 @@ h1 {
 }
 
 h2,h3,h4,h5,h6 {
+    color: #222;
     text-transform: inherit;
     margin-bottom: 0;
 }

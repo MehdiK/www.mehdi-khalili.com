@@ -5,7 +5,7 @@
 window.disqus_shortname = 'mehdikhalilisblog'; // required: replace example with your forum shortname
 window.disqus_identifier = document.title || 'Home';
 window.disqus_developer = !! ~document.location.href.indexOf("localhost") ? 1 : 0;
-window.disqus_url = document.location.origin + '<%- @document.resource %>';
+window.disqus_url = document.location.origin + '<%- @postUrl(@document) %>';
 
 /* * * DON'T EDIT BELOW THIS LINE * * */
 (function () {

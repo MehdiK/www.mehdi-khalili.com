@@ -50,6 +50,17 @@ docpadConfig =
 
     formatDate: (date) -> moment(date).format('Do MMMM YYYY')
 
+    postUrl: (post) ->
+      if post.resource 
+        return post.resource
+
+      fileName = post.url
+      match = fileName.match(/\d{4}-\d{2}-\d{2}-([A-Za-z0-9-]*).html$/)
+      if match and match.length > 1
+        return '/' + match[1]
+
+      return fileName
+
     generateSummary: (post) -> 
       description = post.description
       if description then @parseMarkdown(description) else @contentTrim(@parseMarkdown(post.content))

@@ -8,7 +8,7 @@
   <link rel="self" href="http://www.mehdi-khalili.com/feed" />
   <author><name><%= @site.author %></name></author>
   <% for document in @getCollection('posts').toJSON().slice(0, 20): %>
-  <% link = @site.url + document.resource %>
+  <% link = @site.url + @postUrl(document) %>
     <entry>
       <id><%= link %></id>
       <title type="text"><%= document.title or document.name or @title.title %></title>

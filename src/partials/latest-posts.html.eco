@@ -7,7 +7,7 @@
             <section>
               <header>
                 <h3>
-                  <a href="<%= post.resource %>"> <%= post.title %> </a>
+                  <a href="<%= @postUrl(post) %>"> <%= post.title %> </a>
                 </h3>
               </header>
               <%- @generateSummary(post) %>

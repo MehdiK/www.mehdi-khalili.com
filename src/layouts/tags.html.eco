@@ -24,7 +24,7 @@
                         <% for doc in @getCollection('posts').findAll({tags: '$in': @document.tag}, [{ date: -1 }]).toJSON(): %>
                           <article class="is-excerpt">
                             <header>
-                                <h2><a href='<%=doc.resource%>'><%= doc.title %></a></h2>
+                                <h2><a href='<%= @postUrl(doc) %>'><%= doc.title %></a></h2>
                                 <h3 class="post-date"><%= @formatDate(doc.date) %></h3>
                                 <%- @partial('tags.html.eco', @, { tags: doc.tags }) %>
                             </header>

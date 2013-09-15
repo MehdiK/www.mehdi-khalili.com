@@ -3,9 +3,6 @@
   <title><%= if @document.title then "#{@document.title} - #{@site.title}" else @site.title %></title>
   <meta name="author" content="<%= @site.author %>">
   <meta name="viewport" content="width=1040" />
-  <link rel="pingback" href="http://webmention.io/username/xmlrpc" />
-  <link rel="http://webmention.org/" href="http://webmention.io/username/webmention" />  
-  <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600|Arvo:700" rel="stylesheet" type="text/css" />
   <!--[if lte IE 8]><script src="/js/html5shiv.js"></script><![endif]-->
   <script src="/js/jquery.min.js"></script>
   <script src="/js/jquery.dropotron.js"></script>

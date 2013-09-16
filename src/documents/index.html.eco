@@ -1,6 +1,7 @@
 ---
 layout: home
 isPage: true
+resource: "/"
 ---
 
 <h1><%= @site.author %></h1>

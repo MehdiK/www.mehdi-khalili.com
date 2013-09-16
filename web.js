@@ -2,8 +2,10 @@ var express = require('express');
 var app = express();
 var fs = require('fs');
 
-// catch all
-app.use(express.static(__dirname + '/out'));
+// static resources
+app.use('/get', express.static(__dirname + '/out/get'));
+app.use('/js', express.static(__dirname + '/out/js'));
+app.use('/css', express.static(__dirname + '/out/css'));
 
 // Html files to urls
 app.get('/routes.json', function (req, res) {
@@ -13,7 +15,12 @@ app.get('/routes.json', function (req, res) {
 var routes = require('./out/routes.json').routes;
 routes.map(function (route) { 
 	app.get(route.url, function(req, res) { 
-		res.sendfile(__dirname + '/out' + route.file); }); 
+		res.sendfile(__dirname + '/out' + route.file); 
+  }); 
+
+  app.get(route.file, function(req, res) {
+    res.redirect(301, route.url);  
+  });
 });
 
 app.get(/^\/tagged\/(\w+)$/, function (req, res) {

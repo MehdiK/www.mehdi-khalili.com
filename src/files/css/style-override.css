@@ -2,6 +2,8 @@ body, input, textarea, select {
     line-height: 1.1em;
     font-size: 13pt;
     color: #666;
+    font-family: 'Segoe UI', Verdana, Arial, sans-serif;
+    line-height: 150%;
 }
 
 a {

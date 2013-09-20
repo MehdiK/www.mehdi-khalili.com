@@ -7,7 +7,7 @@ body, input, textarea, select {
 }
 
 a {
-    color: #666;
+    color: #38426B;
 }
 
 #header-wrapper {
@@ -88,8 +88,7 @@ pre {
 }
 
 code {
-    color: rgb(107, 107, 158);
-    font-size: .8em;
+    color: #008;
     font-family: "Consolas";
 }
 

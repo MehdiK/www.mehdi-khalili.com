@@ -106,9 +106,9 @@ I call this client storage because it is not necessarily related to offline appl
 
 There are currently a few viable options available for client-side storage:
 
- - **Web Storage** is basically the `localStorage` object. It has [great browser support](http://caniuse.com/#search=web storage), is very simple to use and despite its rather poor performance is a good choice at the moment.
+ - **Web Storage** is basically the `localStorage` object. It has [great browser support](http://caniuse.com/#search=web%20storage), is very simple to use and despite its rather poor performance is a good choice at the moment.
  - **Indexed Database** is a collection of "object stores" which you can just drop objects into. It has relatively good browser support, is a bit more complex than `localStorage` to use but has great performance and all in all is a great option for client-side persistence.
- - **Web SQL** would have been a great addition to this list; but unfortunately it was deprecated right when it was taking off. It is [still supported](http://caniuse.com/#search=web sql) on a lot of major browsers but IE and FF have never supported it and never will which makes it less than a perfect choice.
+ - **Web SQL** would have been a great addition to this list; but unfortunately it was deprecated right when it was taking off. It is [still supported](http://caniuse.com/#search=web%20sql) on a lot of major browsers but IE and FF have never supported it and never will which makes it less than a perfect choice.
 
 To learn much more about these choices and their pros and cons you may refer to [this post][22] on HTML5Rocks.
 

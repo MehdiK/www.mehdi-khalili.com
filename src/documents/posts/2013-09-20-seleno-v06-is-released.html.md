@@ -127,7 +127,7 @@ There is a similar interface called `IElementAssert` which is in charge of asser
 This new interface also allows you to use `jQueryBy` selector which allows you to use your good old jQuery selectors for element targeting. 
 
 ##Some resources to get started
-If you are new to Seleno then go grab it while it's hot. Although pre V1 it's quite stable and has been in use by many teams for quite some time now. Seleno allows you to write maintainable UI tests. As a bonus point if you are using ASP.Net MVC it significantly reduces the amount of code you have to write to interact with you page by hooking into MVC infrastructure and using your view models to interact with you pages.
+If you are new to Seleno then go grab it while it's hot. Although pre V1 it's quite stable and has been in use by many teams for quite some time now. Seleno allows you to write maintainable UI tests. As a bonus point if you are using ASP.Net MVC it significantly reduces the amount of code you have to write to interact with your page by hooking into MVC infrastructure and using your view models to interact with your pages.
 
 ###Learning resources
  - You can read more about Seleno and watch it in action [here](/presentations/automated-ui-testing-done-right-at-dddsydney). 

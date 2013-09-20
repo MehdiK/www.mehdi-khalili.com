@@ -11,6 +11,9 @@ summary: """
 I am giving a talk at DDDSydney called Automated UI Testing Done Right. Come along to see how you can make your UI tests easier to write and maintain
 """
 ---
+
+**[Update 2013-05-03]: [SSWTV](http://tv.ssw.com/) kindly recorded this session. The video of this session is available from [here](http://tv.ssw.com/3444/ddd-sydney-2012-mehdi-khalili-automated-ui-testing-done-right).**
+
 I will be speaking at [DDDSydney][1] on 30th of June. You may find the details of the conference and the info about the sessions and the timetable [here][2]. If you have not purchased your ticket yet, then leave me a comment or send me a message on [@MehdiKhalili][3] to arrange a discounted ticket.
 
 My talk is called Automated UI Testing Done Right and you may find more info about it [here][4]. 

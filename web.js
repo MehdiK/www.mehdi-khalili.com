@@ -2,6 +2,15 @@ var express = require('express');
 var app = express();
 var fs = require('fs');
 
+// redirect away from herokuapp
+app.get('*', function(req, res, next) {
+  if (req.headers.host.indexOf('mehdi-khalili.herokuapp.com') != -1) {
+    res.redirect('http://www.mehdi-khalili.com' + req.url, 301);
+  } else {
+    next();
+  }
+});
+
 // static resources
 app.use('/get', express.static(__dirname + '/out/get'));
 app.use('/js', express.static(__dirname + '/out/js'));

@@ -6,8 +6,24 @@ body, input, textarea, select {
     line-height: 150%;
 }
 
+.button {
+    background: darkgray;   
+}
+
+.button:hover {
+    background: #B7C1F7;
+}
+
 a {
     color: #38426B;
+}
+
+a:hover {
+    color: #00009E;
+}
+
+#nav > ul > li:hover > a > span {
+    color: #B7C1F7;
 }
 
 #header-wrapper {

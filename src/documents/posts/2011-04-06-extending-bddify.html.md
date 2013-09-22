@@ -11,7 +11,7 @@ summary: """
 Bddify is very extensible and extending it is very easy. In this post I will discuss how to extend Bddify.
 """
 ---
-*[Update]: bddify framework has had a few major changes and some of the topics discussed in this article may be obsolete. For the latest on bddify please refer to the [project home page][1].*
+*[Update]: bddify framework has had a few major changes and some of the topics discussed in this article may be obsolete. For the latest on bddify please refer to the [project home page](https://github.com/TestStack/TestStack.BDDfy).*
 
 [In my previous post][1] I introduced [Bddify][2] Framework: a small yet powerful and extensible BDD framework for .Net developers. In this post I will discuss how Bddify core handles everything through its extensions and how easily you can extend it. 
 

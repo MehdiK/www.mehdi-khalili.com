@@ -18,7 +18,7 @@ This article is about a very simple technique I have used (and have seen used) i
 ###OSS BDD Frameworks
 The frameworks in the alphabetic order are:
 
-- [Bddify][4]: "A small yet powerful and extensible BDD framework for .Net developers.". You can find two articles about it [here][5] and [here][6].
+- Bddify: "A small yet powerful and extensible BDD framework for .Net developers.". Bddify has been renamed to BDDfy and is now a fully fledged framework. You can find more about it [here](https://github.com/TestStack/TestStack.BDDfy).
 - [MSpec][7]: Rob Conery has [a nice article][8] and [a very nice video][9] about it.
 - [NBehave][10] I think is the oldest BDD framework in .Net. I used it back when it did not support separate spec/implementation. There is a rather old but nice article [here][11] on BDD using nBehave "the old" way; i.e. with spec and test implementation mixed.
 - [SpecFlow][12]: "*a pragmatic and frictionless approach to Acceptance Test Driven Development and Behavior Driven Development for .NET projects*". [Here][13] I have an article about SpecFlow and how you can write executable requirements using it.

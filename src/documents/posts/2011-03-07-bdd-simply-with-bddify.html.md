@@ -11,7 +11,7 @@ summary: """
 Bddify is a very small library that provides support for BDD test and generates a nice report.
 """
 ---
-**[Update] I have made a LOT of changes on this and have turned it into a fully-fledged BDD framework. So if you are here because you heard of bddify framework then this is not what the framework is. To see the framework please visit its [homepage on google code][1].**
+**[Update] I have made a LOT of changes on this and have turned it into a fully-fledged BDD framework. So if you are here because you heard of bddify framework then this is not what the framework is. To see the framework please visit its [homepage](https://github.com/TestStack/TestStack.BDDfy).**
 
 In my [BDD Simply post][2] I talked about SpecFor<T>. SpecFor<T> is only a few lines of code and it provides an opinionated structure within which you can write BDD-like tests. This class also generates a half-decent report for your tests.
 

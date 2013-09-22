@@ -30,7 +30,7 @@ In Visual Studio 2010:
  0. [Install NuGet][2] if you have not already.
  1. Create a new 'Test' project.
  2. Go to Tools, Library Package Manager, and click Package Manager Console.
- 3. In the console type 'Install-Package bddify' and enter.
+ 3. In the console type 'Install-Package TestStack.BDDfy' and enter.
 
 After this your project should have three new files, apart from Class1 which is created by default: packages.config, bddify.cs and RunMe.cs:
 

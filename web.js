@@ -11,6 +11,9 @@ app.get('*', function(req, res, next) {
   }
 });
 
+// gzip
+app.use(express.compress());
+
 // static resources
 app.use('/get', express.static(__dirname + '/out/get'));
 app.use('/js', express.static(__dirname + '/out/js'));

@@ -14,6 +14,14 @@ app.get('*', function(req, res, next) {
 // gzip
 app.use(express.compress());
 
+// caching static content
+app.use(function (req, res, next) {
+  if (req.url.match('/js') || req.url.match('/css') || req.url.match('/get') ) {
+    res.setHeader('Cache-Control', "max-age=604800");
+  }
+  next()
+});
+
 // static resources
 app.use('/get', express.static(__dirname + '/out/get'));
 app.use('/js', express.static(__dirname + '/out/js'));

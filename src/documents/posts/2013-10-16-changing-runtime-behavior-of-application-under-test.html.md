@@ -17,15 +17,15 @@ I am going to provide a few solutions here that you can mix and match as each ha
 ###Build Configuration
 One solution to this problem is to have a separate <a href="http://msdn.microsoft.com/en-us/library/kkz9kefa(v=vs.110).aspx">Build Configuration</a> for your functional tests. To do this, open Visual Studio and select "Configuration Manager" from the "Build"" menu:
 
-![UITests Build Configuration](/get/BlogPictures/changing-runtime-behavior-for-tests/build-configuration.png)
+![UITests Build Configuration](/get/BlogPictures/changing-runtime-behavior-for-tests/build-configuration.PNG)
 
 Then create a new Build Configuration based on the Release config (I called it FunctionalTests):
 
-![FunctionalTests Build Configuration](/get/BlogPictures/changing-runtime-behavior-for-tests/new-build-config.png)
+![FunctionalTests Build Configuration](/get/BlogPictures/changing-runtime-behavior-for-tests/new-build-config.PNG)
 
 Then create a config transformation file for the `FunctionalTests` Build Configuration by adding a new web configuration file to the project:
 
-![config transformation](/get/BlogPictures/changing-runtime-behavior-for-tests/functionaltests-web-config.png)
+![config transformation](/get/BlogPictures/changing-runtime-behavior-for-tests/functionaltests-web-config.PNG)
 
 Then change `Web.FunctionalTests.config` to add the configuration for the functional tests, e.g.:
 
@@ -51,7 +51,7 @@ This is just a simple example of a web configuration transform file that changes
 ###Compilation Symbols
 You can also use compilation symbols to alter the application behaviors at compile time. Here I am defining a `FunctionalTests` conditional compilation symbol in my project's build settings:
 
-![define compilation symbol](/get/BlogPictures/changing-runtime-behavior-for-tests/define-compilation-symbol.png)
+![define compilation symbol](/get/BlogPictures/changing-runtime-behavior-for-tests/define-compilation-symbol.PNG)
 
 We can use this symbol using <a href="http://msdn.microsoft.com/en-us/library/system.diagnostics.conditionalattribute(v=vs.100).aspx">ConditionalAttribute</a> or using the `if` <a href="http://msdn.microsoft.com/en-us/library/vstudio/4y6tbswk(v=vs.110).aspx">directive</a>. An example of when you can use conditional compilation symbols is where you are setting your IoC container up:
 
@@ -72,7 +72,7 @@ This is using preprocessor directives which work at compile time; so for this to
 ###Process Environment Variables
 Build Configurations and Compilation Symbols allow you to change the runtime behavior of an application by changing the configuration or application code at compile time. This is quite powerful but has some drawbacks too. For example if the expected behavior depends on some runtime decision you cannot use these approaches. You can overcome this shortcoming using Environment Variables. You know the good old Windows System Properties where you can set Environment Variables like Path, Temp folder etc:
 
-![System Properties](/get/BlogPictures/changing-runtime-behavior-for-tests/win-environment-variables.png)
+![System Properties](/get/BlogPictures/changing-runtime-behavior-for-tests/win-environment-variables.PNG)
 
 You can use Environment Variables to configure your applications too. You could obviously use the System Properties form and define user or system level Environment Variables on your test machine. That way all applications running on that machine will inherit these variables. This solution has a few issues: 
 

@@ -4,7 +4,7 @@ metaTitle: "Humanizer hit V1"
 description: ""
 revised: "2013-11-10"
 date: "2013-11-10"
-tags: ["oss	",".net"]
+tags: ["oss",".net"]
 
 ---
 Humanizer is a small framework that helps .Net developer turn their otherwise geeky strings, type names, enum fields, date, timespan values into a human friendly format plus a lot more.

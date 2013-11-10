@@ -1,7 +1,7 @@
 --- cson
 title: "Humanizer hit V1"
 metaTitle: "Humanizer hit V1"
-description: ""
+description: "Humanizer just hit V1. Use Humanizer on your .Net projects to make your code and user interface more human-friendly."
 revised: "2013-11-10"
 date: "2013-11-10"
 tags: ["oss",".net"]

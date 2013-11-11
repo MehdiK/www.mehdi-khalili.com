@@ -174,11 +174,15 @@ There are also a few inflector methods:
 
 **Underscore**: separates the input words with underscore
 
-`"SomeTitle".Underscore()` => `"some_title"`
+```C#
+"SomeTitle".Underscore() => "some_title"
+```
 
 **Dasherize**: replaces underscores with dashes in the string 
 
-`"some_title".Dasherize()` => `"some-title"`
+```C#
+"some_title".Dasherize() => "some-title"
+```
 
 ##Fluent Date
 Humanizer provides a fluent API to deal with `DateTime` and `TimeSpan` as follows:

@@ -55,14 +55,14 @@ Much like you can humanize a computer friendly into human friendly string you ca
 ```
 
 ##Transform
-There is a `Transform` method that supercedes `LetterCasing`, `ApplyCase` and `Humanize` overloads that accept `LetterCasing`. 
-Transform method signatue is as follows:
+There is a `Transform` method that supersedes `LetterCasing`, `ApplyCase` and `Humanize` overloads that accept `LetterCasing`. 
+Transform method signature is as follows:
 
 ```C#
 string Transform(this string input, params IStringTransformer[] transformers)
 ```
 
-And there are some out of the box implemenations of `IStringTransformer` for letter casing:
+And there are some out of the box implementations of `IStringTransformer` for letter casing:
 
 ```C#
 "Sentence casing".Transform(To.LowerCase) => "sentence casing"

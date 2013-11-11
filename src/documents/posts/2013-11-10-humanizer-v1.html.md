@@ -136,8 +136,8 @@ For dates Humanizer also supports localization.
 
  > No dehumanization for dates as the human friendly date is not reversible
 
-##Humanizer TimeSpan
-You can call `Humanizes` on a `TimeSpan` to a get human friendly representation for it:
+##Humanize TimeSpan
+You can call `Humanize` on a `TimeSpan` to a get human friendly representation for it:
 
 ```C#
 TimeSpan.FromMilliseconds(1).Humanize() => "1 millisecond"
@@ -151,15 +151,24 @@ There are also a few inflector methods:
 
 **Pluralize**: pluralizes the provided input considering irregular words
 
-`"Man".Pluralize()` => `"Men"` & `"string".Pluralize()` => `"strings"`
+```C#
+"Man".Pluralize() => "Men" 
+"string".Pluralize() => "strings"
+```
 
 **Singularize**: singularizes the provided input considering irregular words
 
-`"Men".Singularize()` => `"Man"` & `"strings".Singularize()` => `"string"`
+```C#
+"Men".Singularize() => "Man"
+"strings".Singularize() => "string"
+```
 
 **Ordinalize**: turns a number into an ordinal string used to denote the position in an ordered sequence such as 1st, 2nd, 3rd, 4th
 
-`1.Ordinalize()` => `"1st"`, `5.Ordinalize()` => `"5th"`
+```C#
+1.Ordinalize() => "1st"
+5.Ordinalize() => "5th"
+```
 
 `Ordinalize` also works on strings: `"21".Ordinalize()` => `"21st"`
 

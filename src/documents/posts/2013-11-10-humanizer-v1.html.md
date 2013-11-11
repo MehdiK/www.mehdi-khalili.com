@@ -15,7 +15,7 @@ You can install Humanizer as [a nuget package](https://nuget.org/packages/Humani
  > Up until now Humanizer supported .Net 3.5 and newer versions; but as of V1 the support for .Net 3.5 was discontinued. If you are using .Net 3.5 you can still use V0.6 or better upgrade to .Net 4.5 ;)
 
 ##Source code
-You can find the code on [Humanizer home page](github.com/MehdiK/Humanizer) on GitHub. You can build the whole solution, run the tests and create a local nuget package for the library by running the `go.cmd` on the root of the repo.
+You can find the code on [Humanizer home page](http://github.com/MehdiK/Humanizer) on GitHub. You can build the whole solution, run the tests and create a local nuget package for the library by running the `go.cmd` on the root of the repo.
 
 Humanizer is released under MIT License. See the [bundled LICENSE file](https://github.com/MehdiK/Humanizer/blob/master/LICENSE) for details.
 

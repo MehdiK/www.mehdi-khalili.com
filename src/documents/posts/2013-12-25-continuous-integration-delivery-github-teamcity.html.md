@@ -7,9 +7,9 @@ date: "2013-12-25"
 tags: ["continuous integration","continuous delivery","teamcity","github","nuget"]
 
 ---
-There must be around 2 billion articles out there about setting up TeamCity; but I thought I'd write an end to end tutorial for setting up [Continuous Integration](http://www.martinfowler.com/articles/continuousIntegration.html) (AKA CI) and [Continuous Delivery](http://martinfowler.com/bliki/ContinuousDelivery.html) (AKA CD) for a GitHub project using TeamCity. There is going to be quite a few very basic steps and some a little bit more advanced bits in this post. 
+This is an end to end tutorial for setting up [Continuous Integration](http://www.martinfowler.com/articles/continuousIntegration.html) (AKA CI) and [Continuous Delivery](http://martinfowler.com/bliki/ContinuousDelivery.html) (AKA CD) for a GitHub project using TeamCity.
 
-I should mention that the details of TeamCity projects are rather specific to the technology you're using. This is the technology stack I am using:
+This is the technology stack I am using in the project, [Humanizer](https://github.com/MehdiK/Humanizer), for which I am setting up the TeamCity project:
 
  - .Net: the programming language used for Humanizer.
  - Git and GitHub: Humanizer repository is git and the project is [hosted on GitHub](https://github.com/MehdiK/Humanizer).
@@ -58,7 +58,7 @@ So you now have a TeamCity project and want to setup [Continuous Integration](ht
  > Continuous Integration is a software development practice where members of a team integrate their work frequently, usually each person integrates at least daily - leading to multiple integrations per day. Each integration is verified by an automated build (including test) to detect integration errors as quickly as possible.
 
 
-###Create build configuration
+###Create Build Configuration
 The first step is to create a build configuration for Continuous Integration. You can do so by clicking on the 'Create build configuration' button on the project home page:
 
 ![Project home page](/get/BlogPictures/cd-for-github-with-teamcity/project-home-page.png)
@@ -176,6 +176,8 @@ Make sure you run your CI build again, this time with the test step:
 
 Note the test results lighting up in the build result, oh yeah :)
 
+This setup works nicely for your unit and integration tests; but setting up TeamCity (or any CI server) to run UI tests is a bit more tricky. My friend Jake Ginnivan has an awesome post [here](http://jake.ginnivan.net/teamcity-ui-test-agent) about setting up UI tests on TeamCity that you must read if you do any UI testing.
+
 ####3. Pack Nuget
 A great practice in Continuous Delivery is that you want to be able to publish the artifacts of any green build/test to production with a push of a button. In other words when you want to deploy you don't rebuild stuff - you just deploy the existing artifacts of a healthy build. We now have a green build with its tests in our CI - so we should extract the deployment artifacts now so we can later use them in deployment. Humanizer is a .Net library and releasing this library means pushing a new nuget package to [nuget.org](http://nuget.org). So lets create the nuget package from the build artifacts:
 
@@ -217,11 +219,11 @@ Before we go ahead and run the build again I would like to highlight a few thing
 </package>
 ```
 
-The metadata bit is just normal metadata tags that you should provide in a nuspec file. I am particularly interested in the 'files' section:
+There are a few things of note in this file:
 
-`<file src="Humanizer\bin\Release\**" target="lib\portable-win+net40+sl50+wp8" />` is telling nuget command to fetch all the files from 'Humanizer\bin\Release\', **which is relative to the nuspec file path**, and copy them to the 'lib\portable-win+net40+sl50+wp8' path relative to the nuget output folder, which we set to 'package' in our nuget step. `portable-win+net40+sl50+wp8` means that the library is a [Portable Class Library](http://msdn.microsoft.com/en-us/library/vstudio/gg597391(v=vs.100).aspx) that can target Win Store Apps (*win*), .Net 4 & higher versions (*net40*), SilverLight 5 (*sl50*) and Windows Phone 8 (*wp8*).
-
-`<file src="Humanizer\**\*.cs" exclude="**\obj\**\*.*" target="src" />` is telling nuget command that we also want the source files to be included in the 'src' target folders!!! But this is library - why would we need source files?! The answer is to create a symbols nuget package to publish to [symbolsource]('http://symbolsource.org/') so the users of the library can step through the code while debugging.
+ - The `version` element in metadata section is set to `$version$`. This means that instead of specifying a static version number I want it injected by TeamCity build. The value injected into this element is `1.0.%build.counter%`.
+ - `<file src="Humanizer\bin\Release\**" target="lib\portable-win+net40+sl50+wp8" />` is telling nuget command to fetch all the files from 'Humanizer\bin\Release\', **which is relative to the nuspec file path**, and copy them to the 'lib\portable-win+net40+sl50+wp8' path relative to the nuget output folder, which we set to 'package' in our nuget step. `portable-win+net40+sl50+wp8` means that the library is a [Portable Class Library](http://msdn.microsoft.com/en-us/library/vstudio/gg597391(v=vs.100).aspx) that can target Win Store Apps (*win*), .Net 4 & higher versions (*net40*), SilverLight 5 (*sl50*) and Windows Phone 8 (*wp8*). To see a complete list of values for nuspec for Portable Class Library please check [this article](http://nuget.codeplex.com/workitem/1228).
+ - `<file src="Humanizer\**\*.cs" exclude="**\obj\**\*.*" target="src" />` is telling nuget command that we also want the source files to be included in the 'src' target folders!!! But this is library - why would we need source files?! The answer is to create a symbols nuget package to publish to [symbolsource]('http://symbolsource.org/') so the users of the library can step through the code while debugging.
 
 You can read [this article](http://docs.nuget.org/docs/creating-packages/creating-and-publishing-a-symbol-package) to learn more about how you can create a Symbol Package. The gist of that is:
 
@@ -236,6 +238,20 @@ There are now three build steps and if we check the 'Artifacts' pane we can see 
 
 ![Complete CI build artifacts](/get/BlogPictures/cd-for-github-with-teamcity/complete-ci-build-artifacts.png)
 
+And in the build log we can see that the version has been injected into nuspec:
+
+```
+[16:25:38][pack] Attempting to build package from 'Humanizer.nuspec'.
+[16:25:38][pack] 
+[16:25:38][pack] Id: Humanizer
+[16:25:38][pack] Version: 1.0.34
+[16:25:38][pack] Authors: Mehdi Khalili
+[16:25:38][pack] Description: A framework that turns your normal strings, type names, enums and DateTime into a human friendly format and provides human friendly API for DateTime, TimeSpan etc
+[16:25:38][pack] License Url: https://github.com/MehdiK/Humanizer/blob/master/LICENSE
+[16:25:38][pack] Project Url: https://github.com/MehdiK/Humanizer
+[16:25:38][pack] Dependencies: None
+```
+
 ###Rewriting Assembly Versions
 Although our CI build configuration can build the code, run the tests and package the artifacts it has a relatively big flaw, and that is the library version as stored in ['AssemblyInfo.cs'](https://github.com/MehdiK/Humanizer/blob/master/src/Humanizer/Properties/AssemblyInfo.cs) files is static and while the published nuget package version increases the version of the dll inside the package never changes as it's set to a static value!
 
@@ -249,15 +265,122 @@ That's it!! TeamCity takes care of everything for you now so when you run your b
 
 Another thing of note is that this correctly happens as part of your '1. Build Solution' build step so the '3. Pack Nuget' step packs the build artifacts with correct versions.
 
-###Notification
-
 ###Build Trigger
+We now have a complete CI build configuration. There is still one problem though: we have been  running this build configuration manually! A CI setup should be able to detect changes to the source code and build them automatically. We can achieve that using 'Build Triggers' on Build Configuration. Again from the left navigation bar on your CI Build Configuration select '5 Build Trigger': 
+
+![Build Triggers](/get/BlogPictures/cd-for-github-with-teamcity/build-triggers-page.png)
+
+and click on 'Add new trigger' button to add a build trigger. To make the trigger dependent on source code changes we choose 'VCS Trigger' and set the provided settings:
+
+![Create VCS build trigger](/get/BlogPictures/cd-for-github-with-teamcity/create-build-trigger.png)
+
+Now you have automatic builds on all branches of your source control including pull requests.
+
+###Notification
+TeamCity can automatically build GitHub pull requests and provide build notifications on them which is pretty handy. Hadi Hariri has a detailed post about the feature [here](http://hadihariri.com/2013/02/06/automatically-building-pull-requests-from-github-with-teamcity/). Basically you have a TeamCity CI build setup for your GitHub project which builds your code and runs your tests on checkin - why not leverage that to provide notification to contributors of your project?
+
+We have everything setup for that. All we need now is to add the notification in our configuration and see the result light up in GitHub pull requests. Go to your 'Build Steps' page and add a new 'Report change status to GitHub' build feature:
+
+![GitHub notification](/get/BlogPictures/cd-for-github-with-teamcity/report-change-status-to-github.png)
+
+All settings are quite straightforward and now the notification:
+
+![PR pending notification](/get/BlogPictures/cd-for-github-with-teamcity/pr-notification-pending.png)
+
+You see a pending notification while TeamCity is building the PR code and when the build is finished you get the result on your PR page, in this case a successful build:
+
+![PR successful notification](/get/BlogPictures/cd-for-github-with-teamcity/pr-notification-passed.png)
+
+###Showing build status icon on GitHub
+We can get a [build status icon](http://blog.jetbrains.com/teamcity/2012/07/teamcity-build-status-icon/) which is quite handy for [ReadMe page](https://github.com/MehdiK/Humanizer#continuous-integration-from-teamcity) in GitHub:
+
+![Readme Build Status](/get/BlogPictures/cd-for-github-with-teamcity/readme-build-status.png)
+
+To achieve this add the following snippet to your html page:
+
+```
+<a href="http://teamcity/viewType.html?buildTypeId=btN&guest=1">
+<img src="http://teamcity/app/rest/builds/buildType:(id:btN)/statusIcon"/>
+</a>
+```
+
+Remember the 'Build configuration ID' we set on 'Build Configuration' (in my case Humanizer_CI). You should replace the build type Ids (`btN`) on the above snippet with your `Build Configuration Id`. 
+
+This icon is also a link to the build page. Clicking on it takes you to the TeamCity project where you can see the build history, click on each build entry and see the logs, tests, artifacts etc. You see that `guest=1` in the query string?! That means that you don't have to be a TeamCity user to be able to see the build: you will be logged in as a guest user with limited view only access.
 
 ##Setting up Continuous Delivery
+Now that we have CI setup nicely, lets setup [Continuous Delivery](http://martinfowler.com/bliki/ContinuousDelivery.html) for our project:
 
-##Rewriting assembly versions
+ > Continuous Delivery is a software development discipline where you build software in such a way that the software can be released to production at any time.
 
-##Build notification for GitHub pull requests
+ > The key test is that a business sponsor could request that the current development version of the software can be deployed into production at a moment's notice - and nobody would bat an eyelid, let alone panic.
 
-##Showing build status icon on GitHub
+###Create Build Configuration
+I need a separate build configuration because I don't want to deploy every single successful build to production (in my case nuget) and you shouldn't either. I create a separate build configuration so I can run it whenever I want on a successful build I am happy with.
+
+To create our CD build we go to our project home page and click on 'Create build configuration':
+
+![Publish nuget package](/get/BlogPictures/cd-for-github-with-teamcity/publish-nuget-pkg-build.png)
+
+Nothing of note here. Just make sure you give your build some name and description. 
+
+###Source Control Settings
+Back in 'Pack Nuget' I briefly talked about Continuous Delivery which I would like to repeat here: *"A great practice in Continuous Delivery is that you want to be able to publish the artifacts of any green build/test to production with a push of a button. In other words when you want to deploy you don't rebuild stuff - you just deploy the existing artifacts of a healthy build."* and we setup a build step, 3. Pack Nuget, to create the artifacts required for deployment. So I don't need any version control settings for this build (and you shouldn't either) because your CD build should work off the existing build artifacts created by your CI build with no dependency on any code. So we skip over 'Version Control Settings'.
+
+###Publish Nuget Package Build Step
+We should add a build step to publish our artifacts to production. In my case I want to publish my nuget package(s):
+
+![Nuget publish build step](/get/BlogPictures/cd-for-github-with-teamcity/nuget-publish-build-step.png)
+
+Things of note in this step are:
+
+ - 'Runner type' is set to 'NuGet Publish' which is what I want to do.
+ - I haven't given this build step a name, mainly because my CD build has one and only one step. When you have one step only a name is not that necessary, as we will see later.
+ - 'API Key' is your NuGet API key which you can get from your [NuGet account page](https://www.nuget.org/account). Just grab that GUID and paste it here.
+ - 'Packages to upload' is set to 'Humanizer.*.nupkg' where Humanizer is the name of my NuGet package, as you saw earlier in my nuspec. The * is to match all nuget package versions; e.g. 'Humanizer.1.0.34.nupkg'.
+ 
+If you only want to deploy your package but not make it "public" you can tick 'Only upload package but do not publish it to feed'.
+
+###Build Triggers
+Unlike our CI build, our CD build configuration doesn't need a build trigger because IMO it shouldn't happen automatically. I want a CD build run to be a manual process so I can deploy to production any time I want. So I leave this empty.
+
+###Getting deployable artifacts
+The 'Publish Nuget Package' build step depends on 'Humanizer.*.nupkg' but doesn't know where to get it from; so we have to somehow resolve it. We can do that using build 'Dependencies'. Click on the 'Dependencies' on the left navigation bar:
+
+![Nuget Build Config Dependencies](/get/BlogPictures/cd-for-github-with-teamcity/nuget-publish-dependencies.png)
+
+Now 'Add a new artifact dependency':
+
+![getting ci build artifacts](/get/BlogPictures/cd-for-github-with-teamcity/nuget-artifact-from-ci.png)
+
+Here you can pick the artifacts we published in the 'Pack Nuget' step by ticking 'Publish created packages to build artifacts' checkbox. 
+
+Well, that is it. You can now run your 'CD' build and see your build artifacts pushed to production:
+
+![CD run build log](/get/BlogPictures/cd-for-github-with-teamcity/cd-run-build-log.png)
+
+In our only CD build step we used 'NuGet Publish' on 'Humanizer.*.nupkg'; but since we had '-Symbols' in our 'Pack NuGet' step we had two NuGet packages and in the log we can see that both packages have been deployed: one to nuget.org, which we can see [here](https://www.nuget.org/packages/humanizer), and another one to symbolsource.org, which we can see [here](http://www.symbolsource.org/Public/Metadata/NuGet/Project/Humanizer).
+
+##Conclusion
+In this post we created a TeamCity project and setup continuous integration and delivery for a .Net project hosted on GitHub along with automatic CI run on code checkins and pull requests. Here is the 1000-foot view of our project:
+
+![Project Home Page done](/get/BlogPictures/cd-for-github-with-teamcity/humanizer-project-done.png)
+
+We have created a project with two build configurations: 
+
+ - '1. CI' which has three build steps as seen in the screenshot:
+
+	 - '1. Build Solution'
+	 - '2. Run Tests'
+	 - '3. Pack Nuget'
+
+ - '2. Publish Nuget Package' (which in the hindsight I should've called '2. CD') and has only one step: 'NuGet Publish'. Even though we didn't give this step a name, TeamCity is smart enough to show a name from the Runner type. That's why I didn't give this step any name. Still not a bad idea to have a name though.
+
+
+
+
+
+
+
+
 

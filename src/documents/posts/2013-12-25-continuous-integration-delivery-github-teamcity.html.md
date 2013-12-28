@@ -358,9 +358,9 @@ Things of note in this step are:
  - 'Runner type' is set to 'NuGet Publish' which is what I want to do.
  - I haven't given this build step a name, mainly because my CD build has one and only one step. When you have only one step, name is not that necessary, as we will see later.
  - 'API Key' is your NuGet API key which you can get from your [NuGet account page](https://www.nuget.org/account). Just grab that GUID and paste it here.
- - 'Packages to upload' is set to 'Humanizer.\*.nupkg' where Humanizer is the id of my NuGet package. The * is to match all NuGet package versions; e.g. 'Humanizer.1.0.34.nupkg'.
+ - 'Packages to upload' is set to 'Humanizer.\*.nupkg' where Humanizer is the id of my NuGet package. The * is to match all NuGet packages and versions; e.g. 'Humanizer.1.0.34.nupkg' and 'Humanizer.1.0.34.symbols.nupkg'.
  
-If you only want to deploy your package but not make it "public" you can tick 'Only upload package but do not publish it to feed'.
+If you only want to deploy your package but not list them you can tick 'Only upload package but do not publish it to feed'.
 
 ###Build Triggers
 Unlike our CI build, our CD build configuration doesn't need a build trigger because IMO it shouldn't happen automatically. I want a CD build run to be a manual process so I can deploy to production any time I want. So I leave this empty.
@@ -374,16 +374,16 @@ Now 'Add a new artifact dependency':
 
 ![getting ci build artifacts](/get/BlogPictures/cd-for-github-with-teamcity/nuget-artifact-from-ci.png)
 
-From the 'Depend on' box you can pick the artifacts we published in the 'Pack NuGet' step by ticking 'Publish created packages to build artifacts' checkbox. Back in the dependencies page, there is a button down the bottom called 'Check artifact dependencies' which helps you verify the dependencies you have specified. A good idea to check your dependencies now.
+From the 'Depend on' box you can pick the artifacts we published in the 'Pack NuGet' step by ticking 'Publish created packages to build artifacts' checkbox. Back in the dependencies page, there is a button down the bottom called 'Check artifact dependencies' which helps you verify the dependencies you have specified. It's a good idea to check your dependencies now.
 
-Well, that is it. You can now run your CD build and see your build artifacts pushed to production:
+You can now run your CD build and see your build artifacts pushed to production:
 
 ![CD run build log](/get/BlogPictures/cd-for-github-with-teamcity/cd-run-build-log.png)
 
-In our only CD build step we used 'NuGet Publish' on 'Humanizer.*.nupkg'; but since we had '-Symbols' in our 'Pack NuGet' step we had two NuGet packages and in the log we can see that both packages have been deployed: one to nuget.org, which we can see [here](https://www.nuget.org/packages/humanizer), and another one to symbolsource.org, which we can see [here](http://www.symbolsource.org/Public/Metadata/NuGet/Project/Humanizer).
+We used 'NuGet Publish' on 'Humanizer.*.nupkg' in our only build step; but since we had `-Symbols` in our 'Pack NuGet' step we had two NuGet packages and in the log we can see that both packages have been deployed: one to nuget.org, which we can see [here](https://www.nuget.org/packages/humanizer), and another one to symbolsource.org, which we can see [here](http://www.symbolsource.org/Public/Metadata/NuGet/Project/Humanizer).
 
 ###Wrapping up the CD build 
-To sum up our CD build, we created a build configuration, called '2. Publish NuGet Package' (which in the hindsight I should've called '2. CD'), under our TeamCity project. This is what my build steps page look like now:
+To sum up our CD build, we created a build configuration, called '2. Publish NuGet Package' (which in the hindsight I should've called '2. CD'), under our TeamCity project. This is what my build steps page looks like now:
 
 ![CD build steps](/get/BlogPictures/cd-for-github-with-teamcity/cd-build-steps-done.png)
 

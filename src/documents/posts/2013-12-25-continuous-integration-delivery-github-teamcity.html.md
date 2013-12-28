@@ -305,11 +305,9 @@ We can get a [build status icon](http://blog.jetbrains.com/teamcity/2012/07/team
 </a>
 ```
 
-Remember the 'Build configuration ID' we set on 'Build Configuration' (in my case Humanizer_CI). You should replace the build type Ids (`btN`) on the above snippet with your `Build Configuration Id`, and obviously `teamcity` should be replaced with your TeamCity server URL.
+Remember the 'Build configuration ID' we set on 'Build Configuration' (in my case Humanizer_CI). You should replace the build type Ids (`btN`) on the above snippet with your 'Build Configuration Id', and obviously `teamcity` should be replaced with your TeamCity server URL.
 
-You can check my build icon on Humanizer's [ReadMe page](https://github.com/MehdiK/Humanizer#continuous-integration-from-teamcity).
-
-This icon is also a link to the build page. Clicking on it takes you to the TeamCity project where you can see the build history, click on each build entry and see the logs, tests, artifacts etc. You see that `guest=1` in the query string?! That means that you don't have to be a TeamCity user to be able to see the build: you will be logged in as a guest user with limited view only access.
+You can check my build icon on Humanizer's [ReadMe page](https://github.com/MehdiK/Humanizer#continuous-integration-from-teamcity). This icon is also a link to the build page and clicking on it takes you to the TeamCity project where you can see the build history, click on each build entry and see the logs, tests, artifacts etc. You see that `guest=1` in the query string?! That means that you don't have to be a TeamCity user to be able to see the build: you will be logged in as a guest user with limited view only access.
 
 ##Setting up Continuous Delivery
 Now that we have CI setup nicely, lets setup [Continuous Delivery](http://martinfowler.com/bliki/ContinuousDelivery.html) for our project:
@@ -328,7 +326,7 @@ To create our CD build we go to our project home page and click on 'Create build
 Nothing of note here. Just make sure you give your build some name and description. 
 
 ###Source Control Settings
-Back in 'Pack Nuget' I briefly talked about Continuous Delivery which I would like to repeat here: *"A great practice in Continuous Delivery is that you want to be able to publish the artifacts of any green build/test to production with a push of a button. In other words when you want to deploy you don't rebuild stuff - you just deploy the existing artifacts of a healthy build."* and we setup a build step, 3. Pack Nuget, to create the artifacts required for deployment. So I don't need any version control settings for this build (and you shouldn't either) because your CD build should work off the existing build artifacts created by your CI build with no dependency on any code. So we skip over 'Version Control Settings'.
+Back in 'Pack Nuget' I briefly talked about Continuous Delivery which I would like to repeat here: *"A great practice in Continuous Delivery is to be able to publish the artifacts of any existing green build/test to production with a push of a button. In other words when you want to deploy, you don't rebuild stuff - you just deploy the existing artifacts of a healthy build.."*. We already have a build step, 3. Pack Nuget, that creates the artifacts required for deployment. So I don't need any version control settings for this build (and you shouldn't either) because your CD build should work off the existing build artifacts created by your CI build with no dependency on any code. So we skip over 'Version Control Settings'.
 
 ###Publish NuGet Package Build Step
 We should add a build step to publish our artifacts to production. In my case I want to publish my NuGet package(s):
@@ -338,9 +336,9 @@ We should add a build step to publish our artifacts to production. In my case I 
 Things of note in this step are:
 
  - 'Runner type' is set to 'NuGet Publish' which is what I want to do.
- - I haven't given this build step a name, mainly because my CD build has one and only one step. When you have one step only a name is not that necessary, as we will see later.
+ - I haven't given this build step a name, mainly because my CD build has one and only one step. When you have only one step, name is not that necessary, as we will see later.
  - 'API Key' is your NuGet API key which you can get from your [NuGet account page](https://www.nuget.org/account). Just grab that GUID and paste it here.
- - 'Packages to upload' is set to 'Humanizer.*.nupkg' where Humanizer is the name of my NuGet package, as you saw earlier in my nuspec. The * is to match all NuGet package versions; e.g. 'Humanizer.1.0.34.nupkg'.
+ - 'Packages to upload' is set to 'Humanizer.\*.nupkg' where Humanizer is the id of my NuGet package. The * is to match all NuGet package versions; e.g. 'Humanizer.1.0.34.nupkg'.
  
 If you only want to deploy your package but not make it "public" you can tick 'Only upload package but do not publish it to feed'.
 
@@ -356,9 +354,9 @@ Now 'Add a new artifact dependency':
 
 ![getting ci build artifacts](/get/BlogPictures/cd-for-github-with-teamcity/nuget-artifact-from-ci.png)
 
-Here you can pick the artifacts we published in the 'Pack NuGet' step by ticking 'Publish created packages to build artifacts' checkbox. 
+From the 'Depend on' box you can pick the artifacts we published in the 'Pack NuGet' step by ticking 'Publish created packages to build artifacts' checkbox. 
 
-Well, that is it. You can now run your 'CD' build and see your build artifacts pushed to production:
+Well, that is it. You can now run your CD build and see your build artifacts pushed to production:
 
 ![CD run build log](/get/BlogPictures/cd-for-github-with-teamcity/cd-run-build-log.png)
 
@@ -377,7 +375,7 @@ We have created a project with two build configurations:
 	 - '2. Run Tests'
 	 - '3. Pack NuGet'
 
- - '2. Publish NuGet Package' (which in the hindsight I should've called '2. CD') and has only one step: 'NuGet Publish'. Even though we didn't give this step a name, TeamCity is smart enough to show a name from the Runner type. That's why I didn't give this step any name. Still not a bad idea to have a name though.
+ - '2. Publish NuGet Package' (which in the hindsight I should've called '2. CD') and has one step: 'NuGet Publish'. Even though we didn't give this step a name, TeamCity is smart enough to show a name from the Runner type. That's why I didn't give this step any name. Still not a bad idea to have a name though.
 
 Hopefully this post provides an easy guide for setting up your TeamCity projects.
 

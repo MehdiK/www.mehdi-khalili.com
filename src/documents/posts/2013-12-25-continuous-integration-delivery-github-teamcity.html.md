@@ -309,6 +309,26 @@ Remember the 'Build configuration ID' we set on 'Build Configuration' (in my cas
 
 You can check my build icon on Humanizer's [ReadMe page](https://github.com/MehdiK/Humanizer#continuous-integration-from-teamcity). This icon is also a link to the build page and clicking on it takes you to the TeamCity project where you can see the build history, click on each build entry and see the logs, tests, artifacts etc. You see that `guest=1` in the query string?! That means that you don't have to be a TeamCity user to be able to see the build: you will be logged in as a guest user with limited view only access.
 
+###Wrapping up the CI build
+To sum up our CI build, we created a build configuration, called '1. CI', under our TeamCity project. This is what my build steps page look like now:
+
+![All CI build steps and features](/get/BlogPictures/cd-for-github-with-teamcity/ci-build-steps-done.png)
+
+'1. CI' build configuration has three build steps as seen in the screenshot:
+
+ - '1. Build Solution'
+ - '2. Run Tests'
+ - '3. Pack NuGet'
+
+And two build features:
+
+ - 'AssemblyInfo patcher'
+ - 'Report change status to GitHub'
+
+I also have one VCS build trigger:
+
+![CI build trigger](/get/BlogPictures/cd-for-github-with-teamcity/ci-build-trigger.png)
+
 ##Setting up Continuous Delivery
 Now that we have CI setup nicely, lets setup [Continuous Delivery](http://martinfowler.com/bliki/ContinuousDelivery.html) for our project:
 
@@ -354,7 +374,7 @@ Now 'Add a new artifact dependency':
 
 ![getting ci build artifacts](/get/BlogPictures/cd-for-github-with-teamcity/nuget-artifact-from-ci.png)
 
-From the 'Depend on' box you can pick the artifacts we published in the 'Pack NuGet' step by ticking 'Publish created packages to build artifacts' checkbox. 
+From the 'Depend on' box you can pick the artifacts we published in the 'Pack NuGet' step by ticking 'Publish created packages to build artifacts' checkbox. Back in the dependencies page, there is a button down the bottom called 'Check artifact dependencies' which helps you verify the dependencies you have specified. A good idea to check your dependencies now.
 
 Well, that is it. You can now run your CD build and see your build artifacts pushed to production:
 
@@ -362,20 +382,21 @@ Well, that is it. You can now run your CD build and see your build artifacts pus
 
 In our only CD build step we used 'NuGet Publish' on 'Humanizer.*.nupkg'; but since we had '-Symbols' in our 'Pack NuGet' step we had two NuGet packages and in the log we can see that both packages have been deployed: one to nuget.org, which we can see [here](https://www.nuget.org/packages/humanizer), and another one to symbolsource.org, which we can see [here](http://www.symbolsource.org/Public/Metadata/NuGet/Project/Humanizer).
 
+###Wrapping up the CD build 
+To sum up our CD build, we created a build configuration, called '2. Publish NuGet Package' (which in the hindsight I should've called '2. CD'), under our TeamCity project. This is what my build steps page look like now:
+
+![CD build steps](/get/BlogPictures/cd-for-github-with-teamcity/cd-build-steps-done.png)
+
+Our CD build has one step only: 'NuGet Publish'. Even though we didn't give this step a name, TeamCity shows a name based on the Runner type. That's why I didn't give this step any name. Still not a bad idea to have a name though.
+
+We also have an artifact dependency:
+
+![CD dependencies](/get/BlogPictures/cd-for-github-with-teamcity/cd-dependencies.png)
+
 ##Conclusion
 In this post we created a TeamCity project and setup continuous integration and delivery for a .Net project hosted on GitHub along with automatic CI run on code checkins and pull requests. Here is the 1000-foot view of our project:
 
 ![Project Home Page done](/get/BlogPictures/cd-for-github-with-teamcity/humanizer-project-done.png)
-
-We have created a project with two build configurations: 
-
- - '1. CI' which has three build steps as seen in the screenshot:
-
-	 - '1. Build Solution'
-	 - '2. Run Tests'
-	 - '3. Pack NuGet'
-
- - '2. Publish NuGet Package' (which in the hindsight I should've called '2. CD') and has one step: 'NuGet Publish'. Even though we didn't give this step a name, TeamCity is smart enough to show a name from the Runner type. That's why I didn't give this step any name. Still not a bad idea to have a name though.
 
 Hopefully this post provides an easy guide for setting up your TeamCity projects.
 

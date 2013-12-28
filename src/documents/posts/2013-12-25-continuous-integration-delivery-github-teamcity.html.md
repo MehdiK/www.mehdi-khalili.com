@@ -398,7 +398,7 @@ In this post we created a TeamCity project and setup continuous integration and 
 
 ![Project Home Page done](/get/BlogPictures/cd-for-github-with-teamcity/humanizer-project-done.png)
 
-Hopefully this post provides an easy guide for setting up your TeamCity projects.
+Hopefully this post provides an easy guide for setting up your TeamCity projects. If you are a TeamCity or CI/CD expert and think I could/should have done something different then I would love to hear your thoughts. Please leave me a comment.
 
 P.S. Thanks Jake for letting me use your server.
 

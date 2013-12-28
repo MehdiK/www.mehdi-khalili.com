@@ -402,7 +402,7 @@ Hopefully this post provides an easy guide for setting up your TeamCity projects
 
 P.S. Thanks Jake for letting me use your server.
 
-
+<p><a href="http://www.codeproject.com" style="display:none" rel="tag">CodeProject</a></p>
 
 
 

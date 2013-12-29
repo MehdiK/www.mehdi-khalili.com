@@ -97,7 +97,7 @@ The important [git VCS settings](http://confluence.jetbrains.com/display/TCD8/Gi
  ![GitHub repository fetch URL](/get/BlogPictures/cd-for-github-with-teamcity/repo-fetch-url.png)
 
  - 'Default branch' should be set to your master branch which is where your CI should focus more. So we set it to `refs/heads/master` which is the git master branch. If you're wondering where that comes from run `git show-ref master` command on your git repo.
- - We want to also monitor pull request branches so we set the 'Branch specification' to `+refs/pull/*/head` which uses wildcard to monitor all pull request branches.
+ - We want to also monitor pull request branches so we set the 'Branch specification' to `+refs/pull/*/merge` which uses wildcard to monitor pull request merged branches.
  
 I leave the rest of the settings to their default values. Before you save, make sure to 'Test connection' so that TeamCity can find your repository with the settings you have provided. The button is located down the bottom of the page:
 

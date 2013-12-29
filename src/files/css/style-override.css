@@ -15,7 +15,13 @@ body, input, textarea, select {
 }
 
 img {
-    margin: 20px 0px;
+    margin: 20px 20px;
+}
+
+img.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 a {

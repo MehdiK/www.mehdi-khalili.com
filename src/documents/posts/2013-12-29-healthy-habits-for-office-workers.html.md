@@ -104,7 +104,7 @@ People race for that last empty seat in the buses and trains, particularly for l
 Walking up stairs is such a great exercise and I do it whenever possible. The ThoughtWorks NY office is located on the 15th floor. I walked up the stairs frequently enough that the building management put up signs that the stairs should be used only in emergency and I was told not to use them anymore. Recently I have been catching a train to downtown. The station is 315 steps below the ground. I use escalators to go down but walk up the stairs.
 
 ##Conclusion
-In this post I talked about a few habits I have developed over the years to maintain my health. These are the habits that have worked for me and may or may not necessarily work for you. Try to experiment with different things to see what makes you healthier and happier which you can also make a habit of.
+In this post I talked about a few habits I have developed over the years to maintain my health. These habits have worked for me. They may or may not work for you. Try to experiment with different things to see what makes you healthier and happier which you can also make a habit of.
 
 Another thing to note is that these are habits and [habits take time to form](http://www.ucl.ac.uk/news/news-articles/0908/09080401). So persevere.
 

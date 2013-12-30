@@ -24,17 +24,19 @@ Don't sit behind your desk for the whole day. Move your body. Go for a short wal
 I personally find it hard to do any exercises in the office; but it's great if you can. If nothing else try to do some eye exercises. You can find a few easy and effective ones [here](http://workawesome.com/office-life/computer-safety/).
 
 #### Drink plenty of water
-I drink A LOT of water - that's around three litters a day. I have a 750ml water bottle on my desk that I refill almost every two hours (with filtered water when I can). This keeps me very [well hydrated](http://www.livestrong.com/article/443987-what-are-the-health-benefits-of-being-hydrated/) which helps with body temperature regulation, body lubrication and weight maintenance. The added benefit is that it enforces me to walk very frequently. Given, not the most pleasant walk but I HAVE to walk which is good to stretch my legs.
+I drink A LOT of water - that's around three liters a day. I have a 750ml water bottle on my desk that I refill almost every two hours (with filtered water when I can). This keeps me very [well hydrated](http://www.livestrong.com/article/443987-what-are-the-health-benefits-of-being-hydrated/) which helps with body temperature regulation, body lubrication and weight maintenance. The added benefit is that it enforces me to walk very frequently. Given, not the most pleasant walk but I HAVE to walk which is good to stretch my legs.
 
 #### Healthy drink
 A lot of people I know drink at least a cup of coffee a day and most of them cannot start the day without their coffee. I guess I am blessed to be caffeine intolerant and to not quite like the taste of coffee. Not quite on the same league but I also know a few guys who drink a few cans of energy drink or Coke a day! 
+
+[Update] As mentioned in the comments coffee does have a lot of benefits too. To see a list of pros and cons of drinking coffee regularly check out [this post](http://katieb.hubpages.com/hub/coffee-pros-cons). I personally don't like to depend on anything for being able to think clearly and I am not sure if the pros of drinking coffee outweigh the cons.
 
 When I need a sugary drink (with my lunch or throughout the day) I go for juice and try to stay away from acidic ones like orange juice when possible. I also love coconut water. When I need a hot beverage I go for mint or jasmine green tea whenever possible. Obviously you have to like the taste. 
 
 That's not to say I don't drink coffee or Coke or energy drink; but I try to drink as few as possible.
 
 #### Healthy snack
-All office workers love their snacks and a lot of employers provide free snack. In one office I worked there was a HUGE lolly dispenser with four choices changing every month or so. Name any sugary crap and we had an abundance of it there for free. 
+Office workers love their snacks and a lot of employers provide free snack. In one office I used to work, there was a HUGE lolly dispenser with four choices changing every month or so. Name any sugary crap and we had an abundance of it there for free. 
 
 I prefer the fruit supply and I try to have a few serves a day. Banana is particularly good to top up the energy in the absence of artificial sugar intake. I also love dry roasted nuts - particularly almonds - and highly recommend them. Very healthy and tasty.
 

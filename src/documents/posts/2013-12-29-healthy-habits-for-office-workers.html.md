@@ -62,6 +62,10 @@ But then holding mouse with my right hand for several years, I started developin
 
 There is another benefit of using mouse with your left hand. Num pad and command buttons (on most keyboards) are located on the right which means your mouse is further away from the center of your body and you have to reach rather far for it. When on left, the num pad is out of your way and you can much easier reach for the mouse. This releases a bit of tension from shoulder muscles which helps with painful neck and shoulder muscle knots. Every few weeks I switch from left to right so my wrists and shoulders share the load!
 
+If you are not willing to move your mouse around then, as Joshua suggested, you can go for an [ergonomic keyboard with detachable num pad](http://www.microsoft.com/hardware/en-us/p/sculpt-ergonomic-desktop) and move your num pad to the right to empty the mouse space on your right:
+
+<img class="center" alt="detachable num pad" src="/get/BlogPictures/healthy-habits/sculpt-ergonomic-desktop.jpg" />
+
 ####Monitors
 Adjust your monitor height to your eye level to release the tension from your neck and shoulder muscles. If your monitor is not height adjustable put a few thick books underneath to lift it up to your eye level. You can find a few really good tips for setting up your monitor properly [here](http://www.healthycomputing.com/office/setup/monitor/).
 

@@ -12,16 +12,13 @@ summary: """
 """
 ---
 
-<h2>About Me</h2>
-<div style="float:right;padding:15px"><img src="/get/me-small.png" alt="my photo" /></div>
+<img align="right" src="/get/me-small.png" alt="my photo" />
 
-My name is Mehdi Khalili. I am a senior consultant at the most awesome software consultation company [ThoughtWorks](/joining-thoughtworks) working out of the New York office :) Before ThoughtWorks I worked as a senior developer for another really awesome software consultation company called [Readify](http://www.readify.net/) and lived in Gold Coast in South East Queensland in Australia.
+My name is Mehdi Khalili. I am a senior consultant at the most awesome software consultation company [ThoughtWorks](/joining-thoughtworks) working out of the New York office. Before ThoughtWorks I worked as a senior developer for another really awesome software consultation company called [Readify](http://www.readify.net/) and lived in Gold Coast in South East Queensland in Australia.
 
 I live with my beautiful wife, Shadi, and my funny little boy, Benjamin, in Long Island New York (that is until we decide to migrate to another continent again which has become a pattern in my life)!
 
-In the past I have done a fair bit of C and C++; but my main area of expertise and where I have spent most of my recent years has been C#.Net. I also love JavaScript and Ruby and am trying to become an expert in these two awesome languages too.
-
-In this blog, I will try to write about things that interest me as well as those that annoy me :p I also try to share things I think may benefit the software community. 
+In this blog, I will try to write about things that interest me as well as those that annoy me :p My main interests are programming (C#, Javascript, Ruby and Rails), Agile and Lean.
 
 Over the years I have created and contributed to a few open source projects:
 

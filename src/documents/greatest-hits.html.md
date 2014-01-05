@@ -9,7 +9,7 @@ date: "2014-01-03"
 ---
 This is a curated list of the greatest hits of my blog, open source contribution and presentations based on Google Analytics stats and download counts. 
 
-If you are a new visitor/follower hopefully this helps you discover the good stuff easier. 
+If you are a new visitor/follower hopefully this helps you discover the good stuff easier. You may read more about me, as a person, [here](/about).
 
 ##The Most Popular Posts
 Here is the categorized list of my most popular post.

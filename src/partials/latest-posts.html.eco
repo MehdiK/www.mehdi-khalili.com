@@ -1,6 +1,6 @@
 <div id="features-wrapper">
   <section id="features" class="container">
-    <% for i in [1, 2]: %>
+    <% for i in [1..3]: %>
       <div class="row">
         <% for post in @getCollection('posts').toJSON().slice((i-1)*3, i*3): %>
           <div class="4u">
@@ -18,7 +18,7 @@
     <% end %>
 
     <ul class="actions">
-      <li><a href="/archive" class="button button-icon icon icon-file">Archive</a></li>
+      <li><a href="/archive" class="button button-icon icon icon-file">Older Posts</a></li>
     </ul>
 
   </section>

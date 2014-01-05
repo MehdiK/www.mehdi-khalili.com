@@ -11,6 +11,8 @@ summary: """
 Introducing Humanizer - A micro-framework that turns your normal strings, type names, enum fields, date fields ETC into a human friendly format
 """
 ---
+**[Update]: Humanizer has a lot more features now. Check out the [GitHub home page](https://github.com/MehdiK/Humanizer) for more details.**
+
 I have been carrying a few hundred lines of code with me from project to project to help me make my applications more human friendly. So finally I decided to turn this into a framework - I called it Humanizer! You can find the code [here][1] on GitHub and can download [the library through NuGet][2]:
 
 <code style="background-color: #202020;border: 4px solid silver;border-radius: 5px;-moz-border-radius: 5px;-webkit-border-radius: 5px;box-shadow: 2px 2px 3px #6e6e6e;color: #E2E2E2;display: block;font: 1.5em 'andale mono', 'lucida console', monospace;line-height: 1.5em;overflow: auto;padding: 15px;

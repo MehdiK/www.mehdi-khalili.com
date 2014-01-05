@@ -46,7 +46,7 @@ Here is the categorized list of my most popular post.
  - [Working With Offline Web Application](/presentations/wdyk-offline-web) at What Do You Know  Night from [Web Directions](http://www.webdirections.org/) conference.
 
 ##Open Source
- - Created [BDDfy](https://github.com/TestStack/TestStack.BDDfy): The simplest to use and extend BDD framework for .Net.
- - Created [Humanizer](http://github.com/MehdiK/Humanizer): A .Net framework that meets all your .NET needs for manipulating and displaying strings, dates, times (inc. timespans) and quantities.
- - Co-founded [TestStack](http://teststack.net/): a collection of awesome and unique testing tools and frameworks (so far only for .Net).
+ - Created [BDDfy](https://github.com/TestStack/TestStack.BDDfy): the simplest to use and extend BDD framework for .Net.
+ - Created [Humanizer](http://github.com/MehdiK/Humanizer): a .Net framework that meets all your .NET needs for manipulating and displaying strings, dates, times (inc. timespans) and quantities.
+ - Co-founded [TestStack](http://teststack.net/): a collection of awesome and unique testing tools and frameworks.
  - Created and now contributing on [Seleno](https://github.com/TestStack/TestStack.Seleno): Seleno helps you write automated UI tests the RIGHT way!

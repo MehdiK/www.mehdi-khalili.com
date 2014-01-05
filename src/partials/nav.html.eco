@@ -5,18 +5,18 @@
           <a class="icon icon-home" href="/"><span>Home</span></a>
         </li>
         <li>
-          <a class="icon icon-github" target="_blank" href="https://github.com/<%- @site.github %>">
-            <span><%- @site.github %></span>
-          </a>
-        </li>
-        <li>
-          <a class="icon icon-twitter" target="_blank" href="http://twitter.com/<%- @site.twitter %>">
-            <span>@<%- @site.twitter %></span>
+          <a class="icon icon-thumbs-up" href="/greatest-hits">
+            <span>Greatest Hits</span>
           </a>
         </li>
         <li>
           <a class="icon icon-book" href="/about">
             <span>About Me</span>
+          </a>
+        </li>
+        <li>
+          <a class="icon icon-twitter" target="_blank" href="http://twitter.com/<%- @site.twitter %>">
+            <span>@<%- @site.twitter %></span>
           </a>
         </li>
         <li>

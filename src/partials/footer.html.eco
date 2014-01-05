@@ -1,58 +1,14 @@
 <div id="footer-wrapper">
 
-    <!-- Copyright -->
-        <div id="copyright" class="container">
-            <ul class="links">
-                <li>By <%= @site.author %></li>
-                <li>All rights reserved</li>
-                <li>Design: <a href="http://html5up.net/">HTML5 UP</a></li>
-                <li></li>
-            </ul>
-        </div>
-
-    <!-- Authorship Google -->
-    <a style="display: block; width: 30px height: 30px; text-indent: -999px; text-decoration: none" href="https://plus.google.com/104176322355312275912?rel=author">Google</a>
-
+    <div id="copyright" class="container">
+        <ul class="links">
+            <li>By <%= @site.author %></li>
+            <li>All rights reserved</li>
+            <li>Design: <a href="http://html5up.net/">HTML5 UP</a></li>
+            <li>Follow me on <a href="http://twitter.com/MehdiKhalili">Twitter</a></li> 
+            <li></li>
+        </ul>
+    </div>
 </div>
 
-<!-- Add This Buttons -->
-<script type="text/javascript">
-  
-  $(function(){
-    $('pre').addClass('prettyprint').css('border', 'none').css('padding', '5px 10px');
-  });
-
-</script>
-
-
-<!-- google analytics -->
-<script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-25850305-1']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
-
-<!-- Start of StatCounter Code for Default Guide -->
-<script type="text/javascript">
-  var sc_project=9505867; 
-  var sc_invisible=1; 
-  var sc_security="fd681e88"; 
-  var scJsHost = (("https:" == document.location.protocol) ?
-  "https://secure." : "http://www.");
-  document.write("<sc"+"ript type='text/javascript' src='" +
-  scJsHost+
-  "statcounter.com/counter/counter.js'></"+"script>");
-</script>
-
-<script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>
-
-<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5230ea1d6b85b265"></script>
-
+<%- @partial('third-party-scripts.html', @) %>

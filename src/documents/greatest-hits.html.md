@@ -34,6 +34,7 @@ Here is the categorized list of my most popular post.
 	 - [Persistence vs Domain Model](/orm-anti-patterns-part-4-persistence-domain-model) (**personal favorite**): the pros and cons of reusing your persistence model as domain model
 	 - [Lazy Loading](/orm-anti-patterns-part-3-lazy-loading): why Lazy Loading is usually a very bad idea.
 	 - [Generic Updates](/orm-anti-patterns-part-5-generic-update-methods): disadvantages of generic updates along with alternative solutions.
+ - [Writing Maintainable UI Tests](http://net.tutsplus.com/tutorials/maintainable-automated-ui-tests/) article on NetTuts: a few tips on how to write maintainable UI tests.
 
 ####Miscellaneous
  - [Dealing With Net Negative Producing Programmers](/dealing-with-net-negative-producing-programmers) (**personal favorite**): who are Net Negative Producing Programmers and how we can deal with them.

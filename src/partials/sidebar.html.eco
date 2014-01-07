@@ -1,5 +1,28 @@
 <div id="sidebar" class="3u">
+  <!-- Recent Posts -->
   <section>
+    <ul class="devided">
+      <li>
+        <article class="is-highlight">
+          <header>
+            <h2>
+              Recent Posts
+            </h2>
+          </header>
+
+          <p class="recent-posts">          
+            <% for post in @getCollection('posts').toJSON().slice(0, 5): %>
+              <a href="<%= @postUrl(post) %>"> <%= post.title %> </a>
+            <% end %>
+          </p>        
+        </article>
+      </li>
+    </ul>
+  </section>
+
+  <!-- Related Posts -->
+  <section>
+    <h2>Related Posts</h2>
     <ul class="divided">
       <% for post in @relatedPosts(@document).slice(0, 5): %>
         <li>
@@ -18,7 +41,7 @@
             </div>
           </article>
         </li>
-      <% end %>
+      <% end %>      
     </ul>
   </section>
 </div>

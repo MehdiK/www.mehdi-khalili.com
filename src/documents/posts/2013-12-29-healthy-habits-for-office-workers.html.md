@@ -4,7 +4,7 @@ metaTitle: "A few healthy habits for office workers"
 description: "Over the years I have developed a few habits which I think help me stay healthier despite my somewhat physically unhealthy job"
 revised: "2013-12-29"
 date: "2013-12-29"
-tags: ["health"]
+tags: ["health","notes"]
 
 ---
 I started working in 1997 and I can undoubtedly say that my health has deteriorated since then. Of course I am not 18 anymore but I am certain that sitting behind desk and staring at computers for 14+ hours a day has been a huge contributing factor. 
@@ -47,7 +47,9 @@ I sit on exercise ball the whole day. I have one in the office and one at home. 
 
 Getting used to fitness balls might take some time; so begin with a few hours a day and alternate between the office chair and the ball. You should be able to sit on the ball for the whole day after a week or so without getting a sore back.
 
-Of course you don't have to sit on a fitness ball to maintain a good sitting posture. There are plenty of ergonomic office chairs out there. Regardless of your chair follow [these advices](http://my.clevelandclinic.org/healthy_living/Back_health/hic_Posture_for_a_Healthy_Back.aspx) for a good sitting posture.
+Of course you don't have to sit on a fitness ball to maintain a good sitting posture. There are plenty of ergonomic office chairs out there. Regardless of your chair follow [these advices](http://my.clevelandclinic.org/healthy_living/Back_health/hic_Posture_for_a_Healthy_Back.aspx) for a good sitting posture. 
+
+Another thing that bit me with my sitting posture was sitting on my wallet. A few years ago I went to a doctor to get my back checked as I was having some pain. He got an x-ray from my back and saw some misalignments on my spine and the first thing he asked was: "Do you sit on your wallet?". I carry around a small wallet in my back pocket. I used to just just sit on my wallet the whole day until that doctor told me that in the long run that causes spine misalignment. So from that day on I remove my wallet from my pocket before I sit.
 
 Sitting for the whole day is not a good idea even on ergonomic chairs and fitness balls. Prolong sitting could lead to arthritis, heart disease, poor blood circulation, obesity, diabetes and muscle weakness to name a few. Height adjustable and split level desks are great as they allow you to work on them in both sitting and standing positions. [Monitor and keyboard stand](http://www.amazon.com/Workez-Standing-Adjustable-Laptops-Desktops/dp/B00FCFT928/ref=sr_1_9?ie=UTF8&qid=1388309403&sr=8-9&keywords=standing+desk) is a good alternative.
 
@@ -96,16 +98,11 @@ Sleeping needs if not met have huge impact on our physical and mental health. [L
 I (tend to) do 30 to 45 minutes of exercise a day. I love martial arts, particularly Muay Thai, and when possible try to attend martial art classes. When that's not a possibility I either go to gym or just exercise at home. My home exercises are rather limited to push ups, crunches and pull ups. When I feel very energetic I do burpee instead of push ups. I have bad knees; otherwise I would have loved to run.
 
 ###Commuting
-I am kinda unlucky when it comes to commuting and usually spend over three hours a day commuting to work and back home. So I have developed some habits to take better advantage of this time.
+I know a lot of guys who ride their bikes to work. A guy I used to work with would ride his bike 40km to get to work. Another guy I worked with turned down a job offer because the commute wasn't bike friendly! I am kinda unlucky when it comes to commuting and usually spend over three hours a day commuting to work and back home. So this is kind of impractical for me; but I will definitely do it when I have a shorter commute.
 
-####Ride to work
-This isn't something I do or have ever done; but rather something I am planning to do. I know a lot of guys who ride their bikes to work. A guy I used to work with would ride his bike 40km to get to work. Another guy I worked with turned down a job offer because the commute wasn't bike friendly!
+If you, like me, take a bus or train to work, then don't take a seat! People race for that last empty seat in buses and trains, particularly for long trips. I spend two hours a day in the train which is a nice time to study, blog or code; but when I don't feel like working I tend to stand up for the whole trip. If you decide to stand up on a long trip, don't hold your head down reading a book or playing with your phone. That whole posture of holding something up with your hand and looking down on it is really bad for your neck. Instead listen to radio or a music or, if you want to be productive, a podcast or an audio book.
 
-####Don't sit in the bus/train
-People race for that last empty seat in the buses and trains, particularly for long trips. I spend two hours a day in the train which is a nice time to study, blog or code; but when I don't feel like working I tend to stand up for the whole trip. Again, try to reduce your sitting time whenever and wherever you can. 
-
-####Take the stairs when possible
-Walking up stairs is such a great exercise and I do it whenever possible. The ThoughtWorks NY office is located on the 15th floor. I walked up the stairs frequently enough that the building management put up signs that the stairs should be used only in emergency and I was told not to use them anymore. Recently I have been catching a train to downtown. The station is 315 steps below the ground. I use escalators to go down but walk up the stairs.
+Another thing I enjoy as part of my commute is walking up the stairs. The ThoughtWorks NY office is located on the 15th floor. I walked up the stairs enough to be told by the building management not to use the emergency stairs anymore. Recently I have been catching a train to downtown. The station is 315 steps below the ground. I use escalators to go down but walk up the stairs. Walking down the stairs could hurt your knees.
 
 ##Conclusion
 In this post I talked about a few habits I have developed over the years to maintain my health. These habits have worked for me. They may or may not work for you. Try to experiment with different things to see what makes you healthier and happier which you can also make a habit of.

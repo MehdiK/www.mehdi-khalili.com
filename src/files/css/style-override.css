@@ -159,6 +159,12 @@ h1.tag-header {
     margin: 0;
 }
 
+#footer-wrapper h2 {
+    text-transform: uppercase;
+    text-align: left;
+    font-size: larger;
+}
+
 #copyright {
     padding: 1em 0px;
     margin-top: 2em;

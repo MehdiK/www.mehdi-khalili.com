@@ -1,11 +1,43 @@
 <div id="footer-wrapper">
+	<div id="footer" class="container">
+		<div class="row">
+			<header><h1>Let's connect</h1></header>
+			<section>
+				<div class="row">
+					<div class="6u">
+						<p>If this is your first time here, don't forget to checkout my <a href="/greatest-hits">Greatest Hits</a>.</p>
+
+						<div class="row">
+							<p>You can find me on:</p>
+							<ul class="icons">
+								<li class="icon icon-github">
+									<a href="http://github.com/MehdiK" target="_blank">GitHub</a>
+								</li>
+								<li class="icon icon-google-plus">
+									<a href="https://plus.google.com/u/0/104176322355312275912?rel=me" target="_blank">Google+</a>
+								</li>
+								<li class="icon icon-linkedin">
+									<a href="http://www.linkedin.com/in/mehdikhalili" target="_blank">LinkedIn</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="6u">
+						<a class="twitter-timeline" href="https://twitter.com/MehdiKhalili" data-widget-id="420868232208060416">
+							Tweets by @MehdiKhalili
+						</a>
+					</div>
+				</div>
+			</section>
+		</div>
+	</div>
 
     <div id="copyright" class="container">
         <ul class="links">
             <li>By <%= @site.author %></li>
             <li>All rights reserved</li>
             <li>Design: <a href="http://html5up.net/" target="_blank">HTML5 UP</a></li>
-            <li>Follow me on <a href="http://twitter.com/MehdiKhalili" target="_blank">Twitter</a></li> 
             <li></li>
         </ul>
     </div>

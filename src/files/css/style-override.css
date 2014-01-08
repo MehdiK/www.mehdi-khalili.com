@@ -155,13 +155,13 @@ h1.tag-header {
 }
 
 #footer-wrapper {
-    padding: 0;
+    padding: 2em;
     margin: 0;
 }
 
 #copyright {
     padding-top: 2em;
-    margin: 0;
+    margin-top: 2em;
 }
 
 #copyright ul.links li:first-child {

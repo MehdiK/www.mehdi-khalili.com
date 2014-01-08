@@ -155,13 +155,24 @@ h1.tag-header {
 }
 
 #footer-wrapper {
-    padding: 2em;
+    padding: 2em 0px 0px 0px;
     margin: 0;
 }
 
 #copyright {
-    padding-top: 2em;
+    padding: 1em 0px;
     margin-top: 2em;
+    margin-bottom: 0px;
+    width: 100%;
+    background-color: #333;
+}
+
+#copyright li {
+    color: white;
+}
+
+#copyright a {
+    color: #B7C1F7;
 }
 
 #copyright ul.links li:first-child {

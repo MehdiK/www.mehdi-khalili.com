@@ -1,22 +1,17 @@
 <div id="sidebar" class="3u">
   <!-- Recent Posts -->
   <section>
-    <ul class="devided">
+    <h2>Recent Posts</h2>
+    <ul class="recent-posts">
+      <% for post in @getCollection('posts').toJSON().slice(0, 5): %>
       <li>
-        <article class="is-highlight">
-          <header>
-            <h2>
-              Recent Posts
-            </h2>
-          </header>
-
-          <p class="recent-posts">          
-            <% for post in @getCollection('posts').toJSON().slice(0, 5): %>
-              <a href="<%= @postUrl(post) %>"> <%= post.title %> </a>
-            <% end %>
-          </p>        
+        <article class="is-excerpt">
+          <p>
+            <a href="<%= @postUrl(post) %>"> <%= post.title %> </a>
+          </p>
         </article>
       </li>
+      <% end %>
     </ul>
   </section>
 

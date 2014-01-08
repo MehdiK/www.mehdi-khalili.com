@@ -1,11 +1,12 @@
 <div id="footer-wrapper">
 	<div id="footer" class="container">
 		<div class="row">
-			<header><h1>Let's connect</h1></header>
 			<section>
 				<div class="row">
 					<div class="6u">
 						<div class="row">
+							<header><h2>Find me on</h2></header>
+							
 							<ul class="icons">
 								<li class="icon icon-github">
 									<a href="http://github.com/MehdiK" target="_blank">GitHub</a>
@@ -18,6 +19,9 @@
 								</li>
 								<li class="icon icon-plus">
 									<a href="http://net.tutsplus.com/author/mehdikhalili/" target="_blank">net tuts+</a>
+								</li>
+								<li class="icon icon-book">
+									<a href="http://www.slideshare.net/MehdiKhalili" target="_blank">SlideShare</a>
 								</li>
 							</ul>
 						</div>

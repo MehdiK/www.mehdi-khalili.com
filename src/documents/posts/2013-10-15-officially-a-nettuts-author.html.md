@@ -4,7 +4,7 @@ metaTitle: "Officially a nettuts author"
 description: "I just published my first articles on nettuts about UI automation and am now officially a nettuts author"
 revised: "2013-10-15"
 date: "2013-10-15"
-tags: ["nettuts","authoring"]
+tags: ["NetTuts","Authoring"]
 
 ---
 A while back I joined [nettuts](http://net.tutsplus.com/) *"a site aimed at web developers and designers offering tutorials and articles on technologies, skills and techniques to improve how you design and build websites"*. There are a group of very talented and skilled authors and developers writing at nettuts and it's great to be able to work with them. 

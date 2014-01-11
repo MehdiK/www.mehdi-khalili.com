@@ -4,7 +4,7 @@ metaTitle: "Method name conventions in BDDfy"
 description: "In this article I explain how you may take advantage of method name conventions in BDDfy to very easily write a BDD behavior"
 revised: "2013-08-10"
 date: "2011-12-27"
-tags: ["bddfy"]
+tags: ["BDDfy"]
 migrated: "true"
 resource: "/bddify-in-action/method-name-conventions"
 summary: """

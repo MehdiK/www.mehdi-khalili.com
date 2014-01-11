@@ -4,7 +4,7 @@ metaTitle: "Definition of Done in an MVC project"
 description: "Definition of Done in an ASP.Net MVC project I just joined "
 revised: "2011-10-31"
 date: "2011-10-31"
-tags: ["agile","scrum"]
+tags: ["Agile","Notes"]
 migrated: "true"
 resource: "/definition-of-done-in-an-mvc-project"
 summary: """

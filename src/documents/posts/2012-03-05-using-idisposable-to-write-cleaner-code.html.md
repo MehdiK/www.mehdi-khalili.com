@@ -4,7 +4,7 @@ metaTitle: "IDisposable clean code"
 description: "IDisposable is usually used for garbage collection. Here I explain a simple technique that can help you clean up some of your code using IDisposable"
 revised: "2012-03-05"
 date: "2012-03-05"
-tags: ["maintainability"]
+tags: ["Maintainability",".Net"]
 migrated: "true"
 resource: "/using-idisposable-to-write-cleaner-code"
 summary: """

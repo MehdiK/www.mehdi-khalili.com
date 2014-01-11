@@ -4,7 +4,7 @@ metaTitle: "Presenting bddify in Brisbane Alt.Net"
 description: ""
 revised: "2011-09-22"
 date: "2011-06-30"
-tags: ["presentations","bddfy"]
+tags: ["Presentations","BDDfy"]
 migrated: "true"
 resource: "/bddify/brisbane-altdotnet"
 summary: """

@@ -4,7 +4,7 @@ metaTitle: "A few healthy habits for office workers"
 description: "Over the years I have developed a few habits which I think help me stay healthier despite my somewhat physically unhealthy job"
 revised: "2013-12-29"
 date: "2013-12-29"
-tags: ["health","notes"]
+tags: ["Health","Notes"]
 
 ---
 I started working in 1997 and I can undoubtedly say that my health has deteriorated since then. Of course I am not 18 anymore but I am certain that sitting behind desk and staring at computers for 14+ hours a day has been a huge contributing factor. 

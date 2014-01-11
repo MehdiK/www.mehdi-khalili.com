@@ -4,7 +4,7 @@ metaTitle: "String in Ruby"
 description: "A quick overview of String class in Ruby and its similarities and differences with String in C#"
 revised: "2012-12-20"
 date: "2012-12-16"
-tags: ["ruby"]
+tags: ["Ruby"]
 migrated: "true"
 resource: "/string-in-ruby"
 summary: """

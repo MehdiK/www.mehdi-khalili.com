@@ -4,7 +4,7 @@ metaTitle: "Advanced Web Debugging with Fiddler"
 description: "My DDD Brisbane session on Advanced Web Debugging with Fiddler "
 revised: "2012-04-25"
 date: "2012-04-25"
-tags: ["web","debugging","fiddler"]
+tags: ["Web","Debugging","Fiddler"]
 migrated: "true"
 resource: "/advanced-web-debugging-with-fiddler"
 summary: """

@@ -4,7 +4,7 @@ metaTitle: "Visual Studio 2010 Code Definition Window"
 description: "Visual Studio 2010 Code Definition Window is very handy"
 revised: "2011-02-26"
 date: "2011-02-25"
-tags: ["visual studio"]
+tags: ["Visual Studio"]
 migrated: "true"
 resource: "/visual-studio-code-definition"
 summary: """

@@ -4,7 +4,7 @@ metaTitle: "That Tricky StackTrace"
 description: "In this article I will show you a tricky situation that could happen when you walk up the StackTrace"
 revised: "2012-10-14"
 date: "2011-10-05"
-tags: ["quiz",".net"]
+tags: ["Quiz",".Net"]
 migrated: "true"
 resource: "/that-tricky-stacktrace"
 summary: """

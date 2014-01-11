@@ -4,7 +4,7 @@ metaTitle: "ORM anti-patterns - Part 2: Batch Operations"
 description: "Batch operations are not always implemented properly when programmers use ORM."
 revised: "2011-01-28"
 date: "2010-12-23"
-tags: ["orm","architecture","anti-patterns"]
+tags: ["ORM","Architecture","Anti-Patterns"]
 migrated: "true"
 resource: "/orm-anti-patterns-part-2-batch-operations"
 summary: """

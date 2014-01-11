@@ -4,7 +4,7 @@ metaTitle: "How secure are GUIDs?"
 description: "In this post I explain whether GUIDs can be hacked or not - just some old news!"
 revised: "2011-10-27"
 date: "2011-10-27"
-tags: ["quiz"]
+tags: ["Quiz"]
 migrated: "true"
 resource: "/guids-security"
 summary: """

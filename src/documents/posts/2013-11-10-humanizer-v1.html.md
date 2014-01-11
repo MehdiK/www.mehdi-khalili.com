@@ -4,7 +4,7 @@ metaTitle: "Humanizer hit V1"
 description: "Humanizer just hit V1. Use Humanizer on your .Net projects to make your code and user interface more human-friendly."
 revised: "2013-11-10"
 date: "2013-11-10"
-tags: ["oss",".net"]
+tags: ["OSS",".Net"]
 
 ---
 Humanizer is a small framework that helps .Net developer turn their otherwise geeky strings, type names, enum fields, date, timespan values into a human friendly format plus a lot more.

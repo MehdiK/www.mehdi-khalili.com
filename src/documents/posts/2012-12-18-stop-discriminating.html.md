@@ -4,7 +4,7 @@ metaTitle: "Stop Discriminating"
 description: "Stop discriminating! Give some love and you'll get some love back"
 revised: "2012-12-27"
 date: "2012-12-18"
-tags: ["personal","notes"]
+tags: ["Personal","Notes"]
 migrated: "true"
 resource: "/stop-discriminating"
 summary: """

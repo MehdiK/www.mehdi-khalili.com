@@ -4,7 +4,7 @@ metaTitle: "An experiment with Git, Vim and posh-git"
 description: "I was looking for a way to be more productive with git which led me to do an experiment with Git, Vim and posh-git"
 revised: "2012-07-15"
 date: "2012-07-12"
-tags: ["git","vim","powershell"]
+tags: ["Git","Vim","Powershell"]
 migrated: "true"
 resource: "/an-experiment-with-git-vim-posh-git"
 summary: """

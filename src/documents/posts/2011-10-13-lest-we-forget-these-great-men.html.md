@@ -4,7 +4,7 @@ metaTitle: "Lest we forget these great men"
 description: "R.I.P. Steve Jobs and Dennis Ritchie"
 revised: "2011-10-13"
 date: "2011-10-13"
-tags: ["notes"]
+tags: ["Notes"]
 migrated: "true"
 resource: "/lest-we-forget-these-great-men"
 summary: """

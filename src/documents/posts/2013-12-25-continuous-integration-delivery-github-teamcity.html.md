@@ -4,7 +4,7 @@ metaTitle: "Continuous Integration & Delivery For GitHub With TeamCity"
 description: "This is an end-to-end tutorial for setting up Continuous Integration and Delivery for a GitHub project using TeamCity"
 revised: "2013-12-25"
 date: "2013-12-25"
-tags: ["continuous integration","continuous delivery","teamcity","github","nuget"]
+tags: ["Continuous Integration","Continuous Delivery","TeamCity","GitHub","NuGet"]
 
 ---
 This is an end to end tutorial for setting up [Continuous Integration](http://www.martinfowler.com/articles/continuousIntegration.html) (AKA CI) and [Continuous Delivery](http://martinfowler.com/bliki/ContinuousDelivery.html) (AKA CD) for a GitHub project using TeamCity.

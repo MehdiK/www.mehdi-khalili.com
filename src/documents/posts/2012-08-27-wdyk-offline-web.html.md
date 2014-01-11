@@ -4,7 +4,7 @@ metaTitle: "Offline Web appcache manifest"
 description: "Making a web site available in offline mode could be tricky. In this post I cover a lot of gotchas and provide quite a few tips on how to do it"
 revised: "2012-08-28"
 date: "2012-08-27"
-tags: ["html5","web","javascript","presentations"]
+tags: ["Html5","Web","JavaScript","Presentations"]
 migrated: "true"
 resource: "/presentations/wdyk-offline-web"
 summary: """

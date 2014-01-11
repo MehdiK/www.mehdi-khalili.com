@@ -4,7 +4,7 @@ metaTitle: "Mitigate your merge issues"
 description: "There are a few things you can do to mitigate merge issues to a large extent"
 revised: "2011-11-15"
 date: "2011-11-14"
-tags: ["agile","team"]
+tags: ["Agile","Team","Notes"]
 migrated: "true"
 resource: "/mitigate-your-merge-issues"
 summary: """

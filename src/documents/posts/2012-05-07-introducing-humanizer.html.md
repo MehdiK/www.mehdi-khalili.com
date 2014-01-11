@@ -4,7 +4,7 @@ metaTitle: "Introducing Humanizer"
 description: "Introducing Humanizer - A micro-framework that turns your normal strings, type names, enum fields, date fields ETC into a human friendly format"
 revised: "2012-05-08"
 date: "2012-05-07"
-tags: ["oss","humanizer"]
+tags: ["OSS","Humanizer","Announcement"]
 migrated: "true"
 resource: "/introducing-humanizer"
 summary: """

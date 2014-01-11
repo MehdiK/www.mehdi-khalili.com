@@ -4,7 +4,7 @@ metaTitle: "Installing FunnelWeb blog engine"
 description: "Explaining how I went about downloading and installing FunnelWeb and basically got this blog up and running"
 revised: "2011-09-01"
 date: "2010-11-30"
-tags: ["blog","funnelweb"],
+tags: ["Blog","Funnelweb"],
 migrated: "true"
 resource: "/installing-funnelweb"
 summary: """

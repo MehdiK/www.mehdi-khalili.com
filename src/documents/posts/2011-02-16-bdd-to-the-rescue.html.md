@@ -4,7 +4,7 @@ metaTitle: "BDD to the rescue"
 description: "BDD removes the ambiguity from the requirements; but taking it a step further could provide a lot of other benefits."
 revised: "2012-08-21"
 date: "2011-02-16"
-tags: ["testing","bdd"]
+tags: ["Testing","BDD","Notes"]
 migrated: "true"
 resource: "/bdd-to-the-rescue"
 summary: """

@@ -4,7 +4,7 @@ metaTitle: "Dealing with Net Negative Producing Programmers"
 description: "Net Negative Producing Programmers are those who insert enough spoilage to exceed the value of their production"
 revised: "2012-08-11"
 date: "2012-08-08"
-tags: ["productivity","team"]
+tags: ["Productivity","Team","Notes"]
 migrated: "true"
 resource: "/dealing-with-net-negative-producing-programmers"
 summary: """

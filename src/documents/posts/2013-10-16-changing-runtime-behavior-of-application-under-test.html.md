@@ -4,7 +4,7 @@ metaTitle: "Changing RunTime Behavior Of Application Under Test"
 description: "One of the reasons UI and integration tests fail at times is bad test environment. In this article I explain a few ideas for setting up your test environment properly."
 revised: "2013-10-16"
 date: "2013-10-16"
-tags: ["testing",".net"]
+tags: ["Testing",".Net"]
 
 ---
 

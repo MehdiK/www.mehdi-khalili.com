@@ -4,7 +4,7 @@ metaTitle: "Input Parameters in Fluent API"
 description: "In this post I will show you how you can use input parameters with BDDfy's Fluent API"
 revised: "2013-08-10"
 date: "2012-01-15"
-tags: ["bddfy"]
+tags: ["BDDfy"]
 migrated: "true"
 resource: "/bddify-in-action/fluent-api-input-parameters"
 summary: """

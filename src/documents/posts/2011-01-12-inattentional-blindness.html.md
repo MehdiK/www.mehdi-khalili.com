@@ -4,7 +4,7 @@ metaTitle: "Inattentional blindness"
 description: "We as programmers deal with inattentional blindness everyday "
 revised: "2012-08-09"
 date: "2011-01-12"
-tags: ["productivity"]
+tags: ["Productivity","Notes"]
 migrated: "true"
 resource: "/inattentional-blindness"
 summary: """

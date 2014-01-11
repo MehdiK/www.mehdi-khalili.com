@@ -4,7 +4,7 @@ metaTitle: "Humanizer is now a Portable Class Library"
 description: "Humanizer is now a Portable Class Library with support for .Net 4 and higher versions, SilverLight 5, Windows Phone 8 and Win Store applications"
 revised: "2014-01-01"
 date: "2014-01-01"
-tags: ["humanizer"]
+tags: ["Humanizer","Announcement"]
 
 ---
 [Humanizer V1](/humanizer-v1) only worked with .Net 4 and higher versions. Soon after the release I got a request to turn it to a [Portable Class Library](http://msdn.microsoft.com/en-us/library/gg597391.aspx). 

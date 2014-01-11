@@ -4,7 +4,7 @@ metaTitle: "Migrating from Mercurial to Git"
 description: "In this post I explain what you need to do to migrate your repository from Mercurial to Git "
 revised: "2012-06-02"
 date: "2012-06-02"
-tags: ["git","mercurial","github"]
+tags: ["Git","Mercurial","GitHub"]
 migrated: "true"
 resource: "/migrating-from-mercurial-to-git"
 summary: """

@@ -4,7 +4,7 @@ metaTitle: "Why I do not mind Visual Studio 2012 ALL CAPS menu"
 description: "A lot of devs seem unhappy about Visual Studio 2012 ALL CAPS menu; but I do not mind them and I think you should not either"
 revised: "2012-06-12"
 date: "2012-06-12"
-tags: ["visual studio"]
+tags: ["Visual Studio"]
 migrated: "true"
 resource: "/why-i-do-not-mind-visual-studio-all-caps-menus"
 summary: """

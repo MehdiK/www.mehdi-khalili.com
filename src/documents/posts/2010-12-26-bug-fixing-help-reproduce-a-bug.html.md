@@ -5,7 +5,7 @@ description: "We should not work on a bug without a good understanding of it or 
 "
 revised: "2011-01-28"
 date: "2010-12-26"
-tags: ["communication","debugging"]
+tags: ["Communication","Debugging","Notes"]
 migrated: "true"
 resource: "/bug-fixing-help-reproduce-a-bug"
 summary: """

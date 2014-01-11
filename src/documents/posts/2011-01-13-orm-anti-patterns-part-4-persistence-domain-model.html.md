@@ -4,7 +4,7 @@ metaTitle: "ORM anti-patterns - Part 4: Persistence vs Domain Model"
 description: "Persistence Model != Domain Model"
 revised: "2011-01-28"
 date: "2011-01-13"
-tags: ["orm","anti-patterns"]
+tags: ["ORM","Anti-Patterns"]
 migrated: "true"
 resource: "/orm-anti-patterns-part-4-persistence-domain-model"
 summary: """

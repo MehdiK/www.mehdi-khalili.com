@@ -4,7 +4,7 @@ metaTitle: "Nullable Types' Subtlety"
 description: "In this post I explain a little subtlety with .Net Nullable Types that confuses some programmers"
 revised: "2011-09-30"
 date: "2011-09-27"
-tags: [".net","quiz"]
+tags: [".Net","Quiz"]
 migrated: "true"
 resource: "/nullable-types-subtlety"
 summary: """

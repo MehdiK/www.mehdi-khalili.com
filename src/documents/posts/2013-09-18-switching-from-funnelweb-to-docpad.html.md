@@ -4,7 +4,7 @@ metaTitle: "Switching from FunnelWeb to DocPad"
 description: "I have switched my blog from FunnelWeb to DocPad"
 revised: "2013-09-18"
 date: "2013-09-18"
-tags: ["Funnelweb","DocPad","Blog","Announcement"]
+tags: ["Funnelweb","DocPad","Blog"]
 
 ---
 I am a big fan of static site generators. We initially used [Jekyll](https://github.com/mojombo/jekyll) for the TestStack website. Later we ported it to [Pretzel](https://github.com/Code52/pretzel) to make it easier for .Net devs to contribute to it. I have been meaning to use a static website generator for my blog for a long time too, and finally I got around to do it.

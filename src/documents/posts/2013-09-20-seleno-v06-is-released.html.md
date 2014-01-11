@@ -4,7 +4,7 @@ metaTitle: "Seleno V0.6 is released"
 description: "Seleno V0.6 makes the API more consistent, fluent and extensible"
 revised: "2013-09-20"
 date: "2013-09-20"
-tags: ["Seleno","Announcement"]
+tags: ["Seleno"]
 
 ---
 Seleno V0.6 was just released. The main theme of this release was to make the API more consistent, fluent and extensible. 

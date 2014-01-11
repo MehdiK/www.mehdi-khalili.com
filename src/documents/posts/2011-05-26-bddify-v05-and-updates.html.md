@@ -4,7 +4,7 @@ metaTitle: "bddify V0.5 and some updates"
 description: "latest about bddify"
 revised: "2011-06-02"
 date: "2011-05-26"
-tags: ["BDDfy","Announcement"]
+tags: ["BDDfy"]
 migrated: "true"
 resource: "/bddify-v05-and-updates"
 summary: """

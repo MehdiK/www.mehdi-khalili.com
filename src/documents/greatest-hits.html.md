@@ -47,8 +47,11 @@ Here is the categorized list of my most popular post.
  - [Advanced Web Debugging With Fiddler at DDD Brisbane](/advanced-web-debugging-with-fiddler)
  - [Working With Offline Web Application](/presentations/wdyk-offline-web) at What Do You Know  Night from [Web Directions](http://www.webdirections.org/) conference.
 
+You can also find a few slidedecks on [SlideShare](http://www.slideshare.net/MehdiKhalili). Although I only have a few uploads and none in 2013, [my content was among the top 3% of most viewed on SlideShare in 2013](http://www.slideshare.net/yearinreview/MehdiKhalili/_jpbAg).
+
 ##Open Source
  - Created [BDDfy](https://github.com/TestStack/TestStack.BDDfy): the simplest to use and extend BDD framework for .Net.
  - Created [Humanizer](http://github.com/MehdiK/Humanizer): a .Net framework that meets all your .NET needs for manipulating and displaying strings, dates, times (inc. timespans) and quantities.
- - Co-founded [TestStack](http://teststack.net/): a collection of awesome and unique testing tools and frameworks.
  - Created and now contributing on [Seleno](https://github.com/TestStack/TestStack.Seleno): Seleno helps you write automated UI tests the RIGHT way!
+ - Co-founded [TestStack](http://teststack.net/): a collection of awesome and unique testing tools and frameworks.
+

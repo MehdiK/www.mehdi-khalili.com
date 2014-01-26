@@ -70,9 +70,9 @@ Hope this helps.
 
 
   [1]: http://hg.funnelweblog.com/
-  [2]: /get/BlogPictures/installingfunnelweb/get%20source%20code.png
-  [3]: /get/BlogPictures/installingfunnelweb/build%20the%20code.png
-  [4]: /get/BlogPictures/installingfunnelweb/published%20folder%20structure.png
-  [5]: /get/BlogPictures/installingfunnelweb/administration%20login%20page.png
-  [6]: /get/BlogPictures/installingfunnelweb/connection%20string.png
-  [7]: /get/BlogPictures/installingfunnelweb/installation%20scripts%20run.png
+  [2]: /get/BlogPictures/InstallingFunnelWeb/get%20source%20code.png
+  [3]: /get/BlogPictures/InstallingFunnelWeb/build%20the%20code.png
+  [4]: /get/BlogPictures/InstallingFunnelWeb/published%20folder%20structure.png
+  [5]: /get/BlogPictures/InstallingFunnelWeb/administration%20login%20page.png
+  [6]: /get/BlogPictures/InstallingFunnelWeb/connection%20string.png
+  [7]: /get/BlogPictures/InstallingFunnelWeb/installation%20scripts%20run.png

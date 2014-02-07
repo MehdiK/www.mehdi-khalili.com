@@ -49,7 +49,7 @@ Setting up a custom domain for a User or Organization pages site is easy. The st
 You can find some (magic) solution for setting up custom domain for project pages [here](http://stackoverflow.com/questions/9082499/custom-domain-for-github-project-pages) but it would be great if GitHub could provide proper guidance or solution for GitHub project pages.
 
 ###Better and wider themes for GitHub pages
-There are very few prepackaged themes for GitHub pages and they are not particularly appealing. The body width, like GitHub itself (more of this shortly), is also unnecessarily narrow. This is not necessarily related to project pages as the same applies to User pages too.
+There are very few prepackaged themes for GitHub pages and they are not particularly appealing. The body width, like GitHub itself (more about this shortly), is also unnecessarily narrow. This is not necessarily related to project pages as the same applies to User pages too.
 
 It would be great if more themes were added for Automatic Page Generator. There are plenty of nice [themes for Jekyll](http://jekyllthemes.org/) that GitHub can pull in.
 
@@ -83,7 +83,7 @@ I want an ability to notify followers and/or stargazers of my repository about a
 It would be really nice if we could notify people of news and events for the project they're interested in.
 
 ##Conclusion
-I understand GitHub cannot be everything for everyone and, while I think it is awesome as is, there are still a few things, as listed in this post, that could be improved. There are other things that I think could be different/better; but I am only raising issues that I believe make a big difference for a lot of developers (as opposed to just me or a minority of devs).
+I understand GitHub cannot be everything for everyone and while I think it is awesome as is, there are still a few things as listed in this post that could be improved. There are other things that I think could be different/better; but I am only raising issues that I believe make a big difference for a lot of developers (as opposed to just me or a minority of devs).
 
 I hope that one day some of these requests are implemented and make it into GitHub.
 

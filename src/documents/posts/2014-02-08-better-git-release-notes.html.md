@@ -39,6 +39,8 @@ Here are a few benefits of getting rid of GitHub releases and completely replaci
 
 A handy feature of GitHub you'll be missing out is the issue and pull request lookup. GitHub has a very handy lookup mechanism when you put a hash (#) on comments and messages that provides you with a list of existing issues and pull requests that also filters down as you type part of their message. Also they turn into links so you can just click on an issue or pull request number to navigate to it. When you create your release-notes you have to write this yourself: no issue and pull request autocomplete lookup and if you want links you have to create them yourself. Honestly while this is a loss of a handy feature, I can easily live without it.
 
+To get the best of both worlds it would be ideal if GitHub Release worked as a glorified GUI over the release-notes file. I don't understand why GitHub decided readme and license files should be part of the repository but releases have to live outside!
+
 ##Conclusion
 In this post I showed you how I just stopped using GitHub releases and replaced it with a proper release-notes file, and I highlighted some of the benefits of this approach.
 

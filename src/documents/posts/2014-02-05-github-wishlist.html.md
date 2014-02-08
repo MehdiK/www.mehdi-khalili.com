@@ -71,11 +71,9 @@ Basically I want GitHub to behave as if Expandinizr is installed for everyone an
 I find the existing diffing UI a bit inconvenient. It may just be that I am used to side by side diffs because that's what I get from the majority of diff tools and I look at file diffs that way all the time; but then again I guess a lot of developers are in this boat with me. So it would be great if there was an option to view commit changes side by side. FWIW there is [a (broken) Chrome extension](https://chrome.google.com/webstore/detail/side-by-side-diff-view-in/ihmhmdmhllhleioijdeoocgoddjckbcd?hl=en-US) for this. Just want the functionality properly implemented in GitHub.
 
 ##ReleaseNotes.md updated by GitHub
-**[Update - 2014-02-08]** *I am now using a [release-notes](/better-git-release-notes) file that kinda removes the need for this.*
-
 [GitHub releases](https://github.com/blog/1547-release-your-software) are great as they allow you to highlight the releases and the changes associated with each one; but I've always struggled with the duplication: there is the release notes in NuGet packages, the ReleaseNotes.md file in the root of the repo and now the release notes in GitHub release, and I love them all :) 
 
-I understand that GitHub cannot and shouldn't touch my NuGet packages; but it would be great if creating a GitHub release updated the ReleaseNote.md file if it exists or created one. This should obviously be an opt-in setting in case one doesn't like the behavior. 
+I understand that GitHub cannot and shouldn't touch my NuGet packages; but it would be great if creating a GitHub release updated the ReleaseNote.md file if it exists or created one. Basically I want GitHub Release to be a glorified GUI over the release-notes file so I can take advantage of an [in-repo release-notes file](/better-git-release-notes). I don't understand why GitHub decided readme and license files should be part of the repository but releases have to live outside!
 
 Good news is that my friend Jake Ginnivan has a great solution for this called [GitReleaseNotes](http://jake.ginnivan.net/gitreleasenotes/). This is a common need though and should be there for everyone out of the box.
 

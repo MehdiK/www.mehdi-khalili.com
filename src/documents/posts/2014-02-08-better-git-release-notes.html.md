@@ -50,7 +50,7 @@ One thing I didn't talk about is NuGet release notes. I think I will just create
 
 Hope this helps.
 
-##A few entries from BDDfy release-notes.md
+##Reference
 A few entries from [BDDfy](https://github.com/TestStack/TestStack.BDDfy)'s [release-notes.md](https://github.com/TestStack/TestStack.BDDfy/blob/master/release-notes.md) is copied here for your reference:
 
 ###In development

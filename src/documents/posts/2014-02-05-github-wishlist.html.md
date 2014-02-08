@@ -1,7 +1,7 @@
 --- cson
-title: "GitHub Wishlist"
-metaTitle: "GitHub Wishlist"
-description: "Here is a wishlist of changes and improvements that I think would make GitHub better for a lot of developers"
+title: "GitHub wish list"
+metaTitle: "GitHub wish list"
+description: "Here is a wish list of changes and improvements that I think would make GitHub better for a lot of developers"
 revised: "2014-02-05"
 date: "2014-02-05"
 tags: ["GitHub","Notes"]

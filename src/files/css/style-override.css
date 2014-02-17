@@ -15,7 +15,8 @@ body, input, textarea, select {
 }
 
 img {
-    margin: 20px 20px;
+    margin: 10px 10px;
+    max-width: 900px;
 }
 
 img.center {

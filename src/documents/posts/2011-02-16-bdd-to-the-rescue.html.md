@@ -23,8 +23,8 @@ Husband: “They had eggs.”
 
 We, programmers, misinterpret requirements and effectively make silly mistakes. We also get ambiguous and prone to misinterpretation requirements a lot. I do not think it is far from reality to say that the majority of bugs are related to miscommunication and/or misinterpretation of requirements; but how can we avoid these issues?
 
-###BDD to the rescue
-[BDD][2] is very helpful for communicating requirements effectively. It brings a mutually understandable structure to communication between programmers and business people and helps communicate with less ambiguity (and frustration). This is what we have been failing to do effectively for years.
+###Behavior Driven Development to the rescue
+[Behavior Driven Development][2] (AKA BDD) is very helpful for communicating requirements effectively. It brings a mutually understandable structure to communication between programmers and business people and helps communicate with less ambiguity (and frustration). This is what we have been failing to do effectively for years.
 
 Some of the benefits of BDD are:
 

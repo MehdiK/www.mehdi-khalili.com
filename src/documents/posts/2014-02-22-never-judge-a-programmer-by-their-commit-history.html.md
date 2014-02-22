@@ -32,7 +32,7 @@ Another side of this coin is **working** with junior devs. This could also lead 
 So you find yourself in a situation where you know the work can be done a lot better but have to settle for less than perfect because of the team who is going to maintain it. The best solution in this case is the one they can code and maintain, and not the architecturally perfect one you can code in a month and leave them behind with.
 
 ###MVP
-Have you ever felt proud of your crappy code? I have and if you looked at that code and told me I or any of my team members were bad programmers to write such awful code I'd say you have no idea about market advantage and meeting deadlines. I think [bad code is sometimes great programmers' best productions](/on-bad-code). Don't forget that you're hired to deliver value to the business, not to write DDD code with CQRS SEDA LATEST FAD AWESOMENESS with 96% test coverage. That awesome code you're gold plating may actually never be used: 
+Have you ever felt proud of your crappy code? I have and if you looked at that code and told me I or any of my team members were bad programmers to write such awful code I'd say you have no idea about market advantage and meeting deadlines. I think [bad code is sometimes great programmers' best productions](/bad-code). Don't forget that you're hired to deliver value to the business, not to write DDD code with CQRS SEDA LATEST FAD AWESOMENESS with 96% test coverage. That awesome code you're gold plating may actually never be used: 
 
 > “There is nothing more unproductive than to build something efficiently that should not have been built at all.”
 – Milt Bryce

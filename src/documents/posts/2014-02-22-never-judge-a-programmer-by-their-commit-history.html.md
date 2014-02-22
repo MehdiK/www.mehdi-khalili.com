@@ -1,9 +1,9 @@
 --- cson
 title: "Never judge a programmer by their commit history"
 metaTitle: "Never judge a programmer by their commit history"
-description: "Never judge a programmer by their commit history. No matter how good a programmer you are, there are times you're going to do a crappy work."
-revised: "2014-02-20"
-date: "2014-02-20"
+description: "Never judge a programmer by their commit history. No matter how good a programmer you are, there are times you're going to do a crappy work"
+revised: "2014-02-22"
+date: "2014-02-22"
 tags: ["Notes","Rants"]
 
 ---

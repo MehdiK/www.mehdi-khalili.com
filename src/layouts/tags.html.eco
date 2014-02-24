@@ -9,7 +9,7 @@
 
   <body>
       <div id="header-wrapper">
-          <div id="header" class="container">
+          <div id="header" class="container big">
             <h1><%= @site.author %></h1>
             <%- @partial('nav.html.eco', @) %>
           </div>

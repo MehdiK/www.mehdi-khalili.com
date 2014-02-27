@@ -25,12 +25,31 @@ img.center {
     margin-right: auto;
 }
 
-a {
-    color: #38426B;
+a,
+h1 a, 
+h2 a, 
+h3 a, 
+h4 a, 
+h5 a, 
+h6 a,
+article a,
+article a span {
+    color: #0F2DAC;
+    border-bottom: solid 1px #ddd;
 }
 
-a:hover {
-    color: #00009E;
+
+.recent-posts a {
+    font-size: .8em;
+}
+
+#copyright a {
+    color: #B7C1F7;
+}
+
+a:hover,
+a:hover span {
+    color: #3558F0;
 }
 
 #nav > ul > li:hover > a > span {
@@ -178,10 +197,6 @@ h1.tag-header {
     color: white;
 }
 
-#copyright a {
-    color: #B7C1F7;
-}
-
 #copyright ul.links li:first-child {
     padding-left: 1em;
 }
@@ -198,11 +213,6 @@ h1.tag-header {
 .recent-posts li {
     border-top: solid 2px #e5e5e5;
     padding-bottom: 10px;
-}
-
-.recent-posts a {
-    font-size: .8em;
-    border-bottom: 0px;
 }
 
 .recent-posts li:first-child {

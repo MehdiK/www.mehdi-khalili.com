@@ -1,3 +1,6 @@
+<h1><%= @site.author %></h1>
+<p>ThoughtWorker, ex-Readifarian, Agile & Lean lover, programmer, leader, presenter, blogger</p>
+
 <!-- Nav -->
 <nav id="nav">
     <ul>

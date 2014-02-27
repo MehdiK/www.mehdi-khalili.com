@@ -4,5 +4,4 @@ isPage: true
 resource: "/"
 ---
 
-<h1><%= @site.author %></h1>
-<p>ThoughtWorker, ex-Readifarian, Agile & Lean lover, programmer, leader, presenter, blogger</p>
+<%- @partial('latest-posts.html.eco', @) %>

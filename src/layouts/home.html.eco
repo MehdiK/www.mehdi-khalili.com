@@ -12,13 +12,13 @@
             
         <!-- Header -->
           <div id="header" class="container big">
-            <%- @content %>
             <%- @partial('nav.html.eco', @) %>
           </div>
 
       </div>
 
-      <%- @partial('latest-posts.html.eco', @) %>
+      <%- @content %>
+
       <%- @partial('footer.html.eco', @) %>
   </body>
 </html>

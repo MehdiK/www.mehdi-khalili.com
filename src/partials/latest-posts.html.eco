@@ -17,7 +17,14 @@
       </div>
     <% end %>
 
-    <h2><a href="/archive">Archive</a></h2>
-
+    <div class="row">
+      <h2>
+        <ul class="icons">
+          <li class="icon icon-file">
+            <a href="/archive">Archive</a>
+          </li>
+        </ul>
+      </h2>
+    </div>
   </section>
 </div>

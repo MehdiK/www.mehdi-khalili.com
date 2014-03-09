@@ -62,4 +62,4 @@ From [MSDN](http://msdn.microsoft.com/en-us/library/vstudio/bb126478.aspx):
 >   - **Text blocks**: content that is copied directly to the output. 
 >   - **Control blocks**: program code that inserts variable values into the text, and controls conditional or repeated parts of the text.
 
-You might read the complete article on [nettuts+](http://code.tutsplus.com/tutorials/code-generation-using-t4--cms-19854).
+You might read the rest of the article on [nettuts+](http://code.tutsplus.com/tutorials/code-generation-using-t4--cms-19854) where I go through a relatively big code generation exercise using T4 template and explain the process in details.

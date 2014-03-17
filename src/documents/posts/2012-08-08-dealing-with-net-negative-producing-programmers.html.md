@@ -62,15 +62,14 @@ Yeah, they may be great programmers in isolation but I personally want Cowboy Co
 These are just some of the characteristics of an NNPP and as mentioned above regardless of how you do it, if you constantly lower your team's productivity, you are an NNPP.
 
 ####Do not confuse low performers with NNPPs
-Of course not all NNPPs have all these symptoms and more importantly not every programmer having one or more of these characteristics is an NNPP. So please do not go around your office labelling your team-mates as NNPPs just because they show some of these characteristics. 
+Of course not all NNPPs have all these symptoms and more importantly not every programmer having one or more of these characteristics is an NNPP. So please do not go around your office labelling your team-mates as NNPPs just because they show some of these characteristics:
 
-Some developers are not NNPPs even though they have negative contribution. A good example of this is junior developers. You may hire a very talented junior developer and it is going to cost you a fair bit to up-skill them; but that pays dividends.
+ - Some programmers are not NNPPs even though they have negative contribution. A good example of this is junior developers. You may hire a very talented junior developer and it is going to cost you a fair bit to up-skill them; but that pays dividends.
+ - Some programmers also fall into the NNPP camp because they are shy or socially awkward. Try to work with them, mentor them, walk with them a few steps and let them take a few steps on their own. They are likely to learn and become better and more productive.  
+ - Some programmers may be unproductive because they cannot manage their tasks or time effectively. Perhaps they are doing a lot of multitasking, and constant context switching may be the reason behind their low productivity and lack of focus. Help them with task or time management and they may become a great member in your team. In some cases in my experience it also helps to assign time-boxed tasks directly to a team member. This helps them with task and time management and over time they may learn to do it themselves.
+ - Some programmers are unproductive because they are working with an NNPP! Having an NNPP in your team could make the entire team look and work like NNPPs. Deal with  the real NNPP (more on this below) so the rest of the team can fly again.
 
-Some developers also fall into the NNPP camp because they are shy or socially awkward. Try to work with them, mentor them, walk with them a few steps and let them take a few steps on their own. They may learn and become better and one day eventually productive. 
-
-Some programmers may be unproductive because they cannot manage their tasks or time effectively. Perhaps they are doing a lot of multitasking and constant context switching may be the reason behind their low productivity and lack of focus. Help them with task or time management and they may become a great member in your team. In some cases in my experience it also helps to assign time-boxed tasks directly to a team member. This helps them with task and time management and over time they may learn to do it themselves.
-
-Some programmers are unproductive because they are working with an NNPP! Having an NNPP in your team could make the entire team look and work like NNPPs. Deal with  the real NNPP (more on this below) so the rest of the team can gain their productivity again.
+Also, as I have [ranted here](/never-judge-a-programmer-by-their-commit-history), you should never use a programmer's commit history as an indication of their productivity/skills. 
 
 The bottom line is do not confuse every unproductive team member as an NNPPs even if they slow you down or sometimes contribute negatively to the team; but at the same time do not ignore NNPP signs. If you know someone is an NNPP the time you spend mentoring or helping them is the time a good member of the team is wasting on a bad member. So you basically end up contributing to their negative impact to the overall team productivity!
 

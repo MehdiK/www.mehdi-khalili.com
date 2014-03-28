@@ -31,14 +31,15 @@ Here is the categorized list of my most popular post.
  - [BDD Simply](/bdd-simply): a simple BDD approach for those who don't want to use a BDD framework.
  - [Definition of Done](/definition-of-done-in-an-mvc-project): Definition of Done I used in a web project which can be used as a reference.
  - [ORM Anti Pattern Series](/orm-anti-patterns-series): a series of posts where I explain some of the common anti patterns I have come across when dealing with Object Relational Mapping (AKA ORM). The whole series has been very popular; but these are the three posts that stand out amongst all:
-	 - [Persistence vs Domain Model](/orm-anti-patterns-part-4-persistence-domain-model) (**personal favorite**): the pros and cons of reusing your persistence model as domain model
+	 - [Persistence vs Domain Model](/orm-anti-patterns-part-4-persistence-domain-model): the pros and cons of reusing your persistence model as domain model
 	 - [Lazy Loading](/orm-anti-patterns-part-3-lazy-loading): why Lazy Loading is usually a very bad idea.
 	 - [Generic Updates](/orm-anti-patterns-part-5-generic-update-methods): disadvantages of generic updates along with alternative solutions.
  - [Writing Maintainable UI Tests](http://net.tutsplus.com/tutorials/maintainable-automated-ui-tests/) article on NetTuts: a few tips on how to write maintainable UI tests.
 
 ####Miscellaneous
- - [Dealing With Net Negative Producing Programmers](/dealing-with-net-negative-producing-programmers) (**personal favorite**): who are Net Negative Producing Programmers and how we can deal with them.
- - [It's sometimes OK to write bad code](/bad-code) (**personal favorite**)
+ - [Never judge a programmer by their commit history](/never-judge-a-programmer-by-their-commit-history)
+ - [Dealing With Net Negative Producing Programmers](/dealing-with-net-negative-producing-programmers) : who are Net Negative Producing Programmers and how we can deal with them.
+ - [It's sometimes OK to write bad code](/bad-code)
  - [Stop Discriminating](/stop-discriminating): venting out a sore personal experience with racial discrimination.
  - [Migrating from Mercurial to Git](/migrating-from-mercurial-to-git): a guide on how to migrate a mercurial repository to git along with some of the gotchas you might face and their solutions.
 

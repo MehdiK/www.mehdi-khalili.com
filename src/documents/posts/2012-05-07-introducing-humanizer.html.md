@@ -11,7 +11,7 @@ summary: """
 Introducing Humanizer - A micro-framework that turns your normal strings, type names, enum fields, date fields ETC into a human friendly format
 """
 ---
-**[Update]: Humanizer has a lot more features now. Check out the [GitHub home page](https://github.com/MehdiK/Humanizer) for more details.**
+**[Update]: Since this post Humanizer has gone a very long way. It [has also been featured](http://www.hanselman.com/blog/NuGetPackageOfTheWeekHumanizerMakesNETDataTypesMoreHuman.aspx) on Scott Hanselman's blog on his 'NuGet of the week' series. Please check out [the project homepage on GitHub](http://github.com/MehdiK/Humanizer) to see the latest.**
 
 I have been carrying a few hundred lines of code with me from project to project to help me make my applications more human friendly. So finally I decided to turn this into a framework - I called it Humanizer! You can find the code [here][1] on GitHub and can download [the library through NuGet][2]:
 

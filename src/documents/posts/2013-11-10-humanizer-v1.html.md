@@ -7,6 +7,8 @@ date: "2013-11-10"
 tags: ["OSS",".Net"]
 
 ---
+**[Update]: Since this post Humanizer has gone a very long way. It [has also been featured](http://www.hanselman.com/blog/NuGetPackageOfTheWeekHumanizerMakesNETDataTypesMoreHuman.aspx) on Scott Hanselman's blog on his 'NuGet of the week' series. Please check out [the project homepage on GitHub](http://github.com/MehdiK/Humanizer) to see the latest.**
+
 Humanizer is a small framework that helps .Net developer turn their otherwise geeky strings, type names, enum fields, date, timespan values into a human friendly format plus a lot more.
 
 ##Installation

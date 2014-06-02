@@ -66,9 +66,6 @@ Luhn is a good simple and mandatory first step but you should ideally do a lot m
 ####BIN List
 Luhn algorithm only knows about digits so you could very easily create a valid card number that's never been issued ever. To avoid this situation you can maintain a list of BIN numbers and their associated banks (you should frequently update this list as sometimes new banks pop up and some merge or disappear). This list complements the Luhn algorithm to help verify the card number. It also provides a foundation for blacklisting issuing banks (more on this shortly).
 
-####Avoiding duplicate transactions
-A credit card transaction normally takes around a second to process but sometimes the transaction freezes and the calls time out and you or your customers are left there not knowing if the transaction was actually processed or not. So the transaction is sent again and if you're not careful you could end up double-charging your customers. You can stop a lot of these duplicate requests locally by looking up the transaction details in your database if you have the response. If you don't have the response because the call between you and the payment gateway timed out, you should use the payment gateway API, if provided, to lookup the transaction before processing. These calls normally don't incur any charges.
-
 ####BIN Blacklist
 Most banks have internal rules against some purchases and/or merchant categories, and if a bank doesn't like what you (seem to) do, all your transactions hitting them will be rejected and you will be left only with transaction processing fees. Also some banks and regions have higher potential for fraudulent transactions. To avoid these transactions you should create a BIN blacklist that you maintain both manually and through pattern matching to block all the cards issued by these banks locally. You need to be able to search and update this list.
 
@@ -80,6 +77,9 @@ Neural Networks are indispensable for credit card processing. In fact all fraud 
 
 ####Routing rules
 Different acquiring banks could result into different outcomes based on the way your merchant entity is setup with them; so you might decide to use more than one payment gateway and/or acquiring bank. In this case it's very important to create a local routing rule that predicts the potential result of a transaction on each gateway/bank based on the history and route it accordingly. The neural network could be your best friend here.
+
+####Avoiding duplicate transactions
+A credit card transaction normally takes around a second to process but sometimes the transaction freezes and the calls time out and you or your customers are left there not knowing if the transaction was actually processed or not. So the transaction is sent again and if you're not careful you could end up double-charging your customers. You can stop a lot of these duplicate requests locally by looking up the transaction details in your database if you have the response. If you don't have the response because the call between you and the payment gateway timed out, you should use the payment gateway API, if provided, to lookup the transaction before processing. These calls normally don't incur any charges.
 
 ###Automated reconciliation process
 Reconciliation issues are likely, particularly on high number of transactions. These are mostly caused by communication issues and also duplicate chargeback/refund entries! To find and fix these issues the reconciliation report provided by the payment gateway should be matched against the local database of the processed transactions and also refund entries. This is not a complex process but is very time consuming and error-prone if done manually; but you can and should automate a fair bit of this process leaving only the mismatch processing for human intervention. The automated process would entail a daily task that would: 

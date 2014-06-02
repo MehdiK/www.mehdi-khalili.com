@@ -1,7 +1,7 @@
 --- cson
-title: "What it takes to process credit card transactions"
-metaTitle: "What it takes to process credit card transactions"
-description: "A lot of businesses want the ability to process credit card transactions.  In this post we're going to see how credit card transactions work and what it takes to implement a proper solution."
+title: "Processing credit card transactions"
+metaTitle: "How credit card transactions work and what it takes to implement a proper solution"
+description: "A lot of businesses want the ability to process credit card transactions.  In this post we're going to see how credit card transactions work and what it takes to implement a proper solution"
 revised: "2014-05-30"
 date: "2014-05-30"
 tags: ["Notes"]

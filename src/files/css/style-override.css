@@ -38,6 +38,9 @@ article a span {
     border-bottom: solid 1px #ddd;
 }
 
+.sidebar-image {
+    border: none;
+}
 
 .recent-posts a {
     font-size: .8em;
@@ -220,6 +223,11 @@ h1.tag-header {
 }
 
 #sidebar > section, #sidebar > article {
-    margin: 3em 0 0 0;
-    padding: 2em 0 0 0;
+    margin: 1em 0 0 0;
+    padding: 1em 0 0 0;
+}
+
+#sidebar ul.divided li {
+    margin: 1.5em 0 0 0;
+    padding: 1.5em 0 0 0;
 }

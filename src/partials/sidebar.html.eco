@@ -1,4 +1,11 @@
 <div id="sidebar" class="3u">
+  <!-- MVP -->
+  <section>
+    <a href="https://mvp.microsoft.com/en-us/mvp/Mehdi%20Khalili-5000874" alt="MVP Profile" class="sidebar-image">
+      <img src="/get/mvp.png"  alt="ASP.Net MVP Award" /> 
+    </a>
+  </section>
+
   <!-- Recent Posts -->
   <section>
     <h2>Recent Posts</h2>
